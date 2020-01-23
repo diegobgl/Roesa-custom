@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record model="ir.ui.view" id="view_company_activity_inherit_form">
+		<field name="name">res.company.activities.form.inherit</field>
+		<field name="model">res.company</field>
+		<field name="inherit_id" ref="base.view_company_form" />
+		<field name="arch" type="xml">
+			<xpath expr="//field[@name='website']" position="after">
+				<field name="openfactura_setting_id"/>
+				<field name="openfactura_company_filename" invisible="True"/>
+				<field name="openfactura_company_info" filename="openfactura_company_filename" attrs="{'invisible': [('openfactura_company_info', '=', False)]}"/>
+				<field name="openfactura_document_filename" invisible="True"/>
+				<field name="openfactura_document_info" filename="openfactura_document_filename" attrs="{'invisible': [('openfactura_document_info', '=', False)]}"/>
+			</xpath>
+		</field>
+	</record>
+
+	<record id="action_get_openfactura_company_info" model="ir.actions.server">
+		<field name="name">SII info companía</field>
+		<field name="type">ir.actions.server</field>
+		<field name="model_id" ref="base.model_res_company"/>
+		<field name="binding_model_id" ref="base.model_res_company"/>
+		<field name="state">code</field>
+		<field name="code">
+			if records:
+				records._get_openfactura_company_info()
+		</field>
+	</record>
+
+	<record id="action_get_openfactura_document_info" model="ir.actions.server">
+		<field name="name">SII info documentos</field>
+		<field name="type">ir.actions.server</field>
+		<field name="model_id" ref="base.model_res_company"/>
+		<field name="binding_model_id" ref="base.model_res_company"/>
+		<field name="state">code</field>
+		<field name="code">
+			if records:
+				records._get_openfactura_documents_info()
+		</field>
+	</record>
+	<record id="action_get_openfactura_activity_info" model="ir.actions.server">
+		<field name="name">SII info actividades</field>
+		<field name="type">ir.actions.server</field>
+		<field name="model_id" ref="base.model_res_partner"/>
+		<field name="binding_model_id" ref="base.model_res_partner"/>
+		<field name="state">code</field>
+		<field name="code">
+			if records:
+				records._get_openfactura_activity_info()
+		</field>
+	</record>
+</odoo>

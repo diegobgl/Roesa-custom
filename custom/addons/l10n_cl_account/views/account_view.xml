@@ -1,0 +1,56 @@
+<odoo>
+  <data>
+      <record id="view_account_invoice_supplier_form" model="ir.ui.view">
+          <field name="name">account.invoice.supplier.form</field>
+          <field name="model">account.invoice</field>
+          <field name="inherit_id" ref="account.invoice_supplier_form"/>
+          <field name="arch" type="xml">
+              <xpath expr="//field[@name='user_id']" position="replace"/>
+              <xpath expr="//field[@name='move_id']" position="after">
+                  <field name="l10n_cl_invoice_origin_id" attrs="{'invisible': [('l10n_cl_invoice_origin_id', '=', False)]}"/>
+                  <field name="user_id"/>
+              </xpath>
+          </field>
+      </record>
+
+      <record id="view_account_invoice_customer_form" model="ir.ui.view">
+          <field name="name">account.invoice.customer.form</field>
+          <field name="model">account.invoice</field>
+          <field name="inherit_id" ref="account.invoice_form"/>
+          <field name="arch" type="xml">
+              <xpath expr="//button[@name='%(account.action_account_invoice_refund)d']" position="attributes">
+                  <attribute name="string">Nota de credito</attribute>
+              </xpath>
+              <xpath expr="//button[@name='%(account.action_account_invoice_refund)d']" position="after">
+                <button name="%(action_account_invoice_refund_debit)d" type='action' string='Nota de debito' groups="account.group_account_invoice"
+                        attrs="{'invisible': ['|',('type', '=', 'out_refund'), ('state', 'not in', ('open','paid'))]}"/>
+              </xpath>
+              <xpath expr="//field[@name='user_id']" position="replace"/>
+              <xpath expr="//field[@name='move_id']" position="after">
+                  <field name="l10n_cl_invoice_origin_id" attrs="{'invisible': [('l10n_cl_invoice_origin_id', '=', False)]}"/>
+                  <field name="user_id"/>
+                  <field name="l10n_cl_e_document" invisible="True"/>
+              </xpath>
+          </field>
+      </record>
+      <record model="ir.ui.view" id="view_account_journal_form">
+          <field name="name">account.journal.form</field>
+          <field name="model">account.journal</field>
+          <field name="inherit_id" ref="account.view_account_journal_form"/>
+          <field name="arch" type="xml">
+              <xpath expr="//notebook/page[1]" position="after">
+                  <page string="Localización chilena">
+                      <group style="width: 70%;">
+                          <field name="l10n_cl_sii_code" invisible="True"/>
+                          <field name="l10n_cl_e_document"/>
+                          <field name="l10n_cl_activity_id"/>
+                          <field name="l10n_cl_document_type_id"/>
+                          <field name="l10n_cl_note_credit_id" attrs="{'invisible': [('l10n_cl_sii_code', 'in', [55, 56, 60, 61])]}"/>
+                          <field name="l10n_cl_note_debit_id" attrs="{'invisible': [('l10n_cl_sii_code', 'in', [55, 56, 60, 61])]}"/>
+                      </group>
+                  </page>
+              </xpath>
+          </field>
+      </record>
+  </data>
+</odoo>

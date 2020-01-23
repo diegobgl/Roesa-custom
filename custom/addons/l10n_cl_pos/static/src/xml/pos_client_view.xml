@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="point_of_sale.template" xml:space="preserve">
+    <t t-name="journal_list">
+        <div class='paymentmethods'>
+            <t t-foreach="widget.pos.journals" t-as="journal">
+                <div class="button journal" t-att-data-id="journal['id']">
+                    <t t-esc="journal['name']" />
+                </div>
+            </t>
+        </div>
+    </t>
+    <t t-name="ClientDetails">
+        <section class='client-details'>
+            <div class='client-picture'>
+                <img t-att-src='widget.partner_icon_url(partner.id)' />
+            </div>
+            <div class='client-name'><t t-esc='partner.name' /></div>
+            <div class='edit-buttons'>
+                <div class='button edit'><i class='fa fa-pencil-square' /></div>
+            </div>
+            <div class='client-details-box clearfix'>
+                <div class='client-details-left'>
+                    <div class='client-detail'>
+                        <span class='label'>Address</span>
+                        <t t-if='partner.street'>
+                            <span class='detail client-address'>
+                                <t t-esc='partner.street'/>,
+                                <t t-esc='partner.city_id[1]'/>,
+                                <t t-esc='partner.state_id[1]'/>,
+                                <t t-esc='partner.l10n_cl_res_region_id[1]'/>,
+                                <t t-esc='partner.country_id[1]'/>
+                            </span>
+                        </t>
+                        <t t-if='!partner.address'>
+                            <span class='detail client-address empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Email</span>
+                        <t t-if='partner.email'>
+                            <span class='detail client-email'><t t-esc='partner.email'/></span>
+                        </t>
+                        <t t-if='!partner.email'>
+                            <span class='detail client-email empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Phone</span>
+                        <t t-if='partner.phone'>
+                            <span class='detail client-phone'><t t-esc='partner.phone'/></span>
+                        </t>
+                        <t t-if='!partner.phone'>
+                            <span class='detail client-phone empty'>N/A</span>
+                        </t>
+                    </div>
+                </div>
+                <div class='client-details-right'>
+                    <div class='client-detail'>
+                        <span class='label'>Tipo</span>
+                        <t t-if='partner.l10n_cl_document_type_id'>
+                            <span class='detail vat'><t t-esc='partner.l10n_cl_document_type_id[1]'/></span>
+                        </t>
+                        <t t-if='!partner.l10n_cl_document_type_id'>
+                            <span class='detail vat empty'>N/A</span>
+                        </t>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Número</span>
+                        <t t-if='partner.l10n_cl_document_number'>
+                            <span class='detail vat'><t t-esc='partner.l10n_cl_document_number'/></span>
+                        </t>
+                        <t t-if='!partner.l10n_cl_document_number'>
+                            <span class='detail vat empty'>N/A</span>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </t>
+
+    <t t-name="ClientDetailsEdit">
+        <section class='client-details edit'>
+            <div id="loading" class='hide'></div>
+            <div class='client-picture'>
+                <t t-if='!partner.id'><i class='fa fa-camera'></i></t>
+                <t t-if='partner.id'><img t-att-src='widget.partner_icon_url(partner.id)'/></t>
+                <input type='file' class='image-uploader'></input>
+            </div>
+
+            <input class='detail client-name name' name='name' t-att-value='partner.name' placeholder='Name'></input>
+            <div class='edit-buttons'>
+                <div class='button undo'><i class='fa fa-undo' /></div>
+                <div class='button save'><i class='fa fa-floppy-o' /></div>
+            </div>
+
+            <div class='client-details-box clearfix'>
+                <div class='client-details-left'>
+                    <div class='client-detail'>
+                        <span class='label'></span>
+                        <select class='detail needsclick l10n_cl_document_type' name='l10n_cl_document_type_id'>
+                            <t t-foreach="widget.pos.partner_document_types" t-as="type">
+                                <option t-att-value='type.id' t-att-code="type.sii_code"
+                                        t-att-selected="partner.l10n_cl_document_type_id ? ((type.id === partner.l10n_cl_document_type_id[0]) ? true : undefined) : undefined">
+                                    <t t-esc='type.name'/>
+                                </option>
+                            </t>
+                        </select>
+                    </div>
+                </div>
+                <div class='client-details-right'>
+                    <div class='client-detail'>
+                        <input class='detail l10n_cl_document_number' name='l10n_cl_document_number'
+                               t-att-value='partner.l10n_cl_document_number || ""' placeholder='Document'></input>
+                    </div>
+                </div>
+            </div>
+
+            <div class='client-details-box clearfix'>
+                <div class='client-details-left'>
+                    <div class='client-detail'>
+                        <span class='label'>Country</span>
+                        <select class='detail client-address-country needsclick' name='country_id'>
+                            <option value=''>None</option>
+                            <t t-foreach='widget.pos.countries' t-as='country'>
+                                <option t-att-value='country.id' t-att-selected="partner.country_id ? ((country.id === partner.country_id[0]) ? true : undefined) : undefined">
+                                    <t t-esc='country.name'/>
+                                </option>
+                            </t>
+                        </select>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Región</span>
+                        <select class='detail client-address-region needsclick l10n_cl_res_region' name='l10n_cl_res_region_id'>
+                            <option value=''>None</option>
+                            <t t-foreach='widget.pos.regions' t-as='region'> <!---->
+                                <option t-att-value='region.id' t-attf-class="{{(partner &amp;&amp; partner.country_id &amp;&amp; partner.country_id[0] != region.country_id[0])? 'hide':'normal'}}"
+                                        t-att-selected="partner.l10n_cl_res_region_id ? ((region.id === partner.l10n_cl_res_region_id[0]) ? true : undefined) : undefined">
+                                    <t t-esc='region.name'/>
+                                </option>
+                            </t>
+                        </select>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Ciudad</span>
+                        <select class='detail client-address-state needsclick state' name='state_id'>
+                            <option value=''>None</option>
+                            <t t-foreach='widget.pos.states' t-as='state'> <!-- -->
+                                <option t-att-value='state.id' t-attf-class="{{partner &amp;&amp; partner.l10n_cl_res_region_id &amp;&amp; (partner.l10n_cl_res_region_id[0] != state.l10n_cl_region_id[0])? 'hide':'normal'}}"
+                                        t-att-region="state.l10n_cl_region_id[0]" t-att-selected="partner.state_id ? ((state.id === partner.state_id[0]) ? true : undefined) : undefined">
+                                    <t t-esc='state.name'/>
+                                </option>
+                            </t>
+                        </select>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Comuna</span>
+                        <select class='detail client-address-city needsclick city' name='city_id' >
+                            <option value=''>None</option>
+                            <t t-foreach='widget.pos.cities' t-as='city'>
+                                <option t-att-value='city.id' t-att-state="city.state_id[0]"  t-attf-class="{{( partner &amp;&amp; partner.state_id &amp;&amp; partner.state_id[0] != city.state_id[0])? 'hide':'normal'}}"
+                                        t-att-selected="partner.city_id ? ((city.id === partner.city_id[0]) ? true : undefined) : undefined">
+                                    <t t-esc='city.name'/>
+                                </option>
+                            </t>
+                        </select>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Street</span>
+                        <input class='detail client-address-street fiscal_address' name='street' t-att-value='partner.street || ""' placeholder='Street'></input>
+                    </div>
+                </div>
+                <div class='client-details-right'>
+                    <div class='client-detail'>
+                        <span class='label'>Phone</span>
+                        <input class='detail client-phone' name='phone' type='tel' t-att-value='partner.phone || ""'></input>
+                    </div>
+                    <div class='client-detail'>
+                        <span class='label'>Email</span>
+                        <input class='detail client-email' name='email' type='email' t-att-value='partner.email || ""'></input>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </t>
+
+    <t t-name="ClientListScreenWidget">
+        <div class="clientlist-screen screen">
+            <div class="screen-content">
+                <section class="top-content">
+                    <span class='button back'><i class='fa fa-angle-double-left'></i>Cancel</span>
+                    <span class='searchbox'>
+                        <input placeholder='Search Customers' />
+                        <span class='search-clear'></span>
+                    </span>
+                    <span class='searchbox'></span>
+                    <span class='button new-customer'>
+                        <i class='fa fa-user'></i>
+                        <i class='fa fa-plus'></i>
+                    </span>
+                    <span class='button next oe_hidden highlight'>Select Customer<i class='fa fa-angle-double-right'></i></span>
+                </section>
+                <section class="full-content">
+                    <div class='window'>
+                        <section class='subwindow collapsed'>
+                            <div class='subwindow-container collapsed'>
+                                <div class='subwindow-container-fix client-details-contents'>
+                                </div>
+                            </div>
+                        </section>
+                        <section class='subwindow'>
+                            <div class='subwindow-container'>
+                                <div class='subwindow-container-fix touch-scrollable scrollable-y'>
+                                    <table class='client-list'>
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th>Dirección</th>
+                                                <th>Tipo de doc.</th>
+                                                <th>Número</th>
+                                                <th>Telefóno</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class='client-list-contents'>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </t>
+
+    <t t-name="ClientLine">
+        <tr class='client-line' t-att-data-id='partner.id'>
+            <td>
+                <t t-esc='partner.name or ""' />
+            </td>
+            <td>
+                <t t-esc='partner.street or ""'/>,
+                <t t-esc='partner.city_id[1]'/>,
+                <t t-esc='partner.state_id[1]'/>,
+                <t t-esc='partner.l10n_cl_res_region_id[1]'/>,
+                <t t-esc='partner.country_id[1]'/>
+            </td>
+            <td>
+                <t t-esc='partner.l10n_cl_document_type_id[1]'/>
+            </td>
+            <td>
+                <t t-esc='partner.l10n_cl_document_number or ""' />
+            </td>
+            <td>
+                <t t-esc='partner.phone or partner.mobile or ""' />
+            </td>
+        </tr>
+    </t>
+
+    <t t-extend="PaymentScreenWidget">
+        <t t-jquery="div[class*='payment-buttons']" t-operation="replace">
+            <div class='payment-buttons'>
+                <div class='button js_set_customer'>
+                    <i class='fa fa-user' />
+                    <span class='js_customer_name'>
+                        <t t-if="widget.pos.get_client()">
+                            <t t-esc="widget.pos.get_client().name" />
+                        </t>
+                        <t t-if="!widget.pos.get_client()">Customer</t>
+                    </span>
+                </div>
+                <t t-if="widget.pos.config.invoice_journal_ids and widget.pos.config.invoice_journal_ids.length > 0">
+                    <div class='invoice_journals'></div>
+                </t>
+                <t t-if='widget.pos.config.tip_product_id'>
+                    <div class='button js_tip'> <i class='fa fa-heart' /> Tip </div>
+                </t>
+                <t t-if='widget.pos.config.iface_cashdrawer'>
+                    <div class='button js_cashdrawer'> <i class='fa fa-archive' /> Open Cashbox </div>
+                </t>
+             </div>
+        </t>
+    </t>
+</templates>

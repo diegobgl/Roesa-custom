@@ -1,0 +1,102 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_l10n_cl_sii_data_search">
+            <field name="name">l10n_cl.sii.data.search</field>
+            <field name="model">l10n_cl.sii.data</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="sii_code"/>
+                    <field name="table_code"/>
+                    <group expand="0" string="Agrupar por">
+                        <filter name="group_code" string="Código" context="{'group_by':'code'}"/>
+                        <filter name="group_ssi_code" string="Código SII" context="{'group_by':'sii_code'}"/>
+                        <filter name="group_table_code" string="Tabla" context="{'group_by':'table_code'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_l10n_cl_partner_activity_tree">
+            <field name="name">l10n_cl.partner.activity.tree</field>
+            <field name="model">l10n_cl.partner.activity</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="iva_affected"/>
+                    <field name="parent_id"/>
+                    <field name="tax_category"/>
+                    <field name="internet_available"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_l10n_cl_sii_data_tree">
+            <field name="name">l10n_cl.sii.data.tree</field>
+            <field name="model">l10n_cl.sii.data</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="sii_code"/>
+                    <field name="table_code"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_l10n_cl_partner_activity_form" model="ir.ui.view">
+            <field name="name">l10n_cl.partner.activity.form</field>
+            <field name="model">l10n_cl.partner.activity</field>
+            <field name="arch" type="xml">
+                <form create="false">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="code"/>
+                                <field name="name"/>
+                                <field name="iva_affected"/>
+                                <field name="parent_id"/>
+                                <field name="tax_category"/>
+                                <field name="internet_available"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_l10n_cl_sii_data_form" model="ir.ui.view">
+            <field name="name">l10n_cl.sii.data.form</field>
+            <field name="model">l10n_cl.sii.data</field>
+            <field name="arch" type="xml">
+                <form create="false">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="code"/>
+                                <field name="name"/>
+                                <field name="sii_code"/>
+                                <field name="table_code"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+         <!--Actions-->
+        <act_window id="action_l10n_cl_partner_activity" name="Actividades" res_model="l10n_cl.partner.activity" view_mode="tree,form"/>
+        <act_window id="action_l10n_cl_sii_data" name="SII tablas" res_model="l10n_cl.sii.data" view_mode="tree,form"
+         context="{'search_default_group_table_code': 1}"/>
+        <act_window id="action_l10n_cl_res_region" name="Región" res_model="l10n_cl.res.region" view_mode="tree,form"/>
+
+        <!--Menus-->
+        <menuitem id="menu_l10n_cl" name="SII Chile" parent="contacts.res_partner_menu_config"/>
+        <menuitem id="menu_l10n_cl_partner_activity" name="Actividades" parent="menu_l10n_cl" action="action_l10n_cl_partner_activity"/>
+        <menuitem id="menu_l10n_cl_sii_data" name="Tabla SII" parent="menu_l10n_cl" action="action_l10n_cl_sii_data"/>
+
+        <menuitem id="menu_l10n_cl_res_region" name="Región" parent="contacts.menu_localisation" action="action_l10n_cl_res_region"/>
+  </data>
+</odoo>

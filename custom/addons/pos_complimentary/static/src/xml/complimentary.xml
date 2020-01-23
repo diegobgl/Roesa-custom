@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="ComplimentaryButton">
+        <div class='btn btn-default btn-fill btn-wd button-section control-button complimentary'>
+            <i class='fa fa-gift' />Complimentary
+        </div>
+    </t>
+    <t t-name="AllComplimentaryButton">
+        <div class='btn btn-default btn-fill btn-wd button-section control-button complimentary-all'>
+            <i class='fa fa-gift' />Complimentary All
+        </div>
+    </t>
+
+
+    <t t-extend="Orderline">
+        <t t-jquery=".info-list .info" t-operation="append">
+            <t t-if="line.is_free"><em style="color:#66BB6A"> (free)</em></t>
+        </t>
+    </t>
+
+</templates>

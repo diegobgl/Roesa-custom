@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <!-- Update Preferences form !-->
+        <record id="view_users_form_simple_preference" model="ir.ui.view">
+            <field name="name">res.users.preferences.form.preference</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+            <field name="arch" type="xml">
+            <data>
+                <field name="name"  position="replace">
+                    <field name="name" readonly="0" class="oe_inline"/>
+                </field>
+                <button name="preference_change_password" position="after">
+                    <group>
+                        <label for="street" string="Address"/>
+                        <div class="o_address_format">
+                            <field name="street" placeholder="Street..." class="o_address_street" readonly="0"/>
+                            <field name="street2" placeholder="Street 2..." class="o_address_street" readonly="0"/>
+                            <field name="city" placeholder="City" class="o_address_city" readonly="0"/>
+                            <field name="state_id" class="o_address_state" placeholder="State" options='{"no_open": True}' readonly="0"/>
+                            <field name="zip" placeholder="ZIP" class="o_address_zip" readonly="0"/>
+                            <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}' readonly="0"/>
+                        </div>
+                    </group>
+                    <group>
+                    <field name="phone" readonly="0"/>
+                    <field name="mobile" readonly="0"/>
+                    <field name="bank_ids" readonly="0"/>
+                    </group>
+                </button>
+            </data>
+            </field>
+        </record>
+
+    </data>
+</odoo>

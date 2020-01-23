@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+ll10n_cl_account_external_api,10n_cl_account_external_api,model_l10n_cl_account_external_api,base.group_user,1,1,1,1

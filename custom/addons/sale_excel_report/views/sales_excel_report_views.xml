@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <record id="action_sales_excel_report" model="ir.actions.act_window">
+        <field name="name">Excel Report</field>
+        <field name="res_model">sale.excel.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <!-- Reporting menu -->
+    <menuitem id="menu_sale_excel_report"
+              name="Excel Report"
+              parent="sale.menu_sale_report"
+              action="action_sales_excel_report"
+              sequence="4"/>
+
+</odoo>

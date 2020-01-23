@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_invoice_customer_form" model="ir.ui.view">
+            <field name="model">account.invoice</field>
+            <field name="name">account.invoice.customer.form</field>
+            <field name="inherit_id" ref="account.invoice_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//notebook" position="inside">
+                    <page string="Openfactura" attrs="{'invisible': ['|', ('state', 'not in', ['open']), ('l10n_cl_e_document', '=', False)]}">
+                        <button name="send_openfactura_invoice" type="object" string="Enviar SII" class="oe_highlight"
+                            attrs="{'invisible': [('openfactura_token', '!=', False)]}"
+                        />
+                        <group>
+                            <field name="openfactura_token"/>
+                            <field name="openfactura_xml" filename="openfactura_filename_xml"/>
+                            <field name="openfactura_pdf" filename="openfactura_filename_pdf" invisible="1"/>
+                            <field name="openfactura_timbre" filename="openfactura_filename_timbre" invisible="1"/>
+                            <field name="openfactura_filename_timbre" invisible="1"/>
+                            <field name="openfactura_filename_pdf" invisible="1"/>
+                            <field name="openfactura_filename_xml" invisible="1"/>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,26 @@
+<odoo>
+    <data>
+        <!--Cron-->
+        <record forcecreate="True" id="ir_l10n_cl_account_external_api" model="ir.cron">
+			<field name="name">External api invoice</field>
+            <field name="model">account.invoice</field>
+			<field name="function">l10n_cl_massive_send_invoice</field>
+			<field eval="True" name="active"/>
+			<field name="user_id" ref="base.user_root"/>
+			<field name="interval_number">1</field>
+			<field name="interval_type">minutes</field>
+			<field name="numbercall">-1</field>
+			<field eval="False" name="doall"/>
+		</record>
+        <record id="action_create_external_api_token" model="ir.actions.server">
+            <field name="name">Enviar factura API externo</field>
+            <field name="type">ir.actions.server</field>
+            <field name="model_id" ref="account.model_account_invoice"/>
+            <field name="state">code</field>
+            <field name="code">
+                if records:
+                    action = records.l10n_cl_send_data()
+            </field>
+        </record>
+    </data>
+</odoo>

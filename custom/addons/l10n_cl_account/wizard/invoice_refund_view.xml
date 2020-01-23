@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_account_invoice_refund_dn" model="ir.ui.view">
+            <field name="name">account.invoice.refund.debit.form</field>
+            <field name="model">account.invoice.refund</field>
+            <field name="arch" type="xml">
+                <form string="Crear nota de debito">
+                    <group>
+                         <group>
+                             <field name="description"/>
+                         </group>
+                         <group>
+                             <field name="date_invoice"/>
+                             <field name="date" groups="base.group_no_one"/>
+                         </group>
+                    </group>
+                    <footer>
+                        <button string='Crear nota de debito' name="invoice_refund" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+               </form>
+            </field>
+        </record>
+
+        <record id="action_account_invoice_refund_debit" model="ir.actions.act_window">
+            <field name="name">Nota de debito</field>
+            <field name="res_model">account.invoice.refund</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_account_invoice_refund_dn"/>
+            <field name="context">{'is_pe_debit_note': True}</field>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

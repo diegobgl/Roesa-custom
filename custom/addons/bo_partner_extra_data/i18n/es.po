@@ -1,0 +1,24 @@
+#. module: bo_partner_extra_data
+#: model:ir.model.fields,field_description:bo_partner_extra_data.field_res_partner_gender
+msgid "Gender"
+msgstr "Género"
+
+#. module: bo_partner_extra_data
+#: model:ir.model.fields,field_description:bo_partner_extra_data.field_res_partner_birthdate
+msgid "Date of Birth"
+msgstr "F. de nac."
+
+#. module: bo_partner_extra_data
+#: model:ir.model.fields,field_description:bo_partner_extra_data.field_res_partner_occupation
+msgid "Occupation"
+msgstr "Ocupación"
+
+#. module: bo_partner_extra_data
+#: selection:res.partner,gender:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: bo_partner_extra_data
+#: selection:res.partner,gender:0
+msgid "Female"
+msgstr "Femenino"

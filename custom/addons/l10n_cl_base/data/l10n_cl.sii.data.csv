@@ -1,0 +1,61 @@
+id,name,code,sii_code,table_code
+sii_data_01,RUT,RUT,81,sii_table_01
+sii_data_02,Cédula,RUN,82,sii_table_01
+sii_data_03,CI extranjera,CIe,91,sii_table_01
+sii_data_04,Pasaporte,PAS,94,sii_table_01
+sii_data_05,DNI Extranjero,DNI,96,sii_table_01
+sii_data_06,Sin identificar/venta global diaria,Sigd,99,sii_table_01
+sii_data_07,Factura de Inicio,FAI,29,sii_table_02
+sii_data_08,Factura,FAC,30,sii_table_02
+sii_data_09,Factura de Ventas y Servicios no Afectos o Exentos de IVA,FNA,32,sii_table_02
+sii_data_010,Factura Electrónica,FAC,33,sii_table_02
+sii_data_011,Factura no Afecta o Exenta Electrónica,FNA,34,sii_table_02
+sii_data_012,Liquidación Factura,FAL,40,sii_table_02
+sii_data_013,Liquidación Factura Electrónica,FAL,43,sii_table_02
+sii_data_014,Factura de Compra,FAC,45,sii_table_02
+sii_data_015,Factura de Compra Electrónica,FAC,46,sii_table_02
+sii_data_016,Nota de Débito,N/D,55,sii_table_02
+sii_data_017,Nota de Débito Electrónica,N/D,56,sii_table_02
+sii_data_018,Nota de Crédito,N/C,60,sii_table_02
+sii_data_019,Nota de Crédito Electrónica,N/C,61,sii_table_02
+sii_data_020,SRF Solicitud de Registro de Factura,REG,108,sii_table_02
+sii_data_021,Factura de ventas a empresas del territorio preferencial ( Res. Ex. N° 1057,FAC,901,sii_table_02
+sii_data_022,Declaración de Ingreso (DIN),DIN,914,sii_table_02
+sii_data_023,Declaración de Ingreso a Zona Franca Primaria,DIN,911,sii_table_02
+sii_data_024,Factura de Traspaso,FTR,904,sii_table_02
+sii_data_025,Factura de Reexpedición,FRX,905,sii_table_02
+sii_data_026,Boletas Venta Módulos ZF (todas),BZF,906,sii_table_02
+sii_data_027,Facturas Venta Módulo ZF (todas),FZF,907,sii_table_02
+sii_data_028,Ajuste aumento Tipo de Cambio (código 500),TCA,500,sii_table_02
+sii_data_029,Ajuste disminución Tipo de Cambio (código 501),TCD,501,sii_table_02
+sii_data_030,Boleta de Venta,BOL,35,sii_table_02
+sii_data_031,Boleta exenta,BEX,38,sii_table_02
+sii_data_032,Boleta Electrónica,BEL,39,sii_table_02
+sii_data_033,Boleta Exenta Electrónica,BXE,41,sii_table_02
+sii_data_034,Boleta de Honorarios,BHO,70,sii_table_02
+sii_data_035,Boleta de Honorarios Electrónica,BHE,71,sii_table_02
+sii_data_036,Orden de Compra,OC,801,sii_table_02
+sii_data_037,Formulario Recepción,FR,801,sii_table_02
+sii_data_038,Hoja Entrada Servicio,HES,801,sii_table_02
+sii_data_039,Registro de Mercadería,RDM,801,sii_table_02
+sii_data_040,Liquidación,LIQ,103,sii_table_02
+sii_data_041,Guía de Despacho,GD,50,sii_table_02
+sii_data_042,Guía de Despacho Electrónica,GDE,52,sii_table_02
+sii_data_043,Factura de Exportación Electrónica,FCXE,110,sii_table_02
+sii_data_044,Nota de Débito de Exportación Electrónica,NDXE,111,sii_table_02
+sii_data_045,Nota de Crédito de Exportación Electrónica,NCXE,112,sii_table_02
+sii_data_046,Nota de pedido,NP,802,sii_table_02
+sii_data_047,Contrato,CONT,803,sii_table_02
+sii_data_048,Resolución,RES,804,sii_table_02
+sii_data_049,Proceso ChileCompra,PCHC,805,sii_table_02
+sii_data_050,Ficha ChileCompra,FCHC,806,sii_table_02
+sii_data_051,DUS,DUS,807,sii_table_02
+sii_data_052,B/L (Conocimiento de embarque),B/L,808,sii_table_02
+sii_data_053,AWB (Air Will Bill),AWB,809,sii_table_02
+sii_data_054,MIC/DTA,MDT,810,sii_table_02
+sii_data_055,Carta de Porte,CPR,811,sii_table_02
+sii_data_056,Resolución del SNA donde califica Servicios de Exportación,RSN,812,sii_table_02
+sii_data_057,Pasaporte,PSP,813,sii_table_02
+sii_data_058,Certificado de Depósito Bolsa Prod. Chile.,CRTD,814,sii_table_02
+sii_data_059,Vale de Prenda Bolsa Prod. Chile,VLPR,815,sii_table_02
+

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+openfactura_setting,openfactura_setting,model_openfactura_setting,account.group_account_manager,1,1,1,1
+openfactura_invoice,openfactura_invoice,model_openfactura_invoice,account.group_account_manager,1,1,1,1
+openfactura_invoice_line,openfactura_invoice_line,model_openfactura_invoice_line,account.group_account_manager,1,1,1,1

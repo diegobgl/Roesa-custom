@@ -1,0 +1,16 @@
+<odoo>
+    <record id="bo_view_member_form" model="ir.ui.view">
+        <field name="name">view.member.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group/field[@name='function']" position="replace">
+                <field name="occupation"/>
+                <field name="birthdate" required="1"/>
+            </xpath>
+             <xpath expr="//group/field[@name='lang']" position="after">
+                <field name="gender" widget="radio"/>
+             </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,41 @@
+#. module: bo_pos_partner_extra_data
+#. openerp-web
+#: code:addons/bo_pos_partner_extra_data/static/src/xml/pos.xml:6
+#, python-format
+msgid "Birth date"
+msgstr "F. de nac."
+
+#. module: bo_pos_partner_extra_data
+#. openerp-web
+#: code:addons/bo_pos_partner_extra_data/static/src/xml/pos.xml:10
+#, python-format
+msgid "Occupation"
+msgstr "Ocupación"
+
+#. module: bo_pos_partner_extra_data
+#. openerp-web
+#: code:addons/bo_pos_partner_extra_data/static/src/xml/pos.xml:16
+#, python-format
+msgid "Gender"
+msgstr "Género"
+
+#. module: bo_pos_partner_extra_data
+#. openerp-web
+#: code:addons/bo_pos_partner_extra_data/static/src/xml/pos.xml:26
+#, python-format
+msgid "Internal Reference"
+msgstr "Ref. interna"
+
+#. module: bo_pos_partner_extra_data
+#. openerp-web
+#: code:addons/bo_pos_partner_extra_data/static/src/js/pos_partner.js:15
+#, python-format
+msgid "Male"
+msgstr "Masculino"
+
+#. module: bo_pos_partner_extra_data
+#. openerp-web
+#: code:addons/bo_pos_partner_extra_data/static/src/js/pos_partner.js:15
+#, python-format
+msgid "Female"
+msgstr "Femenino"

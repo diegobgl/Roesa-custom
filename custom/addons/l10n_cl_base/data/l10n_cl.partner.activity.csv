@@ -1,0 +1,930 @@
+id,parent_id/id,code,name,iva_affected,tax_category,internet_available,active
+l10n_cl_partner_activity_01,,,"AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",not,nd,1,1
+l10n_cl_partner_activity_02,l10n_cl_partner_activity_01,,CULTIVO DE PLANTAS NO PERENNES ,not,nd,1,1
+l10n_cl_partner_activity_03,l10n_cl_partner_activity_02,11101,CULTIVO DE TRIGO ,yes,1,1,1
+l10n_cl_partner_activity_04,l10n_cl_partner_activity_02,11102,CULTIVO DE MAÍZ ,yes,1,1,1
+l10n_cl_partner_activity_05,l10n_cl_partner_activity_02,11103,CULTIVO DE AVENA ,yes,1,1,1
+l10n_cl_partner_activity_06,l10n_cl_partner_activity_02,11104,CULTIVO DE CEBADA ,yes,1,1,1
+l10n_cl_partner_activity_07,l10n_cl_partner_activity_02,11105,"CULTIVO DE OTROS CEREALES (EXCEPTO TRIGO, MAÍZ, AVENA Y CEBADA) ",yes,1,1,1
+l10n_cl_partner_activity_08,l10n_cl_partner_activity_02,11106,CULTIVO DE POROTOS ,yes,1,1,1
+l10n_cl_partner_activity_09,l10n_cl_partner_activity_02,11107,CULTIVO DE LUPINO ,yes,1,1,1
+l10n_cl_partner_activity_10,l10n_cl_partner_activity_02,11108,CULTIVO DE OTRAS LEGUMBRES (EXCEPTO POROTOS Y LUPINO) ,yes,1,1,1
+l10n_cl_partner_activity_11,l10n_cl_partner_activity_02,11109,CULTIVO DE SEMILLAS DE RAPS ,yes,1,1,1
+l10n_cl_partner_activity_12,l10n_cl_partner_activity_02,11110,CULTIVO DE SEMILLAS DE MARAVILLA (GIRASOL) ,yes,1,1,1
+l10n_cl_partner_activity_13,l10n_cl_partner_activity_02,11111,"CULTIVO DE SEMILLAS DE CEREALES, LEGUMBRES Y OLEAGINOSAS (EXCEPTO SEMILLAS DE RAPS Y MARAVILLA) ",yes,1,1,1
+l10n_cl_partner_activity_14,l10n_cl_partner_activity_02,11200,CULTIVO DE ARROZ ,yes,1,1,1
+l10n_cl_partner_activity_15,l10n_cl_partner_activity_02,11301,CULTIVO DE PAPAS ,yes,1,1,1
+l10n_cl_partner_activity_16,l10n_cl_partner_activity_02,11302,CULTIVO DE CAMOTES ,yes,1,1,1
+l10n_cl_partner_activity_17,l10n_cl_partner_activity_02,11303,CULTIVO DE OTROS TUBÉRCULOS (EXCEPTO PAPAS Y CAMOTES) ,yes,1,1,1
+l10n_cl_partner_activity_18,l10n_cl_partner_activity_02,11304,CULTIVO DE REMOLACHA AZUCARERA ,yes,1,1,1
+l10n_cl_partner_activity_19,l10n_cl_partner_activity_02,11305,CULTIVO DE SEMILLAS DE HORTALIZAS ,yes,1,1,1
+l10n_cl_partner_activity_20,l10n_cl_partner_activity_02,11306,CULTIVO DE HORTALIZAS Y MELONES  ,yes,1,1,1
+l10n_cl_partner_activity_21,l10n_cl_partner_activity_02,11400,CULTIVO DE CAÑA DE AZÚCAR ,yes,1,1,1
+l10n_cl_partner_activity_22,l10n_cl_partner_activity_02,11500,CULTIVO DE TABACO ,yes,1,1,1
+l10n_cl_partner_activity_23,l10n_cl_partner_activity_02,11600,CULTIVO DE PLANTAS DE FIBRA ,yes,1,1,1
+l10n_cl_partner_activity_24,l10n_cl_partner_activity_02,11901,CULTIVO DE FLORES ,yes,1,1,1
+l10n_cl_partner_activity_25,l10n_cl_partner_activity_02,11902,CULTIVOS FORRAJEROS EN PRADERAS MEJORADAS O SEMBRADAS; CULTIVOS SUPLEMENTARIOS FORRAJEROS ,yes,1,1,1
+l10n_cl_partner_activity_26,l10n_cl_partner_activity_02,11903,CULTIVOS DE SEMILLAS DE FLORES; CULTIVO DE SEMILLAS DE PLANTAS FORRAJERAS ,yes,1,1,1
+l10n_cl_partner_activity_27,l10n_cl_partner_activity_01,,CULTIVO DE PLANTAS PERENNES ,not,nd,1,1
+l10n_cl_partner_activity_28,l10n_cl_partner_activity_27,12111,CULTIVO DE UVA DESTINADA A LA PRODUCCIÓN DE PISCO Y AGUARDIENTE ,yes,1,1,1
+l10n_cl_partner_activity_29,l10n_cl_partner_activity_27,12112,CULTIVO DE UVA DESTINADA A LA PRODUCCIÓN DE VINO ,yes,1,1,1
+l10n_cl_partner_activity_30,l10n_cl_partner_activity_27,12120,CULTIVO DE UVA PARA MESA ,yes,1,1,1
+l10n_cl_partner_activity_31,l10n_cl_partner_activity_27,12200,CULTIVO DE FRUTAS TROPICALES Y SUBTROPICALES (INCLUYE EL CULTIVO DE PALTAS) ,yes,1,1,1
+l10n_cl_partner_activity_32,l10n_cl_partner_activity_27,12300,CULTIVO DE CÍTRICOS ,yes,1,1,1
+l10n_cl_partner_activity_33,l10n_cl_partner_activity_27,12400,CULTIVO DE FRUTAS DE PEPITA Y DE HUESO ,yes,1,1,1
+l10n_cl_partner_activity_34,l10n_cl_partner_activity_27,12501,CULTIVO DE SEMILLAS DE FRUTAS ,yes,1,1,1
+l10n_cl_partner_activity_35,l10n_cl_partner_activity_27,12502,CULTIVO DE OTROS FRUTOS Y NUECES DE ÁRBOLES Y ARBUSTOS ,yes,1,1,1
+l10n_cl_partner_activity_36,l10n_cl_partner_activity_27,12600,CULTIVO DE FRUTOS OLEAGINOSOS (INCLUYE EL CULTIVO DE ACEITUNAS) ,yes,1,1,1
+l10n_cl_partner_activity_37,l10n_cl_partner_activity_27,12700,"CULTIVO DE PLANTAS CON LAS QUE SE PREPARAN BEBIDAS (INCLUYE EL CULTIVO DE CAFÉ, TÉ Y MATE) ",yes,1,1,1
+l10n_cl_partner_activity_38,l10n_cl_partner_activity_27,12801,CULTIVO DE ESPECIAS ,yes,1,1,1
+l10n_cl_partner_activity_39,l10n_cl_partner_activity_27,12802,"CULTIVO DE PLANTAS AROMÁTICAS, MEDICINALES Y FARMACÉUTICAS ",yes,1,1,1
+l10n_cl_partner_activity_40,l10n_cl_partner_activity_27,12900,CULTIVO DE OTRAS PLANTAS PERENNES ,yes,1,1,1
+l10n_cl_partner_activity_41,l10n_cl_partner_activity_01,,PROPAGACIÓN DE PLANTAS ,not,nd,1,1
+l10n_cl_partner_activity_42,l10n_cl_partner_activity_41,13000,CULTIVO DE PLANTAS VIVAS INCLUIDA LA PRODUCCIÓN EN VIVEROS (EXCEPTO VIVEROS FORESTALES) ,yes,1,1,1
+l10n_cl_partner_activity_43,l10n_cl_partner_activity_01,,GANADERÍA  ,not,nd,1,1
+l10n_cl_partner_activity_44,l10n_cl_partner_activity_43,14101,CRÍA DE GANADO BOVINO PARA LA PRODUCCIÓN LECHERA ,yes,1,1,1
+l10n_cl_partner_activity_45,l10n_cl_partner_activity_43,14102,CRÍA DE GANADO BOVINO PARA LA PRODUCCIÓN DE CARNE O COMO GANADO REPRODUCTOR ,yes,1,1,1
+l10n_cl_partner_activity_46,l10n_cl_partner_activity_43,14200,CRÍA DE CABALLOS Y OTROS EQUINOS ,yes,1,1,1
+l10n_cl_partner_activity_47,l10n_cl_partner_activity_43,14300,"CRÍA DE LLAMAS, ALPACAS, VICUÑAS, GUANACOS Y OTROS CAMÉLIDOS ",yes,1,1,1
+l10n_cl_partner_activity_48,l10n_cl_partner_activity_43,14410,CRÍA DE OVEJAS (OVINOS) ,yes,1,1,1
+l10n_cl_partner_activity_49,l10n_cl_partner_activity_43,14420,CRÍA DE CABRAS (CAPRINOS) ,yes,1,1,1
+l10n_cl_partner_activity_50,l10n_cl_partner_activity_43,14500,CRÍA DE CERDOS ,yes,1,1,1
+l10n_cl_partner_activity_51,l10n_cl_partner_activity_43,14601,CRÍA DE AVES DE CORRAL PARA LA PRODUCCIÓN DE CARNE ,yes,1,1,1
+l10n_cl_partner_activity_52,l10n_cl_partner_activity_43,14602,CRÍA DE AVES DE CORRAL PARA LA PRODUCCIÓN DE HUEVOS ,yes,1,1,1
+l10n_cl_partner_activity_53,l10n_cl_partner_activity_43,14901,APICULTURA ,yes,1,1,1
+l10n_cl_partner_activity_54,l10n_cl_partner_activity_43,14909,CRÍA DE OTROS ANIMALES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_55,l10n_cl_partner_activity_01,,CULTIVO DE PRODUCTOS AGRÍCOLAS EN COMBINACIÓN CON LA CRÍA DE ANIMALES  ,not,nd,1,1
+l10n_cl_partner_activity_56,l10n_cl_partner_activity_55,15000,CULTIVO DE PRODUCTOS AGRÍCOLAS EN COMBINACIÓN CON LA CRÍA DE ANIMALES (EXPLOTACIÓN MIXTA) ,yes,1,1,1
+l10n_cl_partner_activity_57,l10n_cl_partner_activity_01,,ACTIVIDADES DE APOYO A LA AGRICULTURA Y LA GANADERÍA Y ACTIVIDADES POSCOSECHA   ,not,nd,1,1
+l10n_cl_partner_activity_58,l10n_cl_partner_activity_57,16100,ACTIVIDADES DE APOYO A LA AGRICULTURA ,yes,1,1,1
+l10n_cl_partner_activity_59,l10n_cl_partner_activity_57,16200,ACTIVIDADES DE APOYO A LA GANADERÍA ,yes,1,1,1
+l10n_cl_partner_activity_60,l10n_cl_partner_activity_57,16300,ACTIVIDADES POSCOSECHA ,yes,1,1,1
+l10n_cl_partner_activity_61,l10n_cl_partner_activity_57,16400,TRATAMIENTO DE SEMILLAS PARA PROPAGACIÓN ,yes,1,1,1
+l10n_cl_partner_activity_62,l10n_cl_partner_activity_01,,CAZA ORDINARIA Y MEDIANTE TRAMPAS Y ACTIVIDADES DE SERVICIOS CONEXAS             ,not,nd,1,1
+l10n_cl_partner_activity_63,l10n_cl_partner_activity_62,17000,CAZA ORDINARIA Y MEDIANTE TRAMPAS Y ACTIVIDADES DE SERVICIOS CONEXAS ,yes,1,1,1
+l10n_cl_partner_activity_64,l10n_cl_partner_activity_01,,SILVICULTURA Y OTRAS ACTIVIDADES FORESTALES                  ,not,nd,1,1
+l10n_cl_partner_activity_65,l10n_cl_partner_activity_64,21001,EXPLOTACIÓN DE VIVEROS FORESTALES ,yes,1,1,1
+l10n_cl_partner_activity_66,l10n_cl_partner_activity_64,21002,SILVICULTURA Y OTRAS ACTIVIDADES FORESTALES (EXCEPTO EXPLOTACIÓN DE VIVEROS FORESTALES) ,yes,1,1,1
+l10n_cl_partner_activity_67,l10n_cl_partner_activity_01,,EXTRACCIÓN DE MADERA                    ,not,nd,1,1
+l10n_cl_partner_activity_68,l10n_cl_partner_activity_67,22000,EXTRACCIÓN DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_69,l10n_cl_partner_activity_01,,RECOLECCIÓN DE PRODUCTOS FORESTALES DISTINTOS DE LA MADERA               ,not,nd,1,1
+l10n_cl_partner_activity_70,l10n_cl_partner_activity_69,23000,RECOLECCIÓN DE PRODUCTOS FORESTALES DISTINTOS DE LA MADERA ,yes,1,1,1
+l10n_cl_partner_activity_71,l10n_cl_partner_activity_01,,SERVICIOS DE APOYO A LA SILVICULTURA                 ,not,nd,1,1
+l10n_cl_partner_activity_72,l10n_cl_partner_activity_71,24001,SERVICIOS DE FORESTACIÓN A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATA ,yes,1,1,1
+l10n_cl_partner_activity_73,l10n_cl_partner_activity_71,24002,SERVICIOS DE CORTA DE MADERA A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATA ,yes,1,1,1
+l10n_cl_partner_activity_74,l10n_cl_partner_activity_71,24003,SERVICIOS DE EXTINCIÓN Y PREVENCIÓN DE INCENDIOS FORESTALES ,yes,1,1,1
+l10n_cl_partner_activity_75,l10n_cl_partner_activity_71,24009,OTROS SERVICIOS DE APOYO A LA SILVICULTURA N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_76,l10n_cl_partner_activity_01,,PESCA                      ,not,nd,1,1
+l10n_cl_partner_activity_77,l10n_cl_partner_activity_76,31110,"PESCA MARÍTIMA INDUSTRIAL, EXCEPTO DE BARCOS FACTORÍA ",yes,1,1,1
+l10n_cl_partner_activity_78,l10n_cl_partner_activity_76,31120,PESCA MARÍTIMA ARTESANAL ,yes,1,1,1
+l10n_cl_partner_activity_79,l10n_cl_partner_activity_76,31130,RECOLECCIÓN Y EXTRACCIÓN DE PRODUCTOS MARINOS ,yes,1,1,1
+l10n_cl_partner_activity_80,l10n_cl_partner_activity_76,31140,SERVICIOS RELACIONADOS CON LA PESCA MARÍTIMA ,yes,1,1,1
+l10n_cl_partner_activity_81,l10n_cl_partner_activity_76,31200,PESCA DE AGUA DULCE ,yes,1,1,1
+l10n_cl_partner_activity_82,l10n_cl_partner_activity_01,,ACUICULTURA                      ,not,nd,1,1
+l10n_cl_partner_activity_83,l10n_cl_partner_activity_82,32110,CULTIVO Y CRIANZA DE PECES MARINOS ,yes,1,1,1
+l10n_cl_partner_activity_84,l10n_cl_partner_activity_82,32120,"CULTIVO, REPRODUCCIÓN Y MANEJO DE ALGAS MARINAS ",yes,1,1,1
+l10n_cl_partner_activity_85,l10n_cl_partner_activity_82,32130,"REPRODUCCIÓN Y CRÍA DE MOLUSCOS, CRUSTÁCEOS Y GUSANOS MARINOS ",yes,1,1,1
+l10n_cl_partner_activity_86,l10n_cl_partner_activity_82,32140,SERVICIOS RELACIONADOS CON LA ACUICULTURA MARINA ,yes,1,1,1
+l10n_cl_partner_activity_87,l10n_cl_partner_activity_82,32200,ACUICULTURA DE AGUA DULCE ,yes,1,1,1
+l10n_cl_partner_activity_88,,,EXPLOTACIÓN DE MINAS Y CANTERAS,not,nd,1,1
+l10n_cl_partner_activity_89,l10n_cl_partner_activity_88,,EXTRACCIÓN Y PROCESAMIENTO DE COBRE                  ,not,nd,1,1
+l10n_cl_partner_activity_90,l10n_cl_partner_activity_89,40000,EXTRACCIÓN Y PROCESAMIENTO DE COBRE ,yes,1,1,1
+l10n_cl_partner_activity_91,l10n_cl_partner_activity_88,,EXTRACCIÓN DE CARBÓN DE PIEDRA                 ,not,nd,1,1
+l10n_cl_partner_activity_92,l10n_cl_partner_activity_91,51000,EXTRACCIÓN DE CARBÓN DE PIEDRA ,yes,1,1,1
+l10n_cl_partner_activity_93,l10n_cl_partner_activity_88,,EXTRACCIÓN DE LIGNITO                    ,not,nd,1,1
+l10n_cl_partner_activity_94,l10n_cl_partner_activity_93,52000,EXTRACCIÓN DE LIGNITO ,yes,1,1,1
+l10n_cl_partner_activity_95,l10n_cl_partner_activity_88,,EXTRACCIÓN DE PETRÓLEO CRUDO                   ,not,nd,1,1
+l10n_cl_partner_activity_96,l10n_cl_partner_activity_95,61000,EXTRACCIÓN DE PETRÓLEO CRUDO ,yes,1,1,1
+l10n_cl_partner_activity_97,l10n_cl_partner_activity_88,,EXTRACCIÓN DE GAS NATURAL                   ,not,nd,1,1
+l10n_cl_partner_activity_98,l10n_cl_partner_activity_97,62000,EXTRACCIÓN DE GAS NATURAL ,yes,1,1,1
+l10n_cl_partner_activity_99,l10n_cl_partner_activity_88,,EXTRACCIÓN DE MINERALES DE HIERRO                  ,not,nd,1,1
+l10n_cl_partner_activity_100,l10n_cl_partner_activity_99,71000,EXTRACCIÓN DE MINERALES DE HIERRO ,yes,1,1,1
+l10n_cl_partner_activity_101,l10n_cl_partner_activity_99,72100,EXTRACCIÓN DE MINERALES DE URANIO Y TORIO ,yes,1,1,1
+l10n_cl_partner_activity_102,l10n_cl_partner_activity_99,72910,EXTRACCIÓN DE ORO Y PLATA ,yes,1,1,1
+l10n_cl_partner_activity_103,l10n_cl_partner_activity_99,72991,EXTRACCIÓN DE ZINC Y PLOMO ,yes,1,1,1
+l10n_cl_partner_activity_104,l10n_cl_partner_activity_99,72992,EXTRACCIÓN DE MANGANESO ,yes,1,1,1
+l10n_cl_partner_activity_105,l10n_cl_partner_activity_99,72999,"EXTRACCIÓN DE OTROS MINERALES METALÍFEROS NO FERROSOS N.C.P. (EXCEPTO ZINC, PLOMO Y MANGANESO) ",yes,1,1,1
+l10n_cl_partner_activity_106,l10n_cl_partner_activity_88,,"EXTRACCIÓN DE PIEDRA, ARENA Y ARCILLA                 ",not,nd,1,1
+l10n_cl_partner_activity_107,l10n_cl_partner_activity_106,81000,"EXTRACCIÓN DE PIEDRA, ARENA Y ARCILLA ",yes,1,1,1
+l10n_cl_partner_activity_108,l10n_cl_partner_activity_88,,EXPLOTACIÓN DE MINAS Y CANTERAS N.C.P.                 ,not,nd,1,1
+l10n_cl_partner_activity_109,l10n_cl_partner_activity_108,89110,EXTRACCIÓN Y PROCESAMIENTO DE LITIO ,yes,1,1,1
+l10n_cl_partner_activity_110,l10n_cl_partner_activity_108,89190,EXTRACCIÓN DE MINERALES PARA LA FABRICACIÓN DE ABONOS Y PRODUCTOS QUÍMICOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_111,l10n_cl_partner_activity_108,89200,EXTRACCIÓN DE TURBA ,yes,1,1,1
+l10n_cl_partner_activity_112,l10n_cl_partner_activity_108,89300,EXTRACCIÓN DE SAL ,yes,1,1,1
+l10n_cl_partner_activity_113,l10n_cl_partner_activity_108,89900,EXPLOTACIÓN DE OTRAS MINAS Y CANTERAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_114,l10n_cl_partner_activity_88,,ACTIVIDADES DE APOYO PARA LA EXTRACCIÓN DE PETRÓLEO Y GAS NATURAL            ,not,nd,1,1
+l10n_cl_partner_activity_115,l10n_cl_partner_activity_114,91001,ACTIVIDADES DE APOYO PARA LA EXTRACCIÓN DE PETRÓLEO Y GAS NATURAL PRESTADOS POR EMPRESAS ,yes,1,1,1
+l10n_cl_partner_activity_116,l10n_cl_partner_activity_114,91002,ACTIVIDADES DE APOYO PARA LA EXTRACCIÓN DE PETRÓLEO Y GAS NATURAL PRESTADOS POR PROFESIONALES ,not,2,1,1
+l10n_cl_partner_activity_117,l10n_cl_partner_activity_88,,ACTIVIDADES DE APOYO PARA LA EXPLOTACIÓN DE OTRAS MINAS Y CANTERAS            ,not,nd,1,1
+l10n_cl_partner_activity_118,l10n_cl_partner_activity_117,99001,ACTIVIDADES DE APOYO PARA LA EXPLOTACIÓN DE OTRAS MINAS Y CANTERAS PRESTADOS POR EMPRESAS ,yes,1,1,1
+l10n_cl_partner_activity_119,l10n_cl_partner_activity_117,99002,ACTIVIDADES DE APOYO PARA LA EXPLOTACIÓN DE OTRAS MINAS Y CANTERAS PRESTADOS POR PROFESIONALES ,not,2,1,1
+l10n_cl_partner_activity_120,,,INDUSTRIA MANUFACTURERA,not,nd,1,1
+l10n_cl_partner_activity_121,l10n_cl_partner_activity_120,,ELABORACIÓN Y CONSERVACIÓN DE CARNE                  ,not,nd,1,1
+l10n_cl_partner_activity_122,l10n_cl_partner_activity_121,101011,"EXPLOTACIÓN DE MATADEROS DE BOVINOS, OVINOS, EQUINOS, CAPRINOS, PORCINOS Y CAMÉLIDOS  ",yes,1,1,1
+l10n_cl_partner_activity_123,l10n_cl_partner_activity_121,101019,EXPLOTACIÓN DE MATADEROS DE AVES Y DE OTROS TIPOS DE ANIMALES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_124,l10n_cl_partner_activity_121,101020,ELABORACIÓN Y CONSERVACIÓN DE CARNE Y PRODUCTOS CÁRNICOS ,yes,1,1,1
+l10n_cl_partner_activity_125,l10n_cl_partner_activity_120,,"ELABORACIÓN Y CONSERVACIÓN DE PESCADO, CRUSTÁCEOS Y MOLUSCOS               ",not,nd,1,1
+l10n_cl_partner_activity_126,l10n_cl_partner_activity_125,102010,PRODUCCIÓN DE HARINA DE PESCADO ,yes,1,1,1
+l10n_cl_partner_activity_127,l10n_cl_partner_activity_125,102020,ELABORACIÓN Y CONSERVACIÓN DE SALMÓNIDOS ,yes,1,1,1
+l10n_cl_partner_activity_128,l10n_cl_partner_activity_125,102030,"ELABORACIÓN Y CONSERVACIÓN DE OTROS PESCADOS, EN PLANTAS EN TIERRA (EXCEPTO BARCOS FACTORÍA) ",yes,1,1,1
+l10n_cl_partner_activity_129,l10n_cl_partner_activity_125,102040,"ELABORACIÓN Y CONSERVACIÓN DE CRUSTÁCEOS, MOLUSCOS Y OTROS PRODUCTOS ACUÁTICOS, EN PLANTAS EN TIERRA ",yes,1,1,1
+l10n_cl_partner_activity_130,l10n_cl_partner_activity_125,102050,"ACTIVIDADES DE ELABORACIÓN Y CONSERVACIÓN DE PESCADO, REALIZADAS EN BARCOS FACTORÍA ",yes,1,1,1
+l10n_cl_partner_activity_131,l10n_cl_partner_activity_125,102060,ELABORACIÓN Y PROCESAMIENTO DE ALGAS ,yes,1,1,1
+l10n_cl_partner_activity_132,l10n_cl_partner_activity_120,,"ELABORACIÓN Y CONSERVACIÓN DE FRUTAS, LEGUMBRES Y HORTALIZAS               ",not,nd,1,1
+l10n_cl_partner_activity_133,l10n_cl_partner_activity_132,103000,"ELABORACIÓN Y CONSERVACIÓN DE FRUTAS, LEGUMBRES Y HORTALIZAS ",yes,1,1,1
+l10n_cl_partner_activity_134,l10n_cl_partner_activity_120,,ELABORACIÓN DE ACEITES Y GRASAS DE ORIGEN VEGETAL Y ANIMAL             ,not,nd,1,1
+l10n_cl_partner_activity_135,l10n_cl_partner_activity_134,104000,ELABORACIÓN DE ACEITES Y GRASAS DE ORIGEN VEGETAL Y ANIMAL (EXCEPTO ELABORACIÓN DE MANTEQUILLA) ,yes,1,1,1
+l10n_cl_partner_activity_136,l10n_cl_partner_activity_120,,ELABORACIÓN DE PRODUCTOS LÁCTEOS                   ,not,nd,1,1
+l10n_cl_partner_activity_137,l10n_cl_partner_activity_136,105000,ELABORACIÓN DE PRODUCTOS LÁCTEOS ,yes,1,1,1
+l10n_cl_partner_activity_138,l10n_cl_partner_activity_120,,"ELABORACIÓN DE PRODUCTOS DE MOLINERÍA, ALMIDONES Y PRODUCTOS DERIVADOS DEL ALMIDÓN            ",not,nd,1,1
+l10n_cl_partner_activity_139,l10n_cl_partner_activity_138,106101,"MOLIENDA DE TRIGO: PRODUCCIÓN DE HARINA, SÉMOLA Y GRÁNULOS ",yes,1,1,1
+l10n_cl_partner_activity_140,l10n_cl_partner_activity_138,106102,MOLIENDA DE ARROZ; PRODUCCIÓN DE HARINA DE ARROZ ,yes,1,1,1
+l10n_cl_partner_activity_141,l10n_cl_partner_activity_138,106109,ELABORACIÓN DE OTROS PRODUCTOS DE MOLINERÍA N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_142,l10n_cl_partner_activity_138,106200,ELABORACIÓN DE ALMIDONES Y PRODUCTOS DERIVADOS DEL ALMIDÓN ,yes,1,1,1
+l10n_cl_partner_activity_143,l10n_cl_partner_activity_120,,ELABORACIÓN DE OTROS PRODUCTOS ALIMENTICIOS                  ,not,nd,1,1
+l10n_cl_partner_activity_144,l10n_cl_partner_activity_143,107100,ELABORACIÓN DE PRODUCTOS DE PANADERÍA Y PASTELERÍA ,yes,1,1,1
+l10n_cl_partner_activity_145,l10n_cl_partner_activity_143,107200,ELABORACIÓN DE AZÚCAR ,yes,1,1,1
+l10n_cl_partner_activity_146,l10n_cl_partner_activity_143,107300,"ELABORACIÓN DE CACAO, CHOCOLATE Y DE PRODUCTOS DE CONFITERÍA ",yes,1,1,1
+l10n_cl_partner_activity_147,l10n_cl_partner_activity_143,107400,"ELABORACIÓN DE MACARRONES, FIDEOS, ALCUZCUZ Y PRODUCTOS FARINÁCEOS SIMILARES ",yes,1,1,1
+l10n_cl_partner_activity_148,l10n_cl_partner_activity_143,107500,"ELABORACIÓN DE COMIDAS Y PLATOS PREPARADOS ENVASADOS, ROTULADOS Y CON INFORMACIÓN NUTRICIONAL ",yes,1,1,1
+l10n_cl_partner_activity_149,l10n_cl_partner_activity_143,107901,"ELABORACIÓN DE TÉ, CAFÉ, MATE E INFUSIONES DE HIERBAS ",yes,1,1,1
+l10n_cl_partner_activity_150,l10n_cl_partner_activity_143,107902,ELABORACIÓN DE LEVADURAS NATURALES O ARTIFICIALES ,yes,1,1,1
+l10n_cl_partner_activity_151,l10n_cl_partner_activity_143,107903,"ELABORACIÓN DE VINAGRES, MOSTAZAS, MAYONESAS Y CONDIMENTOS EN GENERAL ",yes,1,1,1
+l10n_cl_partner_activity_152,l10n_cl_partner_activity_143,107909,ELABORACIÓN DE OTROS PRODUCTOS ALIMENTICIOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_153,l10n_cl_partner_activity_120,,ELABORACIÓN DE PIENSOS PREPARADOS PARA ANIMALES                 ,not,nd,1,1
+l10n_cl_partner_activity_154,l10n_cl_partner_activity_153,108000,ELABORACIÓN DE PIENSOS PREPARADOS PARA ANIMALES ,yes,1,1,1
+l10n_cl_partner_activity_155,l10n_cl_partner_activity_120,,ELABORACIÓN DE BEBIDAS ALCOHÓLICAS Y NO ALCOHÓLICAS                ,not,nd,1,1
+l10n_cl_partner_activity_156,l10n_cl_partner_activity_155,110110,ELABORACIÓN DE PISCO (INDUSTRIAS PISQUERAS) ,yes,1,1,1
+l10n_cl_partner_activity_157,l10n_cl_partner_activity_155,110120,"DESTILACIÓN, RECTIFICACIÓN Y MEZCLAS DE BEBIDAS ALCOHÓLICAS; EXCEPTO PISCO ",yes,1,1,1
+l10n_cl_partner_activity_158,l10n_cl_partner_activity_155,110200,ELABORACIÓN DE VINOS ,yes,1,1,1
+l10n_cl_partner_activity_159,l10n_cl_partner_activity_155,110300,ELABORACIÓN DE BEBIDAS MALTEADAS Y DE MALTA ,yes,1,1,1
+l10n_cl_partner_activity_160,l10n_cl_partner_activity_155,110401,ELABORACIÓN DE BEBIDAS NO ALCOHÓLICAS ,yes,1,1,1
+l10n_cl_partner_activity_161,l10n_cl_partner_activity_155,110402,PRODUCCIÓN DE AGUAS MINERALES Y OTRAS AGUAS EMBOTELLADAS ,yes,1,1,1
+l10n_cl_partner_activity_162,l10n_cl_partner_activity_120,,ELABORACIÓN DE PRODUCTOS DE TABACO                  ,not,nd,1,1
+l10n_cl_partner_activity_163,l10n_cl_partner_activity_162,120001,ELABORACIÓN DE CIGARROS Y CIGARRILLOS ,yes,1,1,1
+l10n_cl_partner_activity_164,l10n_cl_partner_activity_162,120009,ELABORACIÓN DE OTROS PRODUCTOS DE TABACO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_165,l10n_cl_partner_activity_120,,"HILATURA, TEJEDURA Y ACABADO DE PRODUCTOS TEXTILES                ",not,nd,1,1
+l10n_cl_partner_activity_166,l10n_cl_partner_activity_165,131100,PREPARACIÓN E HILATURA DE FIBRAS TEXTILES ,yes,1,1,1
+l10n_cl_partner_activity_167,l10n_cl_partner_activity_165,131200,TEJEDURA DE PRODUCTOS TEXTILES ,yes,1,1,1
+l10n_cl_partner_activity_168,l10n_cl_partner_activity_165,131300,ACABADO DE PRODUCTOS TEXTILES ,yes,1,1,1
+l10n_cl_partner_activity_169,l10n_cl_partner_activity_120,,FABRICACIÓN DE OTROS PRODUCTOS TEXTILES                  ,not,nd,1,1
+l10n_cl_partner_activity_170,l10n_cl_partner_activity_169,139100,FABRICACIÓN DE TEJIDOS DE PUNTO Y GANCHILLO ,yes,1,1,1
+l10n_cl_partner_activity_171,l10n_cl_partner_activity_169,139200,"FABRICACIÓN DE ARTÍCULOS CONFECCIONADOS DE MATERIALES TEXTILES, EXCEPTO PRENDAS DE VESTIR ",yes,1,1,1
+l10n_cl_partner_activity_172,l10n_cl_partner_activity_169,139300,FABRICACIÓN DE TAPICES Y ALFOMBRAS ,yes,1,1,1
+l10n_cl_partner_activity_173,l10n_cl_partner_activity_169,139400,"FABRICACIÓN DE CUERDAS, CORDELES, BRAMANTES Y REDES ",yes,1,1,1
+l10n_cl_partner_activity_174,l10n_cl_partner_activity_169,139900,FABRICACIÓN DE OTROS PRODUCTOS TEXTILES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_175,l10n_cl_partner_activity_120,,"FABRICACIÓN DE PRENDAS DE VESTIR, EXCEPTO PRENDAS DE PIEL             ",not,nd,1,1
+l10n_cl_partner_activity_176,l10n_cl_partner_activity_175,141001,FABRICACIÓN DE PRENDAS DE VESTIR DE MATERIALES TEXTILES Y SIMILARES ,yes,1,1,1
+l10n_cl_partner_activity_177,l10n_cl_partner_activity_175,141002,FABRICACIÓN DE PRENDAS DE VESTIR DE CUERO NATURAL O ARTIFICIAL ,yes,1,1,1
+l10n_cl_partner_activity_178,l10n_cl_partner_activity_175,141003,FABRICACIÓN DE ACCESORIOS DE VESTIR ,yes,1,1,1
+l10n_cl_partner_activity_179,l10n_cl_partner_activity_175,141004,FABRICACIÓN DE ROPA DE TRABAJO ,yes,1,1,1
+l10n_cl_partner_activity_180,l10n_cl_partner_activity_120,,FABRICACIÓN DE ARTÍCULOS DE PIEL                  ,not,nd,1,1
+l10n_cl_partner_activity_181,l10n_cl_partner_activity_180,142000,FABRICACIÓN DE ARTÍCULOS DE PIEL ,yes,1,1,1
+l10n_cl_partner_activity_182,l10n_cl_partner_activity_120,,FABRICACIÓN DE ARTÍCULOS DE PUNTO Y GANCHILLO                ,not,nd,1,1
+l10n_cl_partner_activity_183,l10n_cl_partner_activity_182,143000,FABRICACIÓN DE ARTÍCULOS DE PUNTO Y GANCHILLO ,yes,1,1,1
+l10n_cl_partner_activity_184,l10n_cl_partner_activity_120,,CURTIDO Y ADOBO DE CUEROS; FABRICACIÓN PRODUCTOS DE CUERO; ADOBO Y TEÑIDO DE PIELES ,not,nd,1,1
+l10n_cl_partner_activity_185,l10n_cl_partner_activity_184,151100,CURTIDO Y ADOBO DE CUEROS; ADOBO Y TEÑIDO DE PIELES ,yes,1,1,1
+l10n_cl_partner_activity_186,l10n_cl_partner_activity_184,151200,"FABRICACIÓN DE MALETAS, BOLSOS Y ARTÍCULOS SIMILARES, ARTÍCULOS DE TALABARTERÍA Y GUARNICIONERÍA ",yes,1,1,1
+l10n_cl_partner_activity_187,l10n_cl_partner_activity_120,,FABRICACIÓN DE CALZADO                    ,not,nd,1,1
+l10n_cl_partner_activity_188,l10n_cl_partner_activity_187,152000,FABRICACIÓN DE CALZADO ,yes,1,1,1
+l10n_cl_partner_activity_189,l10n_cl_partner_activity_120,,ASERRADO Y ACEPILLADURA DE MADERA                  ,not,nd,1,1
+l10n_cl_partner_activity_190,l10n_cl_partner_activity_189,161000,ASERRADO Y ACEPILLADURA DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_191,l10n_cl_partner_activity_120,,"FABRICACIÓN DE PRODUCTOS DE MADERA, CORCHO, PAJA Y MATERIALES TRENZABLES             ",not,nd,1,1
+l10n_cl_partner_activity_192,l10n_cl_partner_activity_191,162100,FABRICACIÓN DE HOJAS DE MADERA PARA ENCHAPADO Y TABLEROS A BASE DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_193,l10n_cl_partner_activity_191,162200,FABRICACIÓN DE PARTES Y PIEZAS DE CARPINTERÍA PARA EDIFICIOS Y CONSTRUCCIONES ,yes,1,1,1
+l10n_cl_partner_activity_194,l10n_cl_partner_activity_191,162300,FABRICACIÓN DE RECIPIENTES DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_195,l10n_cl_partner_activity_191,162900,"FABRICACIÓN DE OTROS PRODUCTOS DE MADERA, DE ARTÍCULOS DE CORCHO, PAJA Y MATERIALES TRENZABLES ",yes,1,1,1
+l10n_cl_partner_activity_196,l10n_cl_partner_activity_120,,FABRICACIÓN DE PAPEL Y DE PRODUCTOS DE PAPEL               ,not,nd,1,1
+l10n_cl_partner_activity_197,l10n_cl_partner_activity_196,170110,FABRICACIÓN DE CELULOSA Y OTRAS PASTAS DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_198,l10n_cl_partner_activity_196,170190,FABRICACIÓN DE PAPEL Y CARTÓN PARA SU POSTERIOR USO INDUSTRIAL N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_199,l10n_cl_partner_activity_196,170200,FABRICACIÓN DE PAPEL Y CARTÓN ONDULADO Y DE ENVASES DE PAPEL Y CARTÓN ,yes,1,1,1
+l10n_cl_partner_activity_200,l10n_cl_partner_activity_196,170900,FABRICACIÓN DE OTROS ARTÍCULOS DE PAPEL Y CARTÓN ,yes,1,1,1
+l10n_cl_partner_activity_201,l10n_cl_partner_activity_120,,IMPRESIÓN Y ACTIVIDADES DE SERVICIOS RELACIONADAS CON LA IMPRESIÓN              ,not,nd,1,1
+l10n_cl_partner_activity_202,l10n_cl_partner_activity_201,181101,IMPRESIÓN DE LIBROS ,yes,1,1,1
+l10n_cl_partner_activity_203,l10n_cl_partner_activity_201,181109,OTRAS ACTIVIDADES DE IMPRESIÓN N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_204,l10n_cl_partner_activity_201,181200,ACTIVIDADES DE SERVICIOS RELACIONADAS CON LA IMPRESIÓN ,yes,1,1,1
+l10n_cl_partner_activity_205,l10n_cl_partner_activity_120,,REPRODUCCIÓN DE GRABACIONES                    ,not,nd,1,1
+l10n_cl_partner_activity_206,l10n_cl_partner_activity_205,182000,REPRODUCCIÓN DE GRABACIONES ,yes,1,1,1
+l10n_cl_partner_activity_207,l10n_cl_partner_activity_120,,FABRICACIÓN DE PRODUCTOS DE HORNOS DE COQUE                ,not,nd,1,1
+l10n_cl_partner_activity_208,l10n_cl_partner_activity_207,191000,FABRICACIÓN DE PRODUCTOS DE HORNOS DE COQUE ,yes,1,1,1
+l10n_cl_partner_activity_209,l10n_cl_partner_activity_120,,FABRICACIÓN DE PRODUCTOS DE LA REFINACIÓN DEL PETRÓLEO               ,not,nd,1,1
+l10n_cl_partner_activity_210,l10n_cl_partner_activity_209,192000,FABRICACIÓN DE PRODUCTOS DE LA REFINACIÓN DEL PETRÓLEO ,yes,1,1,1
+l10n_cl_partner_activity_211,l10n_cl_partner_activity_120,,"FABRICACIÓN SUSTANCIAS QUÍMICAS BÁSICAS, ABONOS Y COMPUESTOS DE NITRÓGENO, PLÁSTICOS Y CAUCHO SINT. ",not,nd,1,1
+l10n_cl_partner_activity_212,l10n_cl_partner_activity_211,201101,FABRICACIÓN DE CARBÓN VEGETAL (EXCEPTO ACTIVADO); FABRICACIÓN DE BRIQUETAS DE CARBÓN VEGETAL ,yes,1,1,1
+l10n_cl_partner_activity_213,l10n_cl_partner_activity_211,201109,FABRICACIÓN DE OTRAS SUSTANCIAS QUÍMICAS BÁSICAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_214,l10n_cl_partner_activity_211,201200,FABRICACIÓN DE ABONOS Y COMPUESTOS DE NITRÓGENO ,yes,1,1,1
+l10n_cl_partner_activity_215,l10n_cl_partner_activity_211,201300,FABRICACIÓN DE PLÁSTICOS Y CAUCHO SINTÉTICO EN FORMAS PRIMARIAS ,yes,1,1,1
+l10n_cl_partner_activity_216,l10n_cl_partner_activity_120,,FABRICACIÓN DE OTROS PRODUCTOS QUÍMICOS                  ,not,nd,1,1
+l10n_cl_partner_activity_217,l10n_cl_partner_activity_216,202100,FABRICACIÓN DE PLAGUICIDAS Y OTROS PRODUCTOS QUÍMICOS DE USO AGROPECUARIO ,yes,1,1,1
+l10n_cl_partner_activity_218,l10n_cl_partner_activity_216,202200,"FABRICACIÓN DE PINTURAS, BARNICES Y PRODUCTOS DE REVESTIMIENTO, TINTAS DE IMPRENTA Y MASILLAS ",yes,1,1,1
+l10n_cl_partner_activity_219,l10n_cl_partner_activity_216,202300,"FABRICACIÓN DE JABONES Y DETERGENTES, PREPARADOS PARA LIMPIAR, PERFUMES Y PREPARADOS DE TOCADOR ",yes,1,1,1
+l10n_cl_partner_activity_220,l10n_cl_partner_activity_216,202901,FABRICACIÓN DE EXPLOSIVOS Y PRODUCTOS PIROTÉCNICOS ,yes,1,1,1
+l10n_cl_partner_activity_221,l10n_cl_partner_activity_216,202909,FABRICACIÓN DE OTROS PRODUCTOS QUÍMICOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_222,l10n_cl_partner_activity_120,,FABRICACIÓN DE FIBRAS ARTIFICIALES                   ,not,nd,1,1
+l10n_cl_partner_activity_223,l10n_cl_partner_activity_222,203000,FABRICACIÓN DE FIBRAS ARTIFICIALES ,yes,1,1,1
+l10n_cl_partner_activity_224,l10n_cl_partner_activity_120,,"FABRICACIÓN DE PRODUCTOS FARMACÉUTICOS, SUSTANCIAS QUÍMICAS MEDICINALES Y PRODUCTOS BOTÁNICOS ",not,nd,1,1
+l10n_cl_partner_activity_225,l10n_cl_partner_activity_224,210000,"FABRICACIÓN DE PRODUCTOS FARMACÉUTICOS, SUSTANCIAS QUÍMICAS MEDICINALES Y PRODUCTOS BOTÁNICOS ",yes,1,1,1
+l10n_cl_partner_activity_226,l10n_cl_partner_activity_120,,FABRICACIÓN DE PRODUCTOS DE CAUCHO                  ,not,nd,1,1
+l10n_cl_partner_activity_227,l10n_cl_partner_activity_226,221100,FABRICACIÓN DE CUBIERTAS Y CÁMARAS DE CAUCHO; RECAUCHUTADO Y RENOVACIÓN DE CUBIERTAS DE CAUCHO ,yes,1,1,1
+l10n_cl_partner_activity_228,l10n_cl_partner_activity_226,221900,FABRICACIÓN DE OTROS PRODUCTOS DE CAUCHO ,yes,1,1,1
+l10n_cl_partner_activity_229,l10n_cl_partner_activity_120,,FABRICACIÓN DE PRODUCTOS DE PLÁSTICO                  ,not,nd,1,1
+l10n_cl_partner_activity_230,l10n_cl_partner_activity_229,222000,FABRICACIÓN DE PRODUCTOS DE PLÁSTICO ,yes,1,1,1
+l10n_cl_partner_activity_231,l10n_cl_partner_activity_120,,FABRICACIÓN DE VIDRIO Y PRODUCTOS DE VIDRIO                ,not,nd,1,1
+l10n_cl_partner_activity_232,l10n_cl_partner_activity_231,231001,FABRICACIÓN DE VIDRIO PLANO ,yes,1,1,1
+l10n_cl_partner_activity_233,l10n_cl_partner_activity_231,231002,FABRICACIÓN DE VIDRIO HUECO ,yes,1,1,1
+l10n_cl_partner_activity_234,l10n_cl_partner_activity_231,231003,FABRICACIÓN DE FIBRAS DE VIDRIO ,yes,1,1,1
+l10n_cl_partner_activity_235,l10n_cl_partner_activity_231,231009,FABRICACIÓN DE PRODUCTOS DE VIDRIO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_236,l10n_cl_partner_activity_120,,FABRICACIÓN DE PRODUCTOS MINERALES NO METÁLICOS N.C.P.                ,not,nd,1,1
+l10n_cl_partner_activity_237,l10n_cl_partner_activity_236,239100,FABRICACIÓN DE PRODUCTOS REFRACTARIOS ,yes,1,1,1
+l10n_cl_partner_activity_238,l10n_cl_partner_activity_236,239200,FABRICACIÓN DE MATERIALES DE CONSTRUCCIÓN DE ARCILLA ,yes,1,1,1
+l10n_cl_partner_activity_239,l10n_cl_partner_activity_236,239300,FABRICACIÓN DE OTROS PRODUCTOS DE PORCELANA Y DE CERÁMICA ,yes,1,1,1
+l10n_cl_partner_activity_240,l10n_cl_partner_activity_236,239400,"FABRICACIÓN DE CEMENTO, CAL Y YESO ",yes,1,1,1
+l10n_cl_partner_activity_241,l10n_cl_partner_activity_236,239500,"FABRICACIÓN DE ARTÍCULOS DE HORMIGÓN, CEMENTO Y YESO ",yes,1,1,1
+l10n_cl_partner_activity_242,l10n_cl_partner_activity_236,239600,"CORTE, TALLA Y ACABADO DE LA PIEDRA ",yes,1,1,1
+l10n_cl_partner_activity_243,l10n_cl_partner_activity_236,239900,FABRICACIÓN DE OTROS PRODUCTOS MINERALES NO METÁLICOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_244,l10n_cl_partner_activity_120,,INDUSTRIAS BÁSICAS DE HIERRO Y ACERO                 ,not,nd,1,1
+l10n_cl_partner_activity_245,l10n_cl_partner_activity_244,241000,INDUSTRIAS BÁSICAS DE HIERRO Y ACERO ,yes,1,1,1
+l10n_cl_partner_activity_246,l10n_cl_partner_activity_120,,FABRICACIÓN DE PRODUCTOS PRIMARIOS DE METALES PRECIOSOS Y OTROS METALES NO FERROSOS           ,not,nd,1,1
+l10n_cl_partner_activity_247,l10n_cl_partner_activity_246,242001,FABRICACIÓN DE PRODUCTOS PRIMARIOS DE COBRE ,yes,1,1,1
+l10n_cl_partner_activity_248,l10n_cl_partner_activity_246,242002,FABRICACIÓN DE PRODUCTOS PRIMARIOS DE ALUMINIO ,yes,1,1,1
+l10n_cl_partner_activity_249,l10n_cl_partner_activity_246,242009,FABRICACIÓN DE PRODUCTOS PRIMARIOS DE METALES PRECIOSOS Y DE OTROS METALES NO FERROSOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_250,l10n_cl_partner_activity_120,,FUNDICIÓN DE METALES                    ,not,nd,1,1
+l10n_cl_partner_activity_251,l10n_cl_partner_activity_250,243100,FUNDICIÓN DE HIERRO Y ACERO ,yes,1,1,1
+l10n_cl_partner_activity_252,l10n_cl_partner_activity_250,243200,FUNDICIÓN DE METALES NO FERROSOS ,yes,1,1,1
+l10n_cl_partner_activity_253,l10n_cl_partner_activity_120,,"FABRICACIÓN DE PRODUCTOS METÁLICOS PARA USO ESTRUCTURAL, TANQUES, DEPÓSITOS, RECIPIENTES DE METAL ",not,nd,1,1
+l10n_cl_partner_activity_254,l10n_cl_partner_activity_253,251100,FABRICACIÓN DE PRODUCTOS METÁLICOS PARA USO ESTRUCTURAL ,yes,1,1,1
+l10n_cl_partner_activity_255,l10n_cl_partner_activity_253,251201,FABRICACIÓN DE RECIPIENTES DE METAL PARA GASES COMPRIMIDOS O LICUADOS ,yes,1,1,1
+l10n_cl_partner_activity_256,l10n_cl_partner_activity_253,251209,"FABRICACIÓN DE TANQUES, DEPÓSITOS Y RECIPIENTES DE METAL N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_257,l10n_cl_partner_activity_253,251300,"FABRICACIÓN DE GENERADORES DE VAPOR, EXCEPTO CALDERAS DE AGUA CALIENTE PARA CALEFACCIÓN CENTRAL ",yes,1,1,1
+l10n_cl_partner_activity_258,l10n_cl_partner_activity_120,,FABRICACIÓN DE ARMAS Y MUNICIONES                  ,not,nd,1,1
+l10n_cl_partner_activity_259,l10n_cl_partner_activity_258,252000,FABRICACIÓN DE ARMAS Y MUNICIONES ,yes,1,1,1
+l10n_cl_partner_activity_260,l10n_cl_partner_activity_120,,FABRICACIÓN DE OTROS PRODUCTOS ELABORADOS DE METAL; ACTIVIDADES DE SERVICIOS DE TRABAJO DE METALES ,not,nd,1,1
+l10n_cl_partner_activity_261,l10n_cl_partner_activity_260,259100,"FORJA, PRENSADO, ESTAMPADO Y LAMINADO DE METALES; PULVIMETALURGIA ",yes,1,1,1
+l10n_cl_partner_activity_262,l10n_cl_partner_activity_260,259200,TRATAMIENTO Y REVESTIMIENTO DE METALES; MAQUINADO ,yes,1,1,1
+l10n_cl_partner_activity_263,l10n_cl_partner_activity_260,259300,"FABRICACIÓN DE ARTÍCULOS DE CUCHILLERÍA, HERRAMIENTAS DE MANO Y ARTÍCULOS DE FERRETERÍA ",yes,1,1,1
+l10n_cl_partner_activity_264,l10n_cl_partner_activity_260,259900,FABRICACIÓN DE OTROS PRODUCTOS ELABORADOS DE METAL N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_265,l10n_cl_partner_activity_120,,FABRICACIÓN DE COMPONENTES Y TABLEROS ELECTRÓNICOS                 ,not,nd,1,1
+l10n_cl_partner_activity_266,l10n_cl_partner_activity_265,261000,FABRICACIÓN DE COMPONENTES Y TABLEROS ELECTRÓNICOS ,yes,1,1,1
+l10n_cl_partner_activity_267,l10n_cl_partner_activity_120,,FABRICACIÓN DE COMPUTADORES Y EQUIPO PERIFÉRICO                 ,not,nd,1,1
+l10n_cl_partner_activity_268,l10n_cl_partner_activity_267,262000,FABRICACIÓN DE COMPUTADORES Y EQUIPO PERIFÉRICO ,yes,1,1,1
+l10n_cl_partner_activity_269,l10n_cl_partner_activity_120,,FABRICACIÓN DE EQUIPO DE COMUNICACIONES                  ,not,nd,1,1
+l10n_cl_partner_activity_270,l10n_cl_partner_activity_269,263000,FABRICACIÓN DE EQUIPO DE COMUNICACIONES ,yes,1,1,1
+l10n_cl_partner_activity_271,l10n_cl_partner_activity_120,,FABRICACIÓN DE APARATOS ELECTRÓNICOS DE CONSUMO                 ,not,nd,1,1
+l10n_cl_partner_activity_272,l10n_cl_partner_activity_271,264000,FABRICACIÓN DE APARATOS ELECTRÓNICOS DE CONSUMO ,yes,1,1,1
+l10n_cl_partner_activity_273,l10n_cl_partner_activity_120,,"FABRICACIÓN DE EQUIPO DE MEDICIÓN, PRUEBA, NAVEGACIÓN Y CONTROL Y DE RELOJES           ",not,nd,1,1
+l10n_cl_partner_activity_274,l10n_cl_partner_activity_273,265100,"FABRICACIÓN DE EQUIPO DE MEDICIÓN, PRUEBA, NAVEGACIÓN Y CONTROL ",yes,1,1,1
+l10n_cl_partner_activity_275,l10n_cl_partner_activity_273,265200,FABRICACIÓN DE RELOJES ,yes,1,1,1
+l10n_cl_partner_activity_276,l10n_cl_partner_activity_120,,FABRICACIÓN DE EQUIPO DE IRRADIACIÓN Y EQUIPO ELECTRÓNICO DE USO MÉDICO Y TERAPÉUTICO          ,not,nd,1,1
+l10n_cl_partner_activity_277,l10n_cl_partner_activity_276,266000,FABRICACIÓN DE EQUIPO DE IRRADIACIÓN Y EQUIPO ELECTRÓNICO DE USO MÉDICO Y TERAPÉUTICO ,yes,1,1,1
+l10n_cl_partner_activity_278,l10n_cl_partner_activity_120,,FABRICACIÓN DE INSTRUMENTOS ÓPTICOS Y EQUIPO FOTOGRÁFICO                ,not,nd,1,1
+l10n_cl_partner_activity_279,l10n_cl_partner_activity_278,267000,FABRICACIÓN DE INSTRUMENTOS ÓPTICOS Y EQUIPO FOTOGRÁFICO ,yes,1,1,1
+l10n_cl_partner_activity_280,l10n_cl_partner_activity_120,,FABRICACIÓN DE SOPORTES MAGNÉTICOS Y ÓPTICOS                 ,not,nd,1,1
+l10n_cl_partner_activity_281,l10n_cl_partner_activity_280,268000,FABRICACIÓN DE SOPORTES MAGNÉTICOS Y ÓPTICOS ,yes,1,1,1
+l10n_cl_partner_activity_282,l10n_cl_partner_activity_120,,"FABRICACIÓN DE MOTORES, GENERADORES Y TRANSFORMADORES ELÉCTRICOS, APARATOS DE DISTRIBUCIÓN Y CONTROL ",not,nd,1,1
+l10n_cl_partner_activity_283,l10n_cl_partner_activity_282,271000,"FABRICACIÓN DE MOTORES, GENERADORES Y TRANSFORMADORES ELÉCTRICOS, APARATOS DE DISTRIBUCIÓN Y CONTROL ",yes,1,1,1
+l10n_cl_partner_activity_284,l10n_cl_partner_activity_120,,"FABRICACIÓN DE PILAS, BATERÍAS Y ACUMULADORES                 ",not,nd,1,1
+l10n_cl_partner_activity_285,l10n_cl_partner_activity_284,272000,"FABRICACIÓN DE PILAS, BATERÍAS Y ACUMULADORES ",yes,1,1,1
+l10n_cl_partner_activity_286,l10n_cl_partner_activity_120,,FABRICACIÓN DE CABLES Y DISPOSITIVOS DE CABLEADO                ,not,nd,1,1
+l10n_cl_partner_activity_287,l10n_cl_partner_activity_286,273100,FABRICACIÓN DE CABLES DE FIBRA ÓPTICA ,yes,1,1,1
+l10n_cl_partner_activity_288,l10n_cl_partner_activity_286,273200,FABRICACIÓN DE OTROS HILOS Y CABLES ELÉCTRICOS ,yes,1,1,1
+l10n_cl_partner_activity_289,l10n_cl_partner_activity_286,273300,FABRICACIÓN DE DISPOSITIVOS DE CABLEADO ,yes,1,1,1
+l10n_cl_partner_activity_290,l10n_cl_partner_activity_120,,FABRICACIÓN DE EQUIPO ELÉCTRICO DE ILUMINACIÓN                 ,not,nd,1,1
+l10n_cl_partner_activity_291,l10n_cl_partner_activity_290,274000,FABRICACIÓN DE EQUIPO ELÉCTRICO DE ILUMINACIÓN ,yes,1,1,1
+l10n_cl_partner_activity_292,l10n_cl_partner_activity_120,,FABRICACIÓN DE APARATOS DE USO DOMÉSTICO                 ,not,nd,1,1
+l10n_cl_partner_activity_293,l10n_cl_partner_activity_292,275000,FABRICACIÓN DE APARATOS DE USO DOMÉSTICO ,yes,1,1,1
+l10n_cl_partner_activity_294,l10n_cl_partner_activity_120,,FABRICACIÓN DE OTROS TIPOS DE EQUIPO ELÉCTRICO                ,not,nd,1,1
+l10n_cl_partner_activity_295,l10n_cl_partner_activity_294,279000,FABRICACIÓN DE OTROS TIPOS DE EQUIPO ELÉCTRICO ,yes,1,1,1
+l10n_cl_partner_activity_296,l10n_cl_partner_activity_120,,FABRICACIÓN DE MAQUINARIA DE USO GENERAL                 ,not,nd,1,1
+l10n_cl_partner_activity_297,l10n_cl_partner_activity_296,281100,"FABRICACIÓN DE MOTORES Y TURBINAS, EXCEPTO PARA AERONAVES, VEHÍCULOS AUTOMOTORES Y MOTOCICLETAS ",yes,1,1,1
+l10n_cl_partner_activity_298,l10n_cl_partner_activity_296,281200,FABRICACIÓN DE EQUIPO DE PROPULSIÓN DE FLUIDOS ,yes,1,1,1
+l10n_cl_partner_activity_299,l10n_cl_partner_activity_296,281300,"FABRICACIÓN DE OTRAS BOMBAS, COMPRESORES, GRIFOS Y VÁLVULAS ",yes,1,1,1
+l10n_cl_partner_activity_300,l10n_cl_partner_activity_296,281400,"FABRICACIÓN DE COJINETES, ENGRANAJES, TRENES DE ENGRANAJES Y PIEZAS DE TRANSMISIÓN ",yes,1,1,1
+l10n_cl_partner_activity_301,l10n_cl_partner_activity_296,281500,"FABRICACIÓN DE HORNOS, CALDERAS Y QUEMADORES ",yes,1,1,1
+l10n_cl_partner_activity_302,l10n_cl_partner_activity_296,281600,FABRICACIÓN DE EQUIPO DE ELEVACIÓN Y MANIPULACIÓN ,yes,1,1,1
+l10n_cl_partner_activity_303,l10n_cl_partner_activity_296,281700,FABRICACIÓN DE MAQUINARIA Y EQUIPO DE OFICINA (EXCEPTO COMPUTADORES Y EQUIPO PERIFÉRICO) ,yes,1,1,1
+l10n_cl_partner_activity_304,l10n_cl_partner_activity_296,281800,FABRICACIÓN DE HERRAMIENTAS DE MANO MOTORIZADAS ,yes,1,1,1
+l10n_cl_partner_activity_305,l10n_cl_partner_activity_296,281900,FABRICACIÓN DE OTROS TIPOS DE MAQUINARIA DE USO GENERAL ,yes,1,1,1
+l10n_cl_partner_activity_306,l10n_cl_partner_activity_120,,FABRICACIÓN DE MAQUINARIA DE USO ESPECIAL                 ,not,nd,1,1
+l10n_cl_partner_activity_307,l10n_cl_partner_activity_306,282100,FABRICACIÓN DE MAQUINARIA AGROPECUARIA Y FORESTAL ,yes,1,1,1
+l10n_cl_partner_activity_308,l10n_cl_partner_activity_306,282200,FABRICACIÓN DE MAQUINARIA PARA LA CONFORMACIÓN DE METALES Y DE MÁQUINAS HERRAMIENTA ,yes,1,1,1
+l10n_cl_partner_activity_309,l10n_cl_partner_activity_306,282300,FABRICACIÓN DE MAQUINARIA METALÚRGICA ,yes,1,1,1
+l10n_cl_partner_activity_310,l10n_cl_partner_activity_306,282400,FABRICACIÓN DE MAQUINARIA PARA LA EXPLOTACIÓN DE MINAS Y CANTERAS Y PARA OBRAS DE CONSTRUCCIÓN ,yes,1,1,1
+l10n_cl_partner_activity_311,l10n_cl_partner_activity_306,282500,"FABRICACIÓN DE MAQUINARIA PARA LA ELABORACIÓN DE ALIMENTOS, BEBIDAS Y TABACO ",yes,1,1,1
+l10n_cl_partner_activity_312,l10n_cl_partner_activity_306,282600,"FABRICACIÓN DE MAQUINARIA PARA LA ELABORACIÓN DE PRODUCTOS TEXTILES, PRENDAS DE VESTIR Y CUEROS ",yes,1,1,1
+l10n_cl_partner_activity_313,l10n_cl_partner_activity_306,282900,FABRICACIÓN DE OTROS TIPOS DE MAQUINARIA DE USO ESPECIAL ,yes,1,1,1
+l10n_cl_partner_activity_314,l10n_cl_partner_activity_120,,FABRICACIÓN DE VEHÍCULOS AUTOMOTORES                   ,not,nd,1,1
+l10n_cl_partner_activity_315,l10n_cl_partner_activity_314,291000,FABRICACIÓN DE VEHÍCULOS AUTOMOTORES ,yes,1,1,1
+l10n_cl_partner_activity_316,l10n_cl_partner_activity_120,,FABRICACIÓN DE CARROCERÍAS PARA VEHÍCULOS AUTOMOTORES; FABRICACIÓN DE REMOLQUES Y SEMIRREMOLQUES ,not,nd,1,1
+l10n_cl_partner_activity_317,l10n_cl_partner_activity_316,292000,FABRICACIÓN DE CARROCERÍAS PARA VEHÍCULOS AUTOMOTORES; FABRICACIÓN DE REMOLQUES Y SEMIRREMOLQUES ,yes,1,1,1
+l10n_cl_partner_activity_318,l10n_cl_partner_activity_120,,"FABRICACIÓN DE PARTES, PIEZAS Y ACCESORIOS PARA VEHÍCULOS AUTOMOTORES              ",not,nd,1,1
+l10n_cl_partner_activity_319,l10n_cl_partner_activity_318,293000,"FABRICACIÓN DE PARTES, PIEZAS Y ACCESORIOS PARA VEHÍCULOS AUTOMOTORES ",yes,1,1,1
+l10n_cl_partner_activity_320,l10n_cl_partner_activity_120,,CONSTRUCCIÓN DE BUQUES Y OTRAS EMBARCACIONES                 ,not,nd,1,1
+l10n_cl_partner_activity_321,l10n_cl_partner_activity_320,301100,"CONSTRUCCIÓN DE BUQUES, EMBARCACIONES MENORES Y ESTRUCTURAS FLOTANTES ",yes,1,1,1
+l10n_cl_partner_activity_322,l10n_cl_partner_activity_320,301200,CONSTRUCCIÓN DE EMBARCACIONES DE RECREO Y DE DEPORTE ,yes,1,1,1
+l10n_cl_partner_activity_323,l10n_cl_partner_activity_120,,FABRICACIÓN DE LOCOMOTORAS Y MATERIAL RODANTE                 ,not,nd,1,1
+l10n_cl_partner_activity_324,l10n_cl_partner_activity_323,302000,FABRICACIÓN DE LOCOMOTORAS Y MATERIAL RODANTE ,yes,1,1,1
+l10n_cl_partner_activity_325,l10n_cl_partner_activity_120,,"FABRICACIÓN DE AERONAVES, NAVES ESPACIALES Y MAQUINARIA CONEXA               ",not,nd,1,1
+l10n_cl_partner_activity_326,l10n_cl_partner_activity_325,303000,"FABRICACIÓN DE AERONAVES, NAVES ESPACIALES Y MAQUINARIA CONEXA ",yes,1,1,1
+l10n_cl_partner_activity_327,l10n_cl_partner_activity_120,,FABRICACIÓN DE VEHÍCULOS MILITARES DE COMBATE                 ,not,nd,1,1
+l10n_cl_partner_activity_328,l10n_cl_partner_activity_327,304000,FABRICACIÓN DE VEHÍCULOS MILITARES DE COMBATE ,yes,1,1,1
+l10n_cl_partner_activity_329,l10n_cl_partner_activity_120,,FABRICACIÓN DE EQUIPO DE TRANSPORTE N.C.P.                 ,not,nd,1,1
+l10n_cl_partner_activity_330,l10n_cl_partner_activity_329,309100,FABRICACIÓN DE MOTOCICLETAS ,yes,1,1,1
+l10n_cl_partner_activity_331,l10n_cl_partner_activity_329,309200,FABRICACIÓN DE BICICLETAS Y DE SILLAS DE RUEDAS ,yes,1,1,1
+l10n_cl_partner_activity_332,l10n_cl_partner_activity_329,309900,FABRICACIÓN DE OTROS TIPOS DE EQUIPO DE TRANSPORTE N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_333,l10n_cl_partner_activity_120,,FABRICACIÓN DE MUEBLES                    ,not,nd,1,1
+l10n_cl_partner_activity_334,l10n_cl_partner_activity_333,310001,FABRICACIÓN DE MUEBLES PRINCIPALMENTE DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_335,l10n_cl_partner_activity_333,310009,FABRICACIÓN DE COLCHONES; FABRICACIÓN DE OTROS MUEBLES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_336,l10n_cl_partner_activity_120,,"FABRICACIÓN DE JOYAS, BISUTERÍA Y ARTÍCULOS CONEXOS                ",not,nd,1,1
+l10n_cl_partner_activity_337,l10n_cl_partner_activity_336,321100,FABRICACIÓN DE JOYAS Y ARTÍCULOS CONEXOS ,yes,1,1,1
+l10n_cl_partner_activity_338,l10n_cl_partner_activity_336,321200,FABRICACIÓN DE BISUTERÍA Y ARTÍCULOS CONEXOS ,yes,1,1,1
+l10n_cl_partner_activity_339,l10n_cl_partner_activity_120,,FABRICACIÓN DE INSTRUMENTOS MUSICALES                   ,not,nd,1,1
+l10n_cl_partner_activity_340,l10n_cl_partner_activity_339,322000,FABRICACIÓN DE INSTRUMENTOS MUSICALES ,yes,1,1,1
+l10n_cl_partner_activity_341,l10n_cl_partner_activity_120,,FABRICACIÓN DE ARTÍCULOS DE DEPORTE                  ,not,nd,1,1
+l10n_cl_partner_activity_342,l10n_cl_partner_activity_341,323000,FABRICACIÓN DE ARTÍCULOS DE DEPORTE ,yes,1,1,1
+l10n_cl_partner_activity_343,l10n_cl_partner_activity_120,,FABRICACIÓN DE JUEGOS Y JUGUETES                  ,not,nd,1,1
+l10n_cl_partner_activity_344,l10n_cl_partner_activity_343,324000,FABRICACIÓN DE JUEGOS Y JUGUETES ,yes,1,1,1
+l10n_cl_partner_activity_345,l10n_cl_partner_activity_120,,FABRICACIÓN DE INSTRUMENTOS Y MATERIALES MÉDICOS Y ODONTOLÓGICOS               ,not,nd,1,1
+l10n_cl_partner_activity_346,l10n_cl_partner_activity_345,325001,ACTIVIDADES DE LABORATORIOS DENTALES ,yes,1,1,1
+l10n_cl_partner_activity_347,l10n_cl_partner_activity_345,325009,"FABRICACIÓN DE INSTRUMENTOS Y MATERIALES MÉDICOS, OFTALMOLÓGICOS Y ODONTOLÓGICOS N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_348,l10n_cl_partner_activity_120,,OTRAS INDUSTRIAS MANUFACTURERAS N.C.P.                   ,not,nd,1,1
+l10n_cl_partner_activity_349,l10n_cl_partner_activity_348,329000,OTRAS INDUSTRIAS MANUFACTURERAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_350,l10n_cl_partner_activity_120,,"REPARACIÓN DE PRODUCTOS ELABORADOS DE METAL, MAQUINARIA Y EQUIPO              ",not,nd,1,1
+l10n_cl_partner_activity_351,l10n_cl_partner_activity_350,331100,REPARACIÓN DE PRODUCTOS ELABORADOS DE METAL ,yes,1,1,1
+l10n_cl_partner_activity_352,l10n_cl_partner_activity_350,331201,REPARACIÓN DE MAQUINARIA AGROPECUARIA Y FORESTAL ,yes,1,1,1
+l10n_cl_partner_activity_353,l10n_cl_partner_activity_350,331202,"REPARACIÓN DE MAQUINARIA METALÚRGICA, PARA LA MINERÍA, EXTRACCIÓN DE PETRÓLEO Y PARA LA CONSTRUCCIÓN ",yes,1,1,1
+l10n_cl_partner_activity_354,l10n_cl_partner_activity_350,331203,"REPARACIÓN DE MAQUINARIA PARA LA ELABORACIÓN DE ALIMENTOS, BEBIDAS Y TABACO ",yes,1,1,1
+l10n_cl_partner_activity_355,l10n_cl_partner_activity_350,331204,"REPARACIÓN DE MAQUINARIA PARA PRODUCIR TEXTILES, PRENDAS DE VESTIR, ARTÍCULOS DE CUERO Y CALZADO   ",yes,1,1,1
+l10n_cl_partner_activity_356,l10n_cl_partner_activity_350,331209,REPARACIÓN DE OTRO TIPO DE MAQUINARIA Y EQUIPOS INDUSTRIALES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_357,l10n_cl_partner_activity_350,331301,"REPARACIÓN DE EQUIPO DE MEDICIÓN, PRUEBA, NAVEGACIÓN Y CONTROL ",yes,1,1,1
+l10n_cl_partner_activity_358,l10n_cl_partner_activity_350,331309,REPARACIÓN DE OTROS EQUIPOS ELECTRÓNICOS Y ÓPTICOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_359,l10n_cl_partner_activity_350,331400,REPARACIÓN DE EQUIPO ELÉCTRICO (EXCEPTO REPARACIÓN DE EQUIPO Y ENSERES DOMÉSTICOS) ,yes,1,1,1
+l10n_cl_partner_activity_360,l10n_cl_partner_activity_350,331501,"REPARACIÓN DE BUQUES, EMBARCACIONES MENORES Y ESTRUCTURAS FLOTANTES ",yes,1,1,1
+l10n_cl_partner_activity_361,l10n_cl_partner_activity_350,331502,REPARACIÓN DE AERONAVES Y NAVES ESPACIALES ,yes,1,1,1
+l10n_cl_partner_activity_362,l10n_cl_partner_activity_350,331509,"REPARACIÓN DE OTROS EQUIPOS DE TRANSPORTE N.C.P., EXCEPTO VEHÍCULOS AUTOMOTORES ",yes,1,1,1
+l10n_cl_partner_activity_363,l10n_cl_partner_activity_350,331900,REPARACIÓN DE OTROS TIPOS DE EQUIPO ,yes,1,1,1
+l10n_cl_partner_activity_364,l10n_cl_partner_activity_120,,INSTALACIÓN DE MAQUINARIA Y EQUIPOS INDUSTRIALES                 ,not,nd,1,1
+l10n_cl_partner_activity_365,l10n_cl_partner_activity_364,332000,INSTALACIÓN DE MAQUINARIA Y EQUIPOS INDUSTRIALES ,yes,1,1,1
+l10n_cl_partner_activity_366,l10n_cl_partner_activity_364,,"SUMINISTRO DE ELECTRICIDAD, GAS, VAPOR Y AIRE ACONDICIONADO",not,nd,1,1
+l10n_cl_partner_activity_367,l10n_cl_partner_activity_366,,"GENERACIÓN, TRANSMISIÓN Y DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA                ",not,nd,1,1
+l10n_cl_partner_activity_368,l10n_cl_partner_activity_367,351011,GENERACIÓN DE ENERGÍA ELÉCTRICA EN CENTRALES HIDROELÉCTRICAS ,yes,1,1,1
+l10n_cl_partner_activity_369,l10n_cl_partner_activity_367,351012,GENERACIÓN DE ENERGÍA ELÉCTRICA EN CENTRALES TERMOELÉCTRICAS ,yes,1,1,1
+l10n_cl_partner_activity_370,l10n_cl_partner_activity_367,351019,GENERACIÓN DE ENERGÍA ELÉCTRICA EN OTRAS CENTRALES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_371,l10n_cl_partner_activity_367,351020,TRANSMISIÓN DE ENERGÍA ELÉCTRICA ,yes,1,1,1
+l10n_cl_partner_activity_372,l10n_cl_partner_activity_367,351030,DISTRIBUCIÓN DE ENERGÍA ELÉCTRICA ,yes,1,1,1
+l10n_cl_partner_activity_373,l10n_cl_partner_activity_366,,FABRICACIÓN DE GAS; DISTRIBUCIÓN DE COMBUSTIBLES GASEOSOS POR TUBERÍAS              ,not,nd,1,1
+l10n_cl_partner_activity_374,l10n_cl_partner_activity_373,352010,REGASIFICACIÓN DE GAS NATURAL LICUADO (GNL) ,yes,1,1,1
+l10n_cl_partner_activity_375,l10n_cl_partner_activity_373,352020,"FABRICACIÓN DE GAS; DISTRIBUCIÓN DE COMBUSTIBLES GASEOSOS POR TUBERÍA, EXCEPTO REGASIFICACIÓN DE GNL ",yes,1,1,1
+l10n_cl_partner_activity_376,l10n_cl_partner_activity_366,,SUMINISTRO DE VAPOR Y DE AIRE ACONDICIONADO                ,not,nd,1,1
+l10n_cl_partner_activity_377,l10n_cl_partner_activity_376,353001,SUMINISTRO DE VAPOR Y DE AIRE ACONDICIONADO ,yes,1,1,1
+l10n_cl_partner_activity_378,l10n_cl_partner_activity_376,353002,ELABORACIÓN DE HIELO (EXCEPTO FABRICACIÓN DE HIELO SECO) ,yes,1,1,1
+l10n_cl_partner_activity_379,l10n_cl_partner_activity_376,,"SUMINISTRO DE AGUA; EVACUACIÓN DE AGUAS RESIDUALES, GESTIÓN DE DESECHOS Y DESCONTAMINACIÓN",not,nd,1,1
+l10n_cl_partner_activity_380,l10n_cl_partner_activity_379,,"CAPTACIÓN, TRATAMIENTO Y DISTRIBUCIÓN DE AGUA                 ",not,nd,1,1
+l10n_cl_partner_activity_381,l10n_cl_partner_activity_380,360000,"CAPTACIÓN, TRATAMIENTO Y DISTRIBUCIÓN DE AGUA ",nd,1,1,1
+l10n_cl_partner_activity_382,l10n_cl_partner_activity_379,,EVACUACIÓN DE AGUAS RESIDUALES                   ,not,nd,1,1
+l10n_cl_partner_activity_383,l10n_cl_partner_activity_382,370000,EVACUACIÓN Y TRATAMIENTO DE AGUAS SERVIDAS ,yes,1,1,1
+l10n_cl_partner_activity_384,l10n_cl_partner_activity_379,,RECOGIDA DE DESECHOS                    ,not,nd,1,1
+l10n_cl_partner_activity_385,l10n_cl_partner_activity_384,381100,RECOGIDA DE DESECHOS NO PELIGROSOS ,yes,1,1,1
+l10n_cl_partner_activity_386,l10n_cl_partner_activity_384,381200,RECOGIDA DE DESECHOS PELIGROSOS ,yes,1,1,1
+l10n_cl_partner_activity_387,l10n_cl_partner_activity_379,,TRATAMIENTO Y ELIMINACIÓN DE DESECHOS                  ,not,nd,1,1
+l10n_cl_partner_activity_388,l10n_cl_partner_activity_387,382100,TRATAMIENTO Y ELIMINACIÓN DE DESECHOS NO PELIGROSOS ,yes,1,1,1
+l10n_cl_partner_activity_389,l10n_cl_partner_activity_387,382200,TRATAMIENTO Y ELIMINACIÓN DE DESECHOS PELIGROSOS ,yes,1,1,1
+l10n_cl_partner_activity_390,l10n_cl_partner_activity_379,,RECUPERACIÓN DE MATERIALES                    ,not,nd,1,1
+l10n_cl_partner_activity_391,l10n_cl_partner_activity_390,383001,RECUPERACIÓN Y RECICLAMIENTO DE DESPERDICIOS Y DESECHOS METÁLICOS ,yes,1,1,1
+l10n_cl_partner_activity_392,l10n_cl_partner_activity_390,383002,RECUPERACIÓN Y RECICLAMIENTO DE PAPEL ,yes,1,1,1
+l10n_cl_partner_activity_393,l10n_cl_partner_activity_390,383003,RECUPERACIÓN Y RECICLAMIENTO DE VIDRIO ,yes,1,1,1
+l10n_cl_partner_activity_394,l10n_cl_partner_activity_390,383009,RECUPERACIÓN Y RECICLAMIENTO DE OTROS DESPERDICIOS Y DESECHOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_395,l10n_cl_partner_activity_379,,ACTIVIDADES DE DESCONTAMINACIÓN Y OTROS SERVICIOS DE GESTIÓN DE DESECHOS             ,not,nd,1,1
+l10n_cl_partner_activity_396,l10n_cl_partner_activity_395,390000,ACTIVIDADES DE DESCONTAMINACIÓN Y OTROS SERVICIOS DE GESTIÓN DE DESECHOS ,yes,1,1,1
+l10n_cl_partner_activity_397,,,CONSTRUCCIÓN,not,nd,1,1
+l10n_cl_partner_activity_398,l10n_cl_partner_activity_397,,CONSTRUCCIÓN DE EDIFICIOS                    ,not,nd,1,1
+l10n_cl_partner_activity_399,l10n_cl_partner_activity_398,410010,CONSTRUCCIÓN DE EDIFICIOS PARA USO RESIDENCIAL ,yes,1,1,1
+l10n_cl_partner_activity_400,l10n_cl_partner_activity_398,410020,CONSTRUCCIÓN DE EDIFICIOS PARA USO NO RESIDENCIAL ,yes,1,1,1
+l10n_cl_partner_activity_401,l10n_cl_partner_activity_397,,CONSTRUCCIÓN DE CARRETERAS Y LÍNEAS DE FERROCARRIL                ,not,nd,1,1
+l10n_cl_partner_activity_402,l10n_cl_partner_activity_401,421000,CONSTRUCCIÓN DE CARRETERAS Y LÍNEAS DE FERROCARRIL ,yes,1,1,1
+l10n_cl_partner_activity_403,l10n_cl_partner_activity_397,,CONSTRUCCIÓN DE PROYECTOS DE SERVICIO PÚBLICO                 ,not,nd,1,1
+l10n_cl_partner_activity_404,l10n_cl_partner_activity_403,422000,CONSTRUCCIÓN DE PROYECTOS DE SERVICIO PÚBLICO ,yes,1,1,1
+l10n_cl_partner_activity_405,l10n_cl_partner_activity_397,,CONSTRUCCIÓN DE OTRAS OBRAS DE INGENIERÍA CIVIL                ,not,nd,1,1
+l10n_cl_partner_activity_406,l10n_cl_partner_activity_405,429000,CONSTRUCCIÓN DE OTRAS OBRAS DE INGENIERÍA CIVIL ,yes,1,1,1
+l10n_cl_partner_activity_407,l10n_cl_partner_activity_397,,DEMOLICIÓN Y PREPARACIÓN DEL TERRENO                  ,not,nd,1,1
+l10n_cl_partner_activity_408,l10n_cl_partner_activity_407,431100,DEMOLICIÓN ,yes,1,1,1
+l10n_cl_partner_activity_409,l10n_cl_partner_activity_407,431200,PREPARACIÓN DEL TERRENO ,yes,1,1,1
+l10n_cl_partner_activity_410,l10n_cl_partner_activity_397,,"INSTALACIONES ELÉCTRICAS, DE GASFITERÍA Y OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCIÓN  ",not,nd,1,1
+l10n_cl_partner_activity_411,l10n_cl_partner_activity_410,432100,INSTALACIONES ELÉCTRICAS ,yes,1,1,1
+l10n_cl_partner_activity_412,l10n_cl_partner_activity_410,432200,"INSTALACIONES DE GASFITERÍA, CALEFACCIÓN Y AIRE ACONDICIONADO ",yes,1,1,1
+l10n_cl_partner_activity_413,l10n_cl_partner_activity_410,432900,OTRAS INSTALACIONES PARA OBRAS DE CONSTRUCCIÓN ,yes,1,1,1
+l10n_cl_partner_activity_414,l10n_cl_partner_activity_397,,TERMINACIÓN Y ACABADO DE EDIFICIOS                  ,not,nd,1,1
+l10n_cl_partner_activity_415,l10n_cl_partner_activity_414,433000,TERMINACIÓN Y ACABADO DE EDIFICIOS ,yes,1,1,1
+l10n_cl_partner_activity_416,l10n_cl_partner_activity_397,,OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCIÓN                  ,not,nd,1,1
+l10n_cl_partner_activity_417,l10n_cl_partner_activity_416,439000,OTRAS ACTIVIDADES ESPECIALIZADAS DE CONSTRUCCIÓN ,yes,1,1,1
+l10n_cl_partner_activity_418,,,COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHICULOS AUTOMOTORES Y MOTOCICLETAS,not,nd,1,1
+l10n_cl_partner_activity_419,l10n_cl_partner_activity_418,,VENTA DE VEHÍCULOS AUTOMOTORES                   ,not,nd,1,1
+l10n_cl_partner_activity_420,l10n_cl_partner_activity_419,451001,VENTA AL POR MAYOR DE VEHÍCULOS AUTOMOTORES ,yes,1,1,1
+l10n_cl_partner_activity_421,l10n_cl_partner_activity_419,451002,VENTA AL POR MENOR DE VEHÍCULOS AUTOMOTORES NUEVOS O USADOS (INCLUYE COMPRAVENTA) ,yes,1,1,1
+l10n_cl_partner_activity_422,l10n_cl_partner_activity_418,,MANTENIMIENTO Y REPARACIÓN DE VEHÍCULOS AUTOMOTORES                 ,not,nd,1,1
+l10n_cl_partner_activity_423,l10n_cl_partner_activity_422,452001,SERVICIO DE LAVADO DE VEHÍCULOS AUTOMOTORES ,nd,1,1,1
+l10n_cl_partner_activity_424,l10n_cl_partner_activity_422,452002,MANTENIMIENTO Y REPARACIÓN DE VEHÍCULOS AUTOMOTORES ,nd,1,1,1
+l10n_cl_partner_activity_425,l10n_cl_partner_activity_418,,"VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHÍCULOS AUTOMOTORES              ",not,nd,1,1
+l10n_cl_partner_activity_426,l10n_cl_partner_activity_425,453000,"VENTA DE PARTES, PIEZAS Y ACCESORIOS PARA VEHÍCULOS AUTOMOTORES ",yes,1,1,1
+l10n_cl_partner_activity_427,l10n_cl_partner_activity_418,,"VENTA, MANTENIMIENTO Y REPARACIÓN DE MOTOCICLETAS Y SUS PARTES, PIEZAS Y ACCESORIOS           ",not,nd,1,1
+l10n_cl_partner_activity_428,l10n_cl_partner_activity_427,454001,VENTA DE MOTOCICLETAS ,yes,1,1,1
+l10n_cl_partner_activity_429,l10n_cl_partner_activity_427,454002,"VENTA DE PARTES, PIEZAS Y ACCESORIOS DE MOTOCICLETAS ",yes,1,1,1
+l10n_cl_partner_activity_430,l10n_cl_partner_activity_427,454003,MANTENIMIENTO Y REPARACIÓN DE MOTOCICLETAS ,nd,1,1,1
+l10n_cl_partner_activity_431,l10n_cl_partner_activity_418,,VENTA AL POR MAYOR A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATA           ,not,nd,1,1
+l10n_cl_partner_activity_432,l10n_cl_partner_activity_431,461001,CORRETAJE AL POR MAYOR DE PRODUCTOS AGRÍCOLAS ,yes,1,1,1
+l10n_cl_partner_activity_433,l10n_cl_partner_activity_431,461002,CORRETAJE AL POR MAYOR DE GANADO ,yes,1,1,1
+l10n_cl_partner_activity_434,l10n_cl_partner_activity_431,461009,OTROS TIPOS DE CORRETAJES O REMATES AL POR MAYOR N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_435,l10n_cl_partner_activity_418,,VENTA AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS Y ANIMALES VIVOS            ,not,nd,1,1
+l10n_cl_partner_activity_436,l10n_cl_partner_activity_435,462010,VENTA AL POR MAYOR DE MATERIAS PRIMAS AGRÍCOLAS ,yes,1,1,1
+l10n_cl_partner_activity_437,l10n_cl_partner_activity_435,462020,VENTA AL POR MAYOR DE ANIMALES VIVOS ,yes,1,1,1
+l10n_cl_partner_activity_438,l10n_cl_partner_activity_435,462090,VENTA AL POR MAYOR DE OTRAS MATERIAS PRIMAS AGROPECUARIAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_439,l10n_cl_partner_activity_418,,"VENTA AL POR MAYOR DE ALIMENTOS, BEBIDAS Y TABACO              ",not,nd,1,1
+l10n_cl_partner_activity_440,l10n_cl_partner_activity_439,463011,VENTA AL POR MAYOR DE FRUTAS Y VERDURAS ,yes,1,1,1
+l10n_cl_partner_activity_441,l10n_cl_partner_activity_439,463012,VENTA AL POR MAYOR DE CARNE Y PRODUCTOS CÁRNICOS ,yes,1,1,1
+l10n_cl_partner_activity_442,l10n_cl_partner_activity_439,463013,"VENTA AL POR MAYOR DE PRODUCTOS DEL MAR (PESCADOS, MARISCOS Y ALGAS) ",yes,1,1,1
+l10n_cl_partner_activity_443,l10n_cl_partner_activity_439,463014,VENTA AL POR MAYOR DE PRODUCTOS DE CONFITERÍA ,yes,1,1,1
+l10n_cl_partner_activity_444,l10n_cl_partner_activity_439,463019,"VENTA AL POR MAYOR DE HUEVOS, LÁCTEOS, ABARROTES Y DE OTROS ALIMENTOS N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_445,l10n_cl_partner_activity_439,463020,VENTA AL POR MAYOR DE BEBIDAS ALCOHÓLICAS Y NO ALCOHÓLICAS ,yes,1,1,1
+l10n_cl_partner_activity_446,l10n_cl_partner_activity_439,463030,VENTA AL POR MAYOR DE TABACO ,yes,1,1,1
+l10n_cl_partner_activity_447,l10n_cl_partner_activity_418,,VENTA AL POR MAYOR DE ENSERES DOMÉSTICOS                ,not,nd,1,1
+l10n_cl_partner_activity_448,l10n_cl_partner_activity_447,464100,"VENTA AL POR MAYOR DE PRODUCTOS TEXTILES, PRENDAS DE VESTIR Y CALZADO ",yes,1,1,1
+l10n_cl_partner_activity_449,l10n_cl_partner_activity_447,464901,"VENTA AL POR MAYOR DE MUEBLES, EXCEPTO MUEBLES DE OFICINA ",yes,1,1,1
+l10n_cl_partner_activity_450,l10n_cl_partner_activity_447,464902,VENTA AL POR MAYOR DE ARTÍCULOS ELÉCTRICOS Y ELECTRÓNICOS PARA EL HOGAR ,yes,1,1,1
+l10n_cl_partner_activity_451,l10n_cl_partner_activity_447,464903,"VENTA AL POR MAYOR DE ARTÍCULOS DE PERFUMERÍA, DE TOCADOR Y COSMÉTICOS ",yes,1,1,1
+l10n_cl_partner_activity_452,l10n_cl_partner_activity_447,464904,VENTA AL POR MAYOR DE ARTÍCULOS DE PAPELERÍA Y ESCRITORIO ,yes,1,1,1
+l10n_cl_partner_activity_453,l10n_cl_partner_activity_447,464905,VENTA AL POR MAYOR DE LIBROS ,yes,1,1,1
+l10n_cl_partner_activity_454,l10n_cl_partner_activity_447,464906,VENTA AL POR MAYOR DE DIARIOS Y REVISTAS ,yes,1,1,1
+l10n_cl_partner_activity_455,l10n_cl_partner_activity_447,464907,VENTA AL POR MAYOR DE PRODUCTOS FARMACÉUTICOS Y MEDICINALES  ,yes,1,1,1
+l10n_cl_partner_activity_456,l10n_cl_partner_activity_447,464908,VENTA AL POR MAYOR DE INSTRUMENTOS CIENTÍFICOS Y QUIRÚRGICOS ,yes,1,1,1
+l10n_cl_partner_activity_457,l10n_cl_partner_activity_447,464909,VENTA AL POR MAYOR DE OTROS ENSERES DOMÉSTICOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_458,l10n_cl_partner_activity_418,,"VENTA AL POR MAYOR DE MAQUINARIA, EQUIPO Y MATERIALES              ",not,nd,1,1
+l10n_cl_partner_activity_459,l10n_cl_partner_activity_458,465100,"VENTA AL POR MAYOR DE COMPUTADORES, EQUIPO PERIFÉRICO Y PROGRAMAS INFORMÁTICOS ",yes,1,1,1
+l10n_cl_partner_activity_460,l10n_cl_partner_activity_458,465200,"VENTA AL POR MAYOR DE EQUIPO, PARTES Y PIEZAS ELECTRÓNICOS Y DE TELECOMUNICACIONES ",yes,1,1,1
+l10n_cl_partner_activity_461,l10n_cl_partner_activity_458,465300,"VENTA AL POR MAYOR DE MAQUINARIA, EQUIPO Y MATERIALES AGROPECUARIOS ",yes,1,1,1
+l10n_cl_partner_activity_462,l10n_cl_partner_activity_458,465901,"VENTA AL POR MAYOR DE MAQUINARIA METALÚRGICA, PARA LA MINERÍA, EXTRACCIÓN DE PETRÓLEO Y CONSTRUCCIÓN ",yes,1,1,1
+l10n_cl_partner_activity_463,l10n_cl_partner_activity_458,465902,"VENTA AL POR MAYOR DE MAQUINARIA PARA LA ELABORACIÓN DE ALIMENTOS, BEBIDAS Y TABACO ",yes,1,1,1
+l10n_cl_partner_activity_464,l10n_cl_partner_activity_458,465903,"VENTA AL POR MAYOR DE MAQUINARIA PARA LA INDUSTRIA TEXTIL, DEL CUERO Y DEL CALZADO ",yes,1,1,1
+l10n_cl_partner_activity_465,l10n_cl_partner_activity_458,465904,VENTA AL POR MAYOR DE MAQUINARIA Y EQUIPO DE OFICINA; VENTA AL POR MAYOR DE MUEBLES DE OFICINA ,yes,1,1,1
+l10n_cl_partner_activity_466,l10n_cl_partner_activity_458,465905,"VENTA AL POR MAYOR DE EQUIPO DE TRANSPORTE(EXCEPTO VEHÍCULOS AUTOMOTORES, MOTOCICLETAS Y BICICLETAS) ",yes,1,1,1
+l10n_cl_partner_activity_467,l10n_cl_partner_activity_458,465909,VENTA AL POR MAYOR DE OTROS TIPOS DE MAQUINARIA Y EQUIPO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_468,l10n_cl_partner_activity_418,,OTRAS ACTIVIDADES DE VENTA AL POR MAYOR ESPECIALIZADA               ,not,nd,1,1
+l10n_cl_partner_activity_469,l10n_cl_partner_activity_468,466100,"VENTA AL POR MAYOR DE COMBUSTIBLES SÓLIDOS, LÍQUIDOS Y GASEOSOS Y PRODUCTOS CONEXOS ",yes,1,1,1
+l10n_cl_partner_activity_470,l10n_cl_partner_activity_468,466200,VENTA AL POR MAYOR DE METALES Y MINERALES METALÍFEROS ,yes,1,1,1
+l10n_cl_partner_activity_471,l10n_cl_partner_activity_468,466301,VENTA AL POR MAYOR DE MADERA EN BRUTO Y PRODUCTOS PRIMARIOS DE LA ELABORACIÓN DE MADERA ,yes,1,1,1
+l10n_cl_partner_activity_472,l10n_cl_partner_activity_468,466302,"VENTA AL POR MAYOR DE MATERIALES DE CONSTRUCCIÓN, ARTÍCULOS DE FERRETERÍA, GASFITERÍA Y CALEFACCIÓN ",yes,1,1,1
+l10n_cl_partner_activity_473,l10n_cl_partner_activity_468,466901,VENTA AL POR MAYOR DE PRODUCTOS QUÍMICOS ,yes,1,1,1
+l10n_cl_partner_activity_474,l10n_cl_partner_activity_468,466902,VENTA AL POR MAYOR DE DESECHOS METÁLICOS (CHATARRA) ,yes,1,1,1
+l10n_cl_partner_activity_475,l10n_cl_partner_activity_468,466909,"VENTA AL POR MAYOR DE DESPERDICIOS, DESECHOS Y OTROS PRODUCTOS N.C.P. ",yes,1,0,1
+l10n_cl_partner_activity_476,l10n_cl_partner_activity_418,,VENTA AL POR MAYOR NO ESPECIALIZADA                 ,not,nd,1,1
+l10n_cl_partner_activity_477,l10n_cl_partner_activity_476,469000,VENTA AL POR MAYOR NO ESPECIALIZADA ,yes,1,0,1
+l10n_cl_partner_activity_478,l10n_cl_partner_activity_418,,VENTA AL POR MENOR EN COMERCIOS NO ESPECIALIZADOS               ,not,nd,1,1
+l10n_cl_partner_activity_479,l10n_cl_partner_activity_478,471100,"VENTA AL POR MENOR EN COMERCIOS DE ALIMENTOS, BEBIDAS O TABACO (SUPERMERCADOS E HIPERMERCADOS) ",yes,1,1,1
+l10n_cl_partner_activity_480,l10n_cl_partner_activity_478,471910,VENTA AL POR MENOR EN COMERCIOS DE VESTUARIO Y PRODUCTOS PARA EL HOGAR (GRANDES TIENDAS) ,yes,1,1,1
+l10n_cl_partner_activity_481,l10n_cl_partner_activity_478,471990,OTRAS ACTIVIDADES DE VENTA AL POR MENOR EN COMERCIOS NO ESPECIALIZADOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_482,l10n_cl_partner_activity_418,,"VENTA AL POR MENOR DE ALIMENTOS, BEBIDAS Y TABACO EN COMERCIOS ESPECIALIZADOS           ",not,nd,1,1
+l10n_cl_partner_activity_483,l10n_cl_partner_activity_482,472101,VENTA AL POR MENOR DE ALIMENTOS EN COMERCIOS ESPECIALIZADOS (ALMACENES PEQUEÑOS Y MINIMARKET) ,yes,1,1,1
+l10n_cl_partner_activity_484,l10n_cl_partner_activity_482,472102,VENTA AL POR MENOR EN COMERCIOS ESPECIALIZADOS DE CARNE Y PRODUCTOS CÁRNICOS  ,yes,1,1,1
+l10n_cl_partner_activity_485,l10n_cl_partner_activity_482,472103,VENTA AL POR MENOR EN COMERCIOS ESPECIALIZADOS DE FRUTAS Y VERDURAS (VERDULERÍAS) ,yes,1,1,1
+l10n_cl_partner_activity_486,l10n_cl_partner_activity_482,472104,"VENTA AL POR MENOR EN COMERCIOS ESPECIALIZADOS DE PESCADO, MARISCOS Y PRODUCTOS CONEXOS ",yes,1,1,1
+l10n_cl_partner_activity_487,l10n_cl_partner_activity_482,472105,VENTA AL POR MENOR EN COMERCIOS ESPECIALIZADOS DE PRODUCTOS DE PANADERÍA Y PASTELERÍA ,yes,1,1,1
+l10n_cl_partner_activity_488,l10n_cl_partner_activity_482,472109,"VENTA AL POR MENOR EN COMERCIOS ESPECIALIZADOS DE HUEVOS, CONFITES Y PRODUCTOS ALIMENTICIOS N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_489,l10n_cl_partner_activity_482,472200,VENTA AL POR MENOR DE BEBIDAS ALCOHÓLICAS Y NO ALCOHÓLICAS EN COMERCIOS ESPECIALIZADOS (BOTILLERÍAS) ,yes,1,1,1
+l10n_cl_partner_activity_490,l10n_cl_partner_activity_482,472300,VENTA AL POR MENOR DE TABACO Y PRODUCTOS DE TABACO EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_491,l10n_cl_partner_activity_418,,VENTA AL POR MENOR DE COMBUSTIBLES PARA VEHÍCULOS AUTOMOTORES EN COMERCIOS ESPECIALIZADOS           ,not,nd,1,1
+l10n_cl_partner_activity_492,l10n_cl_partner_activity_491,473000,VENTA AL POR MENOR DE COMBUSTIBLES PARA VEHÍCULOS AUTOMOTORES EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_493,l10n_cl_partner_activity_491,474100,"VENTA AL POR MENOR DE COMPUTADORES, EQUIPO PERIFÉRICO, PROGRAMAS INFORMÁTICOS Y EQUIPO DE TELECOM. ",yes,1,1,1
+l10n_cl_partner_activity_494,l10n_cl_partner_activity_491,474200,VENTA AL POR MENOR DE EQUIPO DE SONIDO Y DE VIDEO EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_495,l10n_cl_partner_activity_418,,VENTA AL POR MENOR DE OTROS ENSERES DOMÉSTICOS EN COMERCIOS ESPECIALIZADOS            ,not,nd,1,1
+l10n_cl_partner_activity_496,l10n_cl_partner_activity_495,475100,"VENTA AL POR MENOR DE TELAS, LANAS, HILOS Y SIMILARES EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_497,l10n_cl_partner_activity_495,475201,VENTA AL POR MENOR DE ARTÍCULOS DE FERRETERÍA Y MATERIALES DE CONSTRUCCIÓN  ,yes,1,1,1
+l10n_cl_partner_activity_498,l10n_cl_partner_activity_495,475202,"VENTA AL POR MENOR DE PINTURAS, BARNICES Y LACAS EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_499,l10n_cl_partner_activity_495,475203,VENTA AL POR MENOR DE PRODUCTOS DE VIDRIO EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_500,l10n_cl_partner_activity_495,475300,"VENTA AL POR MENOR DE TAPICES, ALFOMBRAS Y CUBRIMIENTOS PARA PAREDES Y PISOS ",yes,1,1,1
+l10n_cl_partner_activity_501,l10n_cl_partner_activity_495,475901,VENTA AL POR MENOR DE MUEBLES Y COLCHONES EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_502,l10n_cl_partner_activity_495,475902,VENTA AL POR MENOR DE INSTRUMENTOS MUSICALES EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_503,l10n_cl_partner_activity_495,475909,"VENTA AL POR MENOR DE APARATOS ELÉCTRICOS, TEXTILES PARA EL HOGAR Y OTROS ENSERES DOMÉSTICOS N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_504,l10n_cl_partner_activity_418,,VENTA AL POR MENOR DE PRODUCTOS CULTURALES Y RECREATIVOS EN COMERCIOS ESPECIALIZADOS           ,not,nd,1,1
+l10n_cl_partner_activity_505,l10n_cl_partner_activity_504,476101,VENTA AL POR MENOR DE LIBROS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_506,l10n_cl_partner_activity_504,476102,VENTA AL POR MENOR DE DIARIOS Y REVISTAS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_507,l10n_cl_partner_activity_504,476103,VENTA AL POR MENOR DE ARTÍCULOS DE PAPELERÍA Y ESCRITORIO EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_508,l10n_cl_partner_activity_504,476200,VENTA AL POR MENOR DE GRABACIONES DE MÚSICA Y DE VIDEO EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_509,l10n_cl_partner_activity_504,476301,VENTA AL POR MENOR DE ARTÍCULOS DE CAZA Y PESCA EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_510,l10n_cl_partner_activity_504,476302,VENTA AL POR MENOR DE BICICLETAS Y SUS REPUESTOS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_511,l10n_cl_partner_activity_504,476309,VENTA AL POR MENOR DE OTROS ARTÍCULOS Y EQUIPOS DE DEPORTE N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_512,l10n_cl_partner_activity_504,476400,VENTA AL POR MENOR DE JUEGOS Y JUGUETES EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_513,l10n_cl_partner_activity_418,,VENTA AL POR MENOR DE OTROS PRODUCTOS EN COMERCIOS ESPECIALIZADOS             ,not,nd,1,1
+l10n_cl_partner_activity_514,l10n_cl_partner_activity_513,477101,VENTA AL POR MENOR DE CALZADO EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_515,l10n_cl_partner_activity_513,477102,VENTA AL POR MENOR DE PRENDAS Y ACCESORIOS DE VESTIR EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_516,l10n_cl_partner_activity_513,477103,"VENTA AL POR MENOR DE CARTERAS, MALETAS Y OTROS ACCESORIOS DE VIAJE EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_517,l10n_cl_partner_activity_513,477201,VENTA AL POR MENOR DE PRODUCTOS FARMACÉUTICOS Y MEDICINALES EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_518,l10n_cl_partner_activity_513,477202,VENTA AL POR MENOR DE ARTÍCULOS ORTOPÉDICOS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_519,l10n_cl_partner_activity_513,477203,"VENTA AL POR MENOR DE ARTÍCULOS DE PERFUMERÍA, DE TOCADOR Y COSMÉTICOS EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_520,l10n_cl_partner_activity_513,477310,VENTA AL POR MENOR DE GAS LICUADO EN BOMBONAS (CILINDROS) EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_521,l10n_cl_partner_activity_513,477391,VENTA AL POR MENOR DE ALIMENTO Y ACCESORIOS PARA MASCOTAS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_522,l10n_cl_partner_activity_513,477392,VENTA AL POR MENOR DE ARMAS Y MUNICIONES EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_523,l10n_cl_partner_activity_513,477393,VENTA AL POR MENOR DE ARTÍCULOS ÓPTICOS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_524,l10n_cl_partner_activity_513,477394,"VENTA AL POR MENOR DE ARTÍCULOS DE JOYERÍA, BISUTERÍA Y RELOJERÍA EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_525,l10n_cl_partner_activity_513,477395,"VENTA AL POR MENOR DE CARBÓN, LEÑA Y OTROS COMBUSTIBLES DE USO DOMÉSTICO EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_526,l10n_cl_partner_activity_513,477396,"VENTA AL POR MENOR DE RECUERDOS, ARTESANÍAS Y ARTÍCULOS RELIGIOSOS EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_527,l10n_cl_partner_activity_513,477397,"VENTA AL POR MENOR DE FLORES, PLANTAS, ARBOLES, SEMILLAS Y ABONOS EN COMERCIOS ESPECIALIZADOS ",yes,1,1,1
+l10n_cl_partner_activity_528,l10n_cl_partner_activity_513,477398,VENTA AL POR MENOR DE MASCOTAS EN COMERCIOS ESPECIALIZADOS ,yes,1,1,1
+l10n_cl_partner_activity_529,l10n_cl_partner_activity_513,477399,VENTA AL POR MENOR DE OTROS PRODUCTOS EN COMERCIOS ESPECIALIZADOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_530,l10n_cl_partner_activity_513,477401,VENTA AL POR MENOR DE ANTIGÜEDADES EN COMERCIOS ,yes,1,1,1
+l10n_cl_partner_activity_531,l10n_cl_partner_activity_513,477402,VENTA AL POR MENOR DE ROPA USADA EN COMERCIOS ,yes,1,1,1
+l10n_cl_partner_activity_532,l10n_cl_partner_activity_513,477409,VENTA AL POR MENOR DE OTROS ARTÍCULOS DE SEGUNDA MANO EN COMERCIOS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_533,l10n_cl_partner_activity_418,,VENTA AL POR MENOR EN PUESTOS DE VENTA Y MERCADOS             ,not,nd,1,1
+l10n_cl_partner_activity_534,l10n_cl_partner_activity_533,478100,"VENTA AL POR MENOR DE ALIMENTOS, BEBIDAS Y TABACO EN PUESTOS DE VENTA Y MERCADOS (INCLUYE FERIAS) ",yes,1,1,1
+l10n_cl_partner_activity_535,l10n_cl_partner_activity_533,478200,"VENTA AL POR MENOR DE PRODUCTOS TEXTILES, PRENDAS DE VESTIR Y CALZADO EN PUESTOS DE VENTA Y MERCADOS ",yes,1,1,1
+l10n_cl_partner_activity_536,l10n_cl_partner_activity_533,478900,VENTA AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA Y MERCADOS (INCLUYE FERIAS) ,yes,1,1,1
+l10n_cl_partner_activity_537,l10n_cl_partner_activity_418,,"VENTA AL POR MENOR NO REALIZADA EN COMERCIOS, PUESTOS DE VENTA O MERCADOS          ",not,nd,1,1
+l10n_cl_partner_activity_538,l10n_cl_partner_activity_537,479100,"VENTA AL POR MENOR POR CORREO, POR INTERNET Y VÍA TELEFÓNICA ",yes,1,1,1
+l10n_cl_partner_activity_539,l10n_cl_partner_activity_537,479901,VENTA AL POR MENOR REALIZADA POR INDEPENDIENTES EN LA LOCOMOCIÓN COLECTIVA (LEY 20.388) ,yes,1,1,1
+l10n_cl_partner_activity_540,l10n_cl_partner_activity_537,479902,VENTA AL POR MENOR MEDIANTE MAQUINAS EXPENDEDORAS ,yes,1,1,1
+l10n_cl_partner_activity_541,l10n_cl_partner_activity_537,479903,VENTA AL POR MENOR POR COMISIONISTAS (NO DEPENDIENTES DE COMERCIOS) ,yes,1,1,1
+l10n_cl_partner_activity_542,l10n_cl_partner_activity_537,479909,"OTRAS ACTIVIDADES DE VENTA POR MENOR NO REALIZADAS EN COMERCIOS, PUESTOS DE VENTA O MERCADOS N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_543,,,TRANSPORTE Y ALMACENAMIENTO,not,nd,1,1
+l10n_cl_partner_activity_544,l10n_cl_partner_activity_543,,TRANSPORTE POR FERROCARRIL                    ,not,nd,1,1
+l10n_cl_partner_activity_545,l10n_cl_partner_activity_544,491100,TRANSPORTE INTERURBANO DE PASAJEROS POR FERROCARRIL ,yes,1,1,1
+l10n_cl_partner_activity_546,l10n_cl_partner_activity_544,491200,TRANSPORTE DE CARGA POR FERROCARRIL ,yes,1,1,1
+l10n_cl_partner_activity_547,l10n_cl_partner_activity_543,,OTRAS ACTIVIDADES DE TRANSPORTE POR VÍA TERRESTRE                ,not,nd,1,1
+l10n_cl_partner_activity_548,l10n_cl_partner_activity_547,492110,TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS VÍA METRO Y METROTREN ,not,1,1,1
+l10n_cl_partner_activity_549,l10n_cl_partner_activity_547,492120,TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS VÍA LOCOMOCIÓN COLECTIVA ,not,1,1,1
+l10n_cl_partner_activity_550,l10n_cl_partner_activity_547,492130,TRANSPORTE DE PASAJEROS VÍA TAXI COLECTIVO ,not,1,1,1
+l10n_cl_partner_activity_551,l10n_cl_partner_activity_547,492190,OTRAS ACTIVIDADES DE TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS POR VÍA TERRESTRE N.C.P. ,not,1,1,1
+l10n_cl_partner_activity_552,l10n_cl_partner_activity_547,492210,SERVICIOS DE TRANSPORTE DE ESCOLARES ,not,1,1,1
+l10n_cl_partner_activity_553,l10n_cl_partner_activity_547,492220,SERVICIOS DE TRANSPORTE DE TRABAJADORES ,not,1,1,1
+l10n_cl_partner_activity_554,l10n_cl_partner_activity_547,492230,SERVICIOS DE TRANSPORTE DE PASAJEROS EN TAXIS LIBRES Y RADIOTAXIS ,not,1,1,1
+l10n_cl_partner_activity_555,l10n_cl_partner_activity_547,492240,SERVICIOS DE TRANSPORTE A TURISTAS ,not,1,1,1
+l10n_cl_partner_activity_556,l10n_cl_partner_activity_547,492250,TRANSPORTE DE PASAJEROS EN BUSES INTERURBANOS  ,not,1,1,1
+l10n_cl_partner_activity_557,l10n_cl_partner_activity_547,492290,OTRAS ACTIVIDADES DE TRANSPORTE DE PASAJEROS POR VÍA TERRESTRE N.C.P. ,not,1,1,1
+l10n_cl_partner_activity_558,l10n_cl_partner_activity_547,492300,TRANSPORTE DE CARGA POR CARRETERA ,yes,1,1,1
+l10n_cl_partner_activity_559,l10n_cl_partner_activity_543,,TRANSPORTE POR TUBERÍAS                    ,not,nd,1,1
+l10n_cl_partner_activity_560,l10n_cl_partner_activity_559,493010,TRANSPORTE POR OLEODUCTOS ,yes,1,1,1
+l10n_cl_partner_activity_561,l10n_cl_partner_activity_559,493020,TRANSPORTE POR GASODUCTOS ,yes,1,1,1
+l10n_cl_partner_activity_562,l10n_cl_partner_activity_559,493090,OTRAS ACTIVIDADES DE TRANSPORTE POR TUBERÍAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_563,l10n_cl_partner_activity_543,,TRANSPORTE MARÍTIMO Y DE CABOTAJE                  ,not,nd,1,1
+l10n_cl_partner_activity_564,l10n_cl_partner_activity_563,501100,TRANSPORTE DE PASAJEROS MARÍTIMO Y DE CABOTAJE ,yes,1,1,1
+l10n_cl_partner_activity_565,l10n_cl_partner_activity_563,501200,TRANSPORTE DE CARGA MARÍTIMO Y DE CABOTAJE ,yes,1,1,1
+l10n_cl_partner_activity_566,l10n_cl_partner_activity_543,,TRANSPORTE POR VÍAS DE NAVEGACIÓN INTERIORES                 ,not,nd,1,1
+l10n_cl_partner_activity_567,l10n_cl_partner_activity_566,502100,TRANSPORTE DE PASAJEROS POR VÍAS DE NAVEGACIÓN INTERIORES ,yes,1,1,1
+l10n_cl_partner_activity_568,l10n_cl_partner_activity_566,502200,TRANSPORTE DE CARGA POR VÍAS DE NAVEGACIÓN INTERIORES ,yes,1,1,1
+l10n_cl_partner_activity_569,l10n_cl_partner_activity_543,,TRANSPORTE DE PASAJEROS POR VÍA AÉREA                 ,not,nd,1,1
+l10n_cl_partner_activity_570,l10n_cl_partner_activity_569,511000,TRANSPORTE DE PASAJEROS POR VÍA AÉREA ,yes,1,1,1
+l10n_cl_partner_activity_571,l10n_cl_partner_activity_543,,TRANSPORTE DE CARGA POR VÍA AÉREA                 ,not,nd,1,1
+l10n_cl_partner_activity_572,l10n_cl_partner_activity_571,512000,TRANSPORTE DE CARGA POR VÍA AÉREA ,yes,1,1,1
+l10n_cl_partner_activity_573,l10n_cl_partner_activity_543,,ALMACENAMIENTO Y DEPÓSITO                    ,not,nd,1,1
+l10n_cl_partner_activity_574,l10n_cl_partner_activity_573,521001,EXPLOTACIÓN DE FRIGORÍFICOS PARA ALMACENAMIENTO Y DEPÓSITO ,yes,1,1,1
+l10n_cl_partner_activity_575,l10n_cl_partner_activity_573,521009,OTROS SERVICIOS DE ALMACENAMIENTO Y DEPÓSITO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_576,l10n_cl_partner_activity_543,,ACTIVIDADES DE APOYO AL TRANSPORTE                  ,not,nd,1,1
+l10n_cl_partner_activity_577,l10n_cl_partner_activity_576,522110,EXPLOTACIÓN DE TERMINALES TERRESTRES DE PASAJEROS ,yes,1,1,1
+l10n_cl_partner_activity_578,l10n_cl_partner_activity_576,522120,EXPLOTACIÓN DE ESTACIONAMIENTOS DE VEHÍCULOS AUTOMOTORES Y PARQUÍMETROS ,yes,1,1,1
+l10n_cl_partner_activity_579,l10n_cl_partner_activity_576,522130,SERVICIOS PRESTADOS POR CONCESIONARIOS DE CARRETERAS ,yes,1,1,1
+l10n_cl_partner_activity_580,l10n_cl_partner_activity_576,522190,ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE TERRESTRE N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_581,l10n_cl_partner_activity_576,522200,ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE ACUÁTICO ,yes,1,1,1
+l10n_cl_partner_activity_582,l10n_cl_partner_activity_576,522300,ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE AÉREO ,yes,1,1,1
+l10n_cl_partner_activity_583,l10n_cl_partner_activity_576,522400,MANIPULACIÓN DE LA CARGA ,yes,1,1,1
+l10n_cl_partner_activity_584,l10n_cl_partner_activity_576,522910,AGENCIAS DE ADUANAS ,nd,1,1,1
+l10n_cl_partner_activity_585,l10n_cl_partner_activity_576,522920,AGENCIAS DE NAVES ,nd,1,1,1
+l10n_cl_partner_activity_586,l10n_cl_partner_activity_576,522990,OTRAS ACTIVIDADES DE APOYO AL TRANSPORTE N.C.P. ,nd,1,1,1
+l10n_cl_partner_activity_587,l10n_cl_partner_activity_543,,ACTIVIDADES POSTALES                     ,not,nd,1,1
+l10n_cl_partner_activity_588,l10n_cl_partner_activity_587,531000,ACTIVIDADES POSTALES ,nd,1,1,1
+l10n_cl_partner_activity_589,l10n_cl_partner_activity_543,,ACTIVIDADES DE MENSAJERÍA                    ,not,nd,1,1
+l10n_cl_partner_activity_590,l10n_cl_partner_activity_589,532000,ACTIVIDADES DE MENSAJERÍA ,nd,1,1,1
+l10n_cl_partner_activity_591,,,ACTIVIDADES DE ALOJAMIENTO Y DE SERVICIO DE COMIDAS,not,nd,1,1
+l10n_cl_partner_activity_592,l10n_cl_partner_activity_591,,ACTIVIDADES DE ALOJAMIENTO PARA ESTANCIAS CORTAS                 ,not,nd,1,1
+l10n_cl_partner_activity_593,l10n_cl_partner_activity_592,551001,ACTIVIDADES DE HOTELES ,yes,1,1,1
+l10n_cl_partner_activity_594,l10n_cl_partner_activity_592,551002,ACTIVIDADES DE MOTELES ,yes,1,1,1
+l10n_cl_partner_activity_595,l10n_cl_partner_activity_592,551003,ACTIVIDADES DE RESIDENCIALES PARA TURISTAS ,yes,1,1,1
+l10n_cl_partner_activity_596,l10n_cl_partner_activity_592,551009,OTRAS ACTIVIDADES DE ALOJAMIENTO PARA TURISTAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_597,l10n_cl_partner_activity_591,,"ACTIVIDADES DE CAMPAMENTOS, PARQUES DE VEHÍCULOS DE RECREO Y PARQUES DE CARAVANAS           ",not,nd,1,1
+l10n_cl_partner_activity_598,l10n_cl_partner_activity_597,552000,ACTIVIDADES DE CAMPING Y DE PARQUES PARA CASAS RODANTES ,yes,1,1,1
+l10n_cl_partner_activity_599,l10n_cl_partner_activity_591,,OTRAS ACTIVIDADES DE ALOJAMIENTO                   ,not,nd,1,1
+l10n_cl_partner_activity_600,l10n_cl_partner_activity_599,559001,ACTIVIDADES DE RESIDENCIALES PARA ESTUDIANTES Y TRABAJADORES  ,yes,1,1,1
+l10n_cl_partner_activity_601,l10n_cl_partner_activity_599,559009,OTRAS ACTIVIDADES DE ALOJAMIENTO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_602,l10n_cl_partner_activity_591,,ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MÓVIL DE COMIDAS              ,not,nd,1,1
+l10n_cl_partner_activity_603,l10n_cl_partner_activity_602,561000,ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MÓVIL DE COMIDAS ,yes,1,1,1
+l10n_cl_partner_activity_604,l10n_cl_partner_activity_591,,SUMINISTRO DE COMIDAS POR ENCARGO Y OTRAS ACTIVIDADES DE SERVICIO DE COMIDAS           ,not,nd,1,1
+l10n_cl_partner_activity_605,l10n_cl_partner_activity_604,562100,SUMINISTRO DE COMIDAS POR ENCARGO (SERVICIOS DE BANQUETERÍA) ,yes,1,1,1
+l10n_cl_partner_activity_606,l10n_cl_partner_activity_604,562900,SUMINISTRO INDUSTRIAL DE COMIDAS POR ENCARGO; CONCESIÓN DE SERVICIOS DE ALIMENTACIÓN  ,yes,1,1,1
+l10n_cl_partner_activity_607,l10n_cl_partner_activity_591,,ACTIVIDADES DE SERVICIO DE BEBIDAS                  ,not,nd,1,1
+l10n_cl_partner_activity_608,l10n_cl_partner_activity_607,563001,"ACTIVIDADES DE DISCOTECAS Y CABARET (NIGHT CLUB), CON PREDOMINIO DEL SERVICIO DE BEBIDAS ",yes,1,1,1
+l10n_cl_partner_activity_609,l10n_cl_partner_activity_607,563009,OTRAS ACTIVIDADES DE SERVICIO DE BEBIDAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_610,,,INFORMACIÓN Y COMUNICACIONES,not,nd,1,1
+l10n_cl_partner_activity_611,l10n_cl_partner_activity_610,,EDICIÓN DE LIBROS Y PUBLICACIONES PERIÓDICAS Y OTRAS ACTIVIDADES DE EDICIÓN            ,not,nd,1,1
+l10n_cl_partner_activity_612,l10n_cl_partner_activity_611,581100,EDICIÓN DE LIBROS ,yes,1,1,1
+l10n_cl_partner_activity_613,l10n_cl_partner_activity_611,581200,EDICIÓN DE DIRECTORIOS Y LISTAS DE CORREO ,yes,1,1,1
+l10n_cl_partner_activity_614,l10n_cl_partner_activity_611,581300,"EDICIÓN DE DIARIOS, REVISTAS Y OTRAS PUBLICACIONES PERIÓDICAS ",yes,1,1,1
+l10n_cl_partner_activity_615,l10n_cl_partner_activity_611,581900,OTRAS ACTIVIDADES DE EDICIÓN ,yes,1,1,1
+l10n_cl_partner_activity_616,l10n_cl_partner_activity_610,,EDICIÓN DE PROGRAMAS INFORMÁTICOS                   ,not,nd,1,1
+l10n_cl_partner_activity_617,l10n_cl_partner_activity_616,582000,EDICIÓN DE PROGRAMAS INFORMÁTICOS ,yes,1,1,1
+l10n_cl_partner_activity_618,l10n_cl_partner_activity_610,,"ACTIVIDADES DE PRODUCCIÓN DE PELÍCULAS CINEMATOGRÁFICAS, VIDEOS Y PROGRAMAS DE TELEVISIÓN            ",not,nd,1,1
+l10n_cl_partner_activity_619,l10n_cl_partner_activity_618,591100,"ACTIVIDADES DE PRODUCCIÓN DE PELÍCULAS CINEMATOGRÁFICAS, VIDEOS Y PROGRAMAS DE TELEVISIÓN ",nd,1,1,1
+l10n_cl_partner_activity_620,l10n_cl_partner_activity_618,591200,"ACTIVIDADES DE POSTPRODUCCIÓN DE PELÍCULAS CINEMATOGRÁFICAS, VIDEOS Y PROGRAMAS DE TELEVISIÓN ",nd,1,1,1
+l10n_cl_partner_activity_621,l10n_cl_partner_activity_618,591300,"ACTIVIDADES DE DISTRIBUCIÓN DE PELÍCULAS CINEMATOGRÁFICAS, VIDEOS Y PROGRAMAS DE TELEVISIÓN ",yes,1,1,1
+l10n_cl_partner_activity_622,l10n_cl_partner_activity_618,591400,ACTIVIDADES DE EXHIBICIÓN DE PELÍCULAS CINEMATOGRÁFICAS Y CINTAS DE VIDEO ,yes,1,1,1
+l10n_cl_partner_activity_623,l10n_cl_partner_activity_610,,ACTIVIDADES DE GRABACIÓN DE SONIDO Y EDICIÓN DE MÚSICA              ,not,nd,1,1
+l10n_cl_partner_activity_624,l10n_cl_partner_activity_623,592000,ACTIVIDADES DE GRABACIÓN DE SONIDO Y EDICIÓN DE MÚSICA ,yes,1,1,1
+l10n_cl_partner_activity_625,l10n_cl_partner_activity_610,,TRANSMISIONES DE RADIO                    ,not,nd,1,1
+l10n_cl_partner_activity_626,l10n_cl_partner_activity_625,601000,TRANSMISIONES DE RADIO ,nd,1,1,1
+l10n_cl_partner_activity_627,l10n_cl_partner_activity_610,,PROGRAMACIÓN Y TRANSMISIONES DE TELEVISIÓN                  ,not,nd,1,1
+l10n_cl_partner_activity_628,l10n_cl_partner_activity_627,602000,PROGRAMACIÓN Y TRANSMISIONES DE TELEVISIÓN ,nd,1,1,1
+l10n_cl_partner_activity_629,l10n_cl_partner_activity_610,,ACTIVIDADES DE TELECOMUNICACIONES ALÁMBRICAS                   ,not,nd,1,1
+l10n_cl_partner_activity_630,l10n_cl_partner_activity_629,611010,TELEFONÍA FIJA ,yes,1,1,1
+l10n_cl_partner_activity_631,l10n_cl_partner_activity_629,611020,TELEFONÍA LARGA DISTANCIA ,yes,1,1,1
+l10n_cl_partner_activity_632,l10n_cl_partner_activity_629,611030,TELEVISIÓN DE PAGO POR CABLE ,yes,1,1,1
+l10n_cl_partner_activity_633,l10n_cl_partner_activity_629,611090,OTROS SERVICIOS DE TELECOMUNICACIONES ALÁMBRICAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_634,l10n_cl_partner_activity_610,,ACTIVIDADES DE TELECOMUNICACIONES INALÁMBRICAS                   ,not,nd,1,1
+l10n_cl_partner_activity_635,l10n_cl_partner_activity_634,612010,TELEFONÍA MÓVIL CELULAR ,yes,1,1,1
+l10n_cl_partner_activity_636,l10n_cl_partner_activity_634,612020,RADIOCOMUNICACIONES MÓVILES ,yes,1,1,1
+l10n_cl_partner_activity_637,l10n_cl_partner_activity_634,612030,TELEVISIÓN DE PAGO INALÁMBRICA ,yes,1,1,1
+l10n_cl_partner_activity_638,l10n_cl_partner_activity_634,612090,OTROS SERVICIOS DE TELECOMUNICACIONES INALÁMBRICAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_639,l10n_cl_partner_activity_610,,ACTIVIDADES DE TELECOMUNICACIONES POR SATÉLITE                  ,not,nd,1,1
+l10n_cl_partner_activity_640,l10n_cl_partner_activity_639,613010,TELEFONÍA MÓVIL SATELITAL ,yes,1,1,1
+l10n_cl_partner_activity_641,l10n_cl_partner_activity_639,613020,TELEVISIÓN DE PAGO SATELITAL ,yes,1,1,1
+l10n_cl_partner_activity_642,l10n_cl_partner_activity_639,613090,OTROS SERVICIOS DE TELECOMUNICACIONES POR SATÉLITE N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_643,l10n_cl_partner_activity_610,,OTRAS ACTIVIDADES DE TELECOMUNICACIONES                   ,not,nd,1,1
+l10n_cl_partner_activity_644,l10n_cl_partner_activity_643,619010,CENTROS DE LLAMADOS Y CENTROS DE ACCESO A INTERNET ,yes,1,1,1
+l10n_cl_partner_activity_645,l10n_cl_partner_activity_643,619090,OTRAS ACTIVIDADES DE TELECOMUNICACIONES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_646,l10n_cl_partner_activity_610,,"ACTIVIDADES DE PROGRAMACIÓN INFORMÁTICA, CONSULTORÍA INFORMÁTICA Y ACTIVIDADES CONEXAS              ",not,nd,1,1
+l10n_cl_partner_activity_647,l10n_cl_partner_activity_646,620100,ACTIVIDADES DE PROGRAMACIÓN INFORMÁTICA ,not,2,1,1
+l10n_cl_partner_activity_648,l10n_cl_partner_activity_646,620200,ACTIVIDADES DE CONSULTORÍA DE INFORMÁTICA Y DE GESTIÓN DE INSTALACIONES INFORMÁTICAS ,nd,1,1,1
+l10n_cl_partner_activity_649,l10n_cl_partner_activity_646,620900,OTRAS ACTIVIDADES DE TECNOLOGÍA DE LA INFORMACIÓN Y DE SERVICIOS INFORMÁTICOS ,nd,1,1,1
+l10n_cl_partner_activity_650,l10n_cl_partner_activity_610,,"PROCESAMIENTO DE DATOS, HOSPEDAJE Y ACTIVIDADES CONEXAS; PORTALES WEB              ",not,nd,1,1
+l10n_cl_partner_activity_651,l10n_cl_partner_activity_650,631100,"PROCESAMIENTO DE DATOS, HOSPEDAJE Y ACTIVIDADES CONEXAS ",nd,1,1,1
+l10n_cl_partner_activity_652,l10n_cl_partner_activity_650,631200,PORTALES WEB ,nd,1,1,1
+l10n_cl_partner_activity_653,l10n_cl_partner_activity_610,,OTRAS ACTIVIDADES DE SERVICIOS DE INFORMACIÓN                 ,not,nd,1,1
+l10n_cl_partner_activity_654,l10n_cl_partner_activity_653,639100,ACTIVIDADES DE AGENCIAS DE NOTICIAS ,nd,1,1,1
+l10n_cl_partner_activity_655,l10n_cl_partner_activity_653,639900,OTRAS ACTIVIDADES DE SERVICIOS DE INFORMACIÓN N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_656,,,ACTIVIDADES FINANCIERAS Y DE SEGUROS,not,nd,1,1
+l10n_cl_partner_activity_657,l10n_cl_partner_activity_656,,INTERMEDIACIÓN MONETARIA                     ,not,nd,1,1
+l10n_cl_partner_activity_658,l10n_cl_partner_activity_657,641100,BANCA CENTRAL ,yes,1,0,1
+l10n_cl_partner_activity_659,l10n_cl_partner_activity_657,641910,ACTIVIDADES BANCARIAS ,yes,1,0,1
+l10n_cl_partner_activity_660,l10n_cl_partner_activity_657,641990,OTROS TIPOS DE INTERMEDIACIÓN MONETARIA N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_661,l10n_cl_partner_activity_656,,ACTIVIDADES DE SOCIEDADES DE CARTERA                  ,not,nd,1,1
+l10n_cl_partner_activity_662,l10n_cl_partner_activity_661,642000,ACTIVIDADES DE SOCIEDADES DE CARTERA ,not,1,1,1
+l10n_cl_partner_activity_663,l10n_cl_partner_activity_656,,FONDOS Y SOCIEDADES DE INVERSIÓN Y ENTIDADES FINANCIERAS SIMILARES              ,not,nd,1,1
+l10n_cl_partner_activity_664,l10n_cl_partner_activity_663,643000,FONDOS Y SOCIEDADES DE INVERSIÓN Y ENTIDADES FINANCIERAS SIMILARES ,not,1,1,1
+l10n_cl_partner_activity_665,l10n_cl_partner_activity_656,,"OTRAS ACTIVIDADES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES          ",not,nd,1,1
+l10n_cl_partner_activity_666,l10n_cl_partner_activity_665,649100,LEASING FINANCIERO ,yes,1,1,1
+l10n_cl_partner_activity_667,l10n_cl_partner_activity_665,649201,FINANCIERAS ,yes,1,1,1
+l10n_cl_partner_activity_668,l10n_cl_partner_activity_665,649202,ACTIVIDADES DE CRÉDITO PRENDARIO ,yes,1,1,1
+l10n_cl_partner_activity_669,l10n_cl_partner_activity_665,649203,CAJAS DE COMPENSACIÓN ,nd,1,1,1
+l10n_cl_partner_activity_670,l10n_cl_partner_activity_665,649209,OTRAS ACTIVIDADES DE CONCESIÓN DE CRÉDITO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_671,l10n_cl_partner_activity_665,649900,"OTRAS ACTIVIDADES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES N.C.P. ",yes,1,1,1
+l10n_cl_partner_activity_672,l10n_cl_partner_activity_656,,SEGUROS                      ,not,nd,1,1
+l10n_cl_partner_activity_673,l10n_cl_partner_activity_672,651100,SEGUROS DE VIDA ,yes,1,0,1
+l10n_cl_partner_activity_674,l10n_cl_partner_activity_672,651210,"SEGUROS GENERALES, EXCEPTO ACTIVIDADES DE ISAPRES ",yes,1,0,1
+l10n_cl_partner_activity_675,l10n_cl_partner_activity_672,651220,ACTIVIDADES DE ISAPRES ,yes,1,0,1
+l10n_cl_partner_activity_676,l10n_cl_partner_activity_656,,REASEGUROS                      ,not,nd,1,1
+l10n_cl_partner_activity_677,l10n_cl_partner_activity_676,652000,REASEGUROS ,yes,1,0,1
+l10n_cl_partner_activity_678,l10n_cl_partner_activity_656,,FONDOS DE PENSIONES                    ,not,nd,1,1
+l10n_cl_partner_activity_679,l10n_cl_partner_activity_678,653000,FONDOS DE PENSIONES ,yes,1,0,1
+l10n_cl_partner_activity_680,l10n_cl_partner_activity_656,,"ACTIVIDADES AUXILIARES DE SERVICIOS FINANCIEROS, EXCEPTO LAS DE SEGUROS Y FONDOS DE PENSIONES ",not,nd,1,1
+l10n_cl_partner_activity_681,l10n_cl_partner_activity_680,661100,ADMINISTRACIÓN DE MERCADOS FINANCIEROS ,yes,1,1,1
+l10n_cl_partner_activity_682,l10n_cl_partner_activity_680,661201,ACTIVIDADES DE SECURITIZADORAS ,yes,1,0,1
+l10n_cl_partner_activity_683,l10n_cl_partner_activity_680,661202,CORREDORES DE BOLSA ,yes,1,1,1
+l10n_cl_partner_activity_684,l10n_cl_partner_activity_680,661203,AGENTES DE VALORES ,yes,1,1,1
+l10n_cl_partner_activity_685,l10n_cl_partner_activity_680,661204,ACTIVIDADES DE CASAS DE CAMBIO Y OPERADORES DE DIVISA ,nd,1,1,1
+l10n_cl_partner_activity_686,l10n_cl_partner_activity_680,661209,OTROS SERVICIOS DE CORRETAJE DE VALORES Y COMMODITIES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_687,l10n_cl_partner_activity_680,661901,ACTIVIDADES DE CÁMARAS DE COMPENSACIÓN ,yes,1,1,1
+l10n_cl_partner_activity_688,l10n_cl_partner_activity_680,661902,ADMINISTRACIÓN DE TARJETAS DE CRÉDITO ,yes,1,1,1
+l10n_cl_partner_activity_689,l10n_cl_partner_activity_680,661903,EMPRESAS DE ASESORÍA Y CONSULTORÍA EN INVERSIÓN FINANCIERA; SOCIEDADES DE APOYO AL GIRO ,nd,1,1,1
+l10n_cl_partner_activity_690,l10n_cl_partner_activity_680,661904,ACTIVIDADES DE CLASIFICADORAS DE RIESGO ,yes,1,1,1
+l10n_cl_partner_activity_691,l10n_cl_partner_activity_680,661909,OTRAS ACTIVIDADES AUXILIARES DE LAS ACTIVIDADES DE SERVICIOS FINANCIEROS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_692,l10n_cl_partner_activity_656,,ACTIVIDADES AUXILIARES DE LAS ACTIVIDADES DE SEGUROS Y FONDOS DE PENSIONES            ,not,nd,1,1
+l10n_cl_partner_activity_693,l10n_cl_partner_activity_692,662100,EVALUACIÓN DE RIESGOS Y DAÑOS (INCLUYE ACTIVIDADES DE LIQUIDADORES DE SEGUROS) ,not,2,1,1
+l10n_cl_partner_activity_694,l10n_cl_partner_activity_692,662200,ACTIVIDADES DE AGENTES Y CORREDORES DE SEGUROS ,nd,1,1,1
+l10n_cl_partner_activity_695,l10n_cl_partner_activity_692,662900,OTRAS ACTIVIDADES AUXILIARES DE LAS ACTIVIDADES DE SEGUROS Y FONDOS DE PENSIONES ,nd,nd,1,1
+l10n_cl_partner_activity_696,l10n_cl_partner_activity_656,,ACTIVIDADES DE GESTIÓN DE FONDOS                  ,not,nd,1,1
+l10n_cl_partner_activity_697,l10n_cl_partner_activity_696,663010,ADMINISTRADORAS DE FONDOS DE PENSIONES (AFP) ,yes,1,0,1
+l10n_cl_partner_activity_698,l10n_cl_partner_activity_696,663091,ADMINISTRADORAS DE FONDOS DE INVERSIÓN ,yes,1,1,1
+l10n_cl_partner_activity_699,l10n_cl_partner_activity_696,663092,ADMINISTRADORAS DE FONDOS MUTUOS ,yes,1,1,1
+l10n_cl_partner_activity_700,l10n_cl_partner_activity_696,663093,ADMINISTRADORAS DE FICES (FONDOS DE INVERSIÓN DE CAPITAL EXTRANJERO) ,yes,1,1,1
+l10n_cl_partner_activity_701,l10n_cl_partner_activity_696,663094,ADMINISTRADORAS DE FONDOS PARA LA VIVIENDA ,yes,1,1,1
+l10n_cl_partner_activity_702,l10n_cl_partner_activity_696,663099,ADMINISTRADORAS DE FONDOS PARA OTROS FINES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_703,,,ACTIVIDADES INMOBILIARIAS,not,nd,1,1
+l10n_cl_partner_activity_704,l10n_cl_partner_activity_703,,ACTIVIDADES INMOBILIARIAS REALIZADAS CON BIENES PROPIOS O ARRENDADOS               ,not,nd,1,1
+l10n_cl_partner_activity_705,l10n_cl_partner_activity_704,681011,ALQUILER DE BIENES INMUEBLES AMOBLADOS O CON EQUIPOS Y MAQUINARIAS ,yes,1,1,1
+l10n_cl_partner_activity_706,l10n_cl_partner_activity_704,681012,"COMPRA, VENTA Y ALQUILER (EXCEPTO AMOBLADOS) DE INMUEBLES ",nd,1,1,1
+l10n_cl_partner_activity_707,l10n_cl_partner_activity_704,681020,SERVICIOS IMPUTADOS DE ALQUILER DE VIVIENDAS ,nd,1,1,1
+l10n_cl_partner_activity_708,l10n_cl_partner_activity_703,,ACTIVIDADES INMOBILIARIAS REALIZADAS A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATA            ,not,nd,1,1
+l10n_cl_partner_activity_709,l10n_cl_partner_activity_708,682000,ACTIVIDADES INMOBILIARIAS REALIZADAS A CAMBIO DE UNA RETRIBUCIÓN O POR CONTRATA ,nd,nd,1,1
+l10n_cl_partner_activity_710,l10n_cl_partner_activity_708,,"ACTIVIDADES PROFESIONALES, CIENTIFICAS Y TÉCNICAS",not,nd,1,1
+l10n_cl_partner_activity_711,l10n_cl_partner_activity_710,,ACTIVIDADES JURÍDICAS                     ,not,nd,1,1
+l10n_cl_partner_activity_712,l10n_cl_partner_activity_711,691001,SERVICIOS DE ASESORAMIENTO Y REPRESENTACIÓN JURÍDICA ,not,2,1,1
+l10n_cl_partner_activity_713,l10n_cl_partner_activity_711,691002,SERVICIO NOTARIAL ,not,2,0,1
+l10n_cl_partner_activity_714,l10n_cl_partner_activity_711,691003,CONSERVADOR DE BIENES RAÍCES ,not,2,0,1
+l10n_cl_partner_activity_715,l10n_cl_partner_activity_711,691004,RECEPTORES JUDICIALES ,not,2,1,1
+l10n_cl_partner_activity_716,l10n_cl_partner_activity_711,691009,SERVICIOS DE ARBITRAJE; SÍNDICOS DE QUIEBRA Y PERITOS JUDICIALES; OTRAS ACTIVIDADES JURÍDICAS N.C.P. ,not,2,1,1
+l10n_cl_partner_activity_717,l10n_cl_partner_activity_710,,"ACTIVIDADES DE CONTABILIDAD, TENEDURÍA DE LIBROS Y AUDITORÍA; CONSULTORÍA FISCAL             ",not,nd,1,1
+l10n_cl_partner_activity_718,l10n_cl_partner_activity_717,692000,"ACTIVIDADES DE CONTABILIDAD, TENEDURÍA DE LIBROS Y AUDITORÍA; CONSULTORÍA FISCAL ",not,2,1,1
+l10n_cl_partner_activity_719,l10n_cl_partner_activity_710,,ACTIVIDADES DE OFICINAS PRINCIPALES                   ,not,nd,1,1
+l10n_cl_partner_activity_720,l10n_cl_partner_activity_719,701000,ACTIVIDADES DE OFICINAS PRINCIPALES ,nd,nd,1,1
+l10n_cl_partner_activity_721,l10n_cl_partner_activity_710,,ACTIVIDADES DE CONSULTORÍA DE GESTIÓN                  ,not,nd,1,1
+l10n_cl_partner_activity_722,l10n_cl_partner_activity_721,702000,ACTIVIDADES DE CONSULTORÍA DE GESTIÓN ,nd,nd,1,1
+l10n_cl_partner_activity_723,l10n_cl_partner_activity_710,,ACTIVIDADES DE ARQUITECTURA E INGENIERÍA Y ACTIVIDADES CONEXAS DE CONSULTORÍA TÉCNICA            ,not,nd,1,1
+l10n_cl_partner_activity_724,l10n_cl_partner_activity_723,711001,"SERVICIOS DE ARQUITECTURA (DISEÑO DE EDIFICIOS, DIBUJO DE PLANOS DE CONSTRUCCIÓN, ENTRE OTROS) ",not,2,1,1
+l10n_cl_partner_activity_725,l10n_cl_partner_activity_723,711002,EMPRESAS DE SERVICIOS DE INGENIERÍA Y ACTIVIDADES CONEXAS DE CONSULTORÍA TÉCNICA  ,yes,1,1,1
+l10n_cl_partner_activity_726,l10n_cl_partner_activity_723,711003,SERVICIOS PROFESIONALES DE INGENIERÍA Y ACTIVIDADES CONEXAS DE CONSULTORÍA TÉCNICA  ,not,2,1,1
+l10n_cl_partner_activity_727,l10n_cl_partner_activity_710,,ENSAYOS Y ANÁLISIS TÉCNICOS                   ,not,nd,1,1
+l10n_cl_partner_activity_728,l10n_cl_partner_activity_727,712001,ACTIVIDADES DE PLANTAS DE REVISIÓN TÉCNICA PARA VEHÍCULOS AUTOMOTORES ,yes,1,1,1
+l10n_cl_partner_activity_729,l10n_cl_partner_activity_727,712009,OTROS SERVICIOS DE ENSAYOS Y ANÁLISIS TÉCNICOS (EXCEPTO ACTIVIDADES DE PLANTAS DE REVISIÓN TÉCNICA) ,nd,1,1,1
+l10n_cl_partner_activity_730,l10n_cl_partner_activity_710,,INVESTIGACIONES Y DESARROLLO EXPERIMENTAL EN EL CAMPO DE LAS CIENCIAS NATURALES Y LA INGENIERÍA ,not,nd,1,1
+l10n_cl_partner_activity_731,l10n_cl_partner_activity_730,721000,INVESTIGACIONES Y DESARROLLO EXPERIMENTAL EN EL CAMPO DE LAS CIENCIAS NATURALES Y LA INGENIERÍA ,nd,1,1,1
+l10n_cl_partner_activity_732,l10n_cl_partner_activity_710,,INVESTIGACIONES Y DESARROLLO EXPERIMENTAL EN EL CAMPO DE LAS CIENCIAS SOCIALES Y LAS HUMANIDADES ,not,nd,1,1
+l10n_cl_partner_activity_733,l10n_cl_partner_activity_732,722000,INVESTIGACIONES Y DESARROLLO EXPERIMENTAL EN EL CAMPO DE LAS CIENCIAS SOCIALES Y LAS HUMANIDADES ,nd,1,1,1
+l10n_cl_partner_activity_734,l10n_cl_partner_activity_710,,PUBLICIDAD                      ,not,nd,1,1
+l10n_cl_partner_activity_735,l10n_cl_partner_activity_734,731001,SERVICIOS DE PUBLICIDAD PRESTADOS POR EMPRESAS ,yes,1,1,1
+l10n_cl_partner_activity_736,l10n_cl_partner_activity_734,731002,SERVICIOS DE PUBLICIDAD PRESTADOS POR PROFESIONALES ,not,2,1,1
+l10n_cl_partner_activity_737,l10n_cl_partner_activity_710,,ESTUDIOS DE MERCADO Y ENCUESTAS DE OPINIÓN PÚBLICA               ,not,nd,1,1
+l10n_cl_partner_activity_738,l10n_cl_partner_activity_737,732000,ESTUDIOS DE MERCADO Y ENCUESTAS DE OPINIÓN PÚBLICA ,nd,nd,1,1
+l10n_cl_partner_activity_739,l10n_cl_partner_activity_710,,ACTIVIDADES ESPECIALIZADAS DE DISEÑO                   ,not,nd,1,1
+l10n_cl_partner_activity_740,l10n_cl_partner_activity_739,741001,ACTIVIDADES DE DISEÑO DE VESTUARIO ,nd,nd,1,1
+l10n_cl_partner_activity_741,l10n_cl_partner_activity_739,741002,ACTIVIDADES DE DISEÑO Y DECORACIÓN DE INTERIORES ,nd,nd,1,1
+l10n_cl_partner_activity_742,l10n_cl_partner_activity_739,741009,OTRAS ACTIVIDADES ESPECIALIZADAS DE DISEÑO N.C.P. ,nd,nd,1,1
+l10n_cl_partner_activity_743,l10n_cl_partner_activity_710,,ACTIVIDADES DE FOTOGRAFÍA                    ,not,nd,1,1
+l10n_cl_partner_activity_744,l10n_cl_partner_activity_743,742001,"SERVICIOS DE REVELADO, IMPRESIÓN Y AMPLIACIÓN DE FOTOGRAFÍAS ",yes,1,1,1
+l10n_cl_partner_activity_745,l10n_cl_partner_activity_743,742002,SERVICIOS Y ACTIVIDADES DE FOTOGRAFÍA  ,nd,nd,1,1
+l10n_cl_partner_activity_746,l10n_cl_partner_activity_743,742003,SERVICIOS PERSONALES DE FOTOGRAFÍA  ,not,2,1,1
+l10n_cl_partner_activity_747,l10n_cl_partner_activity_710,,"OTRAS ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS N.C.P.                ",not,nd,1,1
+l10n_cl_partner_activity_748,l10n_cl_partner_activity_747,749001,ASESORÍA Y GESTIÓN EN LA COMPRA O VENTA DE PEQUEÑAS Y MEDIANAS EMPRESAS ,nd,1,1,1
+l10n_cl_partner_activity_749,l10n_cl_partner_activity_747,749002,SERVICIOS DE TRADUCCIÓN E INTERPRETACIÓN PRESTADOS POR EMPRESAS ,yes,1,1,1
+l10n_cl_partner_activity_750,l10n_cl_partner_activity_747,749003,SERVICIOS PERSONALES DE TRADUCCIÓN E INTERPRETACIÓN ,not,2,1,1
+l10n_cl_partner_activity_751,l10n_cl_partner_activity_747,749004,"ACTIVIDADES DE AGENCIAS Y AGENTES DE REPRESENTACIÓN DE ACTORES, DEPORTISTAS Y OTRAS FIGURAS PÚBLICAS ",yes,1,1,1
+l10n_cl_partner_activity_752,l10n_cl_partner_activity_747,749009,"OTRAS ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS N.C.P. ",not,2,1,1
+l10n_cl_partner_activity_753,l10n_cl_partner_activity_710,,ACTIVIDADES VETERINARIAS                     ,not,nd,1,1
+l10n_cl_partner_activity_754,l10n_cl_partner_activity_753,750001,ACTIVIDADES DE CLÍNICAS VETERINARIAS ,nd,1,1,1
+l10n_cl_partner_activity_755,l10n_cl_partner_activity_753,750002,"ACTIVIDADES DE VETERINARIOS, TÉCNICOS Y OTRO PERSONAL AUXILIAR, PRESTADOS DE FORMA INDEPENDIENTE ",not,2,1,1
+l10n_cl_partner_activity_756,,,ACTIVIDADES DE SERVICIOS ADMINISTRATIVOS Y DE APOYO,not,nd,1,1
+l10n_cl_partner_activity_757,l10n_cl_partner_activity_756,,ALQUILER Y ARRENDAMIENTO DE VEHÍCULOS AUTOMOTORES                 ,not,nd,1,1
+l10n_cl_partner_activity_758,l10n_cl_partner_activity_757,771000,ALQUILER DE VEHÍCULOS AUTOMOTORES SIN CHOFER ,yes,1,1,1
+l10n_cl_partner_activity_759,l10n_cl_partner_activity_756,,ALQUILER Y ARRENDAMIENTO DE EFECTOS PERSONALES Y ENSERES DOMÉSTICOS              ,not,nd,1,1
+l10n_cl_partner_activity_760,l10n_cl_partner_activity_759,772100,ALQUILER Y ARRENDAMIENTO DE EQUIPO RECREATIVO Y DEPORTIVO ,yes,1,1,1
+l10n_cl_partner_activity_761,l10n_cl_partner_activity_759,772200,ALQUILER DE CINTAS DE VIDEO Y DISCOS ,yes,1,1,1
+l10n_cl_partner_activity_762,l10n_cl_partner_activity_759,772900,ALQUILER DE OTROS EFECTOS PERSONALES Y ENSERES DOMÉSTICOS (INCLUYE MOBILIARIO PARA EVENTOS) ,yes,1,1,1
+l10n_cl_partner_activity_763,l10n_cl_partner_activity_756,,"ALQUILER Y ARRENDAMIENTO DE OTROS TIPOS DE MAQUINARIA, EQUIPO Y BIENES TANGIBLES           ",not,nd,1,1
+l10n_cl_partner_activity_764,l10n_cl_partner_activity_763,773001,"ALQUILER DE EQUIPOS DE TRANSPORTE SIN OPERARIO, EXCEPTO VEHÍCULOS AUTOMOTORES ",yes,1,1,1
+l10n_cl_partner_activity_765,l10n_cl_partner_activity_763,773002,"ALQUILER DE MAQUINARIA Y EQUIPO AGROPECUARIO, FORESTAL, DE CONSTRUCCIÓN E ING. CIVIL, SIN OPERARIOS ",yes,1,1,1
+l10n_cl_partner_activity_766,l10n_cl_partner_activity_763,773003,"ALQUILER DE MAQUINARIA Y EQUIPO DE OFICINA, SIN OPERARIOS (SIN SERVICIO ADMINISTRATIVO) ",yes,1,1,1
+l10n_cl_partner_activity_767,l10n_cl_partner_activity_763,773009,ALQUILER DE OTROS TIPOS DE MAQUINARIAS Y EQUIPOS SIN OPERARIO N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_768,l10n_cl_partner_activity_756,,"ARRENDAMIENTO DE PROPIEDAD INTELECTUAL Y SIMILARES, EXCEPTO OBRAS PROTEGIDAS POR DERECHOS DE AUTOR ",not,nd,1,1
+l10n_cl_partner_activity_769,l10n_cl_partner_activity_768,774000,"ARRENDAMIENTO DE PROPIEDAD INTELECTUAL Y SIMILARES, EXCEPTO OBRAS PROTEGIDAS POR DERECHOS DE AUTOR ",not,1,1,1
+l10n_cl_partner_activity_770,l10n_cl_partner_activity_756,,ACTIVIDADES DE AGENCIAS DE EMPLEO                  ,not,nd,1,1
+l10n_cl_partner_activity_771,l10n_cl_partner_activity_770,781000,ACTIVIDADES DE AGENCIAS DE EMPLEO ,yes,1,1,1
+l10n_cl_partner_activity_772,l10n_cl_partner_activity_756,,ACTIVIDADES DE AGENCIAS DE EMPLEO TEMPORAL                 ,not,nd,1,1
+l10n_cl_partner_activity_773,l10n_cl_partner_activity_772,782000,ACTIVIDADES DE AGENCIAS DE EMPLEO TEMPORAL (INCLUYE EMPRESAS DE SERVICIOS TRANSITORIOS) ,yes,1,1,1
+l10n_cl_partner_activity_774,l10n_cl_partner_activity_756,,OTRAS ACTIVIDADES DE DOTACIÓN DE RECURSOS HUMANOS                ,not,nd,1,1
+l10n_cl_partner_activity_775,l10n_cl_partner_activity_774,783000,OTRAS ACTIVIDADES DE DOTACIÓN DE RECURSOS HUMANOS ,yes,1,1,1
+l10n_cl_partner_activity_776,l10n_cl_partner_activity_756,,ACTIVIDADES DE AGENCIAS DE VIAJES Y OPERADORES TURÍSTICOS               ,not,nd,1,1
+l10n_cl_partner_activity_777,l10n_cl_partner_activity_776,791100,ACTIVIDADES DE AGENCIAS DE VIAJES ,yes,1,1,1
+l10n_cl_partner_activity_778,l10n_cl_partner_activity_776,791200,ACTIVIDADES DE OPERADORES TURÍSTICOS ,yes,1,1,1
+l10n_cl_partner_activity_779,l10n_cl_partner_activity_756,,OTROS SERVICIOS DE RESERVAS Y ACTIVIDADES CONEXAS                ,not,nd,1,1
+l10n_cl_partner_activity_780,l10n_cl_partner_activity_779,799000,"OTROS SERVICIOS DE RESERVAS Y ACTIVIDADES CONEXAS (INCLUYE VENTA DE ENTRADAS PARA TEATRO, Y OTROS) ",nd,1,1,1
+l10n_cl_partner_activity_781,l10n_cl_partner_activity_756,,ACTIVIDADES DE SEGURIDAD PRIVADA                   ,not,nd,1,1
+l10n_cl_partner_activity_782,l10n_cl_partner_activity_781,801001,SERVICIOS DE SEGURIDAD PRIVADA PRESTADOS POR EMPRESAS ,nd,1,1,1
+l10n_cl_partner_activity_783,l10n_cl_partner_activity_781,801002,SERVICIO DE TRANSPORTE DE VALORES EN VEHÍCULOS BLINDADOS ,yes,1,1,1
+l10n_cl_partner_activity_784,l10n_cl_partner_activity_781,801003,SERVICIOS DE SEGURIDAD PRIVADA PRESTADOS POR INDEPENDIENTES ,not,2,1,1
+l10n_cl_partner_activity_785,l10n_cl_partner_activity_756,,ACTIVIDADES DE SERVICIOS DE SISTEMAS DE SEGURIDAD                ,not,nd,1,1
+l10n_cl_partner_activity_786,l10n_cl_partner_activity_785,802000,ACTIVIDADES DE SERVICIOS DE SISTEMAS DE SEGURIDAD (INCLUYE SERVICIOS DE CERRAJERÍA) ,nd,1,1,1
+l10n_cl_partner_activity_787,l10n_cl_partner_activity_756,,ACTIVIDADES DE INVESTIGACIÓN                    ,not,nd,1,1
+l10n_cl_partner_activity_788,l10n_cl_partner_activity_787,803000,ACTIVIDADES DE INVESTIGACIÓN (INCLUYE ACTIVIDADES DE INVESTIGADORES Y DETECTIVES PRIVADOS) ,nd,nd,1,1
+l10n_cl_partner_activity_789,l10n_cl_partner_activity_756,,ACTIVIDADES COMBINADAS DE APOYO A INSTALACIONES                 ,not,nd,1,1
+l10n_cl_partner_activity_790,l10n_cl_partner_activity_789,811000,ACTIVIDADES COMBINADAS DE APOYO A INSTALACIONES ,nd,nd,1,1
+l10n_cl_partner_activity_791,l10n_cl_partner_activity_756,,ACTIVIDADES DE LIMPIEZA                    ,not,nd,1,1
+l10n_cl_partner_activity_792,l10n_cl_partner_activity_791,812100,LIMPIEZA GENERAL DE EDIFICIOS ,yes,1,1,1
+l10n_cl_partner_activity_793,l10n_cl_partner_activity_791,812901,"DESRATIZACIÓN, DESINFECCIÓN Y EXTERMINIO DE PLAGAS NO AGRÍCOLAS ",nd,1,1,1
+l10n_cl_partner_activity_794,l10n_cl_partner_activity_791,812909,OTRAS ACTIVIDADES DE LIMPIEZA DE EDIFICIOS E INSTALACIONES INDUSTRIALES N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_795,l10n_cl_partner_activity_756,,ACTIVIDADES DE PAISAJISMO Y SERVICIOS DE MANTENIMIENTO CONEXOS               ,not,nd,1,1
+l10n_cl_partner_activity_796,l10n_cl_partner_activity_795,813000,"ACTIVIDADES DE PAISAJISMO, SERVICIOS DE JARDINERÍA Y SERVICIOS CONEXOS ",yes,1,1,1
+l10n_cl_partner_activity_797,l10n_cl_partner_activity_756,,ACTIVIDADES ADMINISTRATIVAS Y DE APOYO DE OFICINA                ,not,nd,1,1
+l10n_cl_partner_activity_798,l10n_cl_partner_activity_797,821100,ACTIVIDADES COMBINADAS DE SERVICIOS ADMINISTRATIVOS DE OFICINA ,yes,1,1,1
+l10n_cl_partner_activity_799,l10n_cl_partner_activity_797,821900,"FOTOCOPIADO, PREPARACIÓN DE DOCUMENTOS Y OTRAS ACTIVIDADES ESPECIALIZADAS DE APOYO DE OFICINA ",yes,1,1,1
+l10n_cl_partner_activity_800,l10n_cl_partner_activity_756,,ACTIVIDADES DE CALL-CENTER                    ,not,nd,1,1
+l10n_cl_partner_activity_801,l10n_cl_partner_activity_800,822000,ACTIVIDADES DE CALL-CENTER ,yes,1,1,1
+l10n_cl_partner_activity_802,l10n_cl_partner_activity_756,,ORGANIZACIÓN DE CONVENCIONES Y EXPOSICIONES COMERCIALES                 ,not,nd,1,1
+l10n_cl_partner_activity_803,l10n_cl_partner_activity_802,823000,ORGANIZACIÓN DE CONVENCIONES Y EXPOSICIONES COMERCIALES ,nd,1,1,1
+l10n_cl_partner_activity_804,l10n_cl_partner_activity_756,,ACTIVIDADES DE SERVICIOS DE APOYO A LAS EMPRESAS N.C.P.              ,not,nd,1,1
+l10n_cl_partner_activity_805,l10n_cl_partner_activity_804,829110,ACTIVIDADES DE AGENCIAS DE COBRO ,nd,1,1,1
+l10n_cl_partner_activity_806,l10n_cl_partner_activity_804,829120,ACTIVIDADES DE AGENCIAS DE CALIFICACIÓN CREDITICIA ,nd,1,1,1
+l10n_cl_partner_activity_807,l10n_cl_partner_activity_804,829200,ACTIVIDADES DE ENVASADO Y EMPAQUETADO ,yes,1,1,1
+l10n_cl_partner_activity_808,l10n_cl_partner_activity_804,829900,OTRAS ACTIVIDADES DE SERVICIOS DE APOYO A LAS EMPRESAS N.C.P. ,yes,1,1,1
+l10n_cl_partner_activity_809,,,ADMINISTRACIÓN PÚBLICA Y DEFENSA; PLANES DE SEGURIDAD SOCIAL DE AFILIACIÓN OBLIGATORIA,not,nd,1,1
+l10n_cl_partner_activity_810,l10n_cl_partner_activity_809,,ADMINISTRACIÓN DEL ESTADO Y APLICACIÓN DE LA POLÍTICA ECONÓMICA Y SOCIAL DE LA COMUNIDAD         ,not,nd,1,1
+l10n_cl_partner_activity_811,l10n_cl_partner_activity_810,841100,ACTIVIDADES DE LA ADMINISTRACIÓN PÚBLICA EN GENERAL ,nd,1,0,1
+l10n_cl_partner_activity_812,l10n_cl_partner_activity_810,841200,"REGULACIÓN DE LAS ACTIVIDADES DE ORGANISMOS QUE PRESTAN SERVICIOS SANITARIOS, EDUCATIVOS, CULTURALES ",nd,1,0,1
+l10n_cl_partner_activity_813,l10n_cl_partner_activity_810,841300,REGULACIÓN Y FACILITACIÓN DE LA ACTIVIDAD ECONÓMICA ,nd,1,0,1
+l10n_cl_partner_activity_814,l10n_cl_partner_activity_809,,PRESTACIÓN DE SERVICIOS A LA COMUNIDAD EN GENERAL               ,not,nd,1,1
+l10n_cl_partner_activity_815,l10n_cl_partner_activity_814,842100,RELACIONES EXTERIORES ,nd,1,0,1
+l10n_cl_partner_activity_816,l10n_cl_partner_activity_814,842200,ACTIVIDADES DE DEFENSA ,nd,1,0,1
+l10n_cl_partner_activity_817,l10n_cl_partner_activity_814,842300,ACTIVIDADES DE MANTENIMIENTO DEL ORDEN PÚBLICO Y DE SEGURIDAD ,nd,1,0,1
+l10n_cl_partner_activity_818,l10n_cl_partner_activity_809,,ACTIVIDADES DE PLANES DE SEGURIDAD SOCIAL DE AFILIACIÓN OBLIGATORIA              ,not,nd,1,1
+l10n_cl_partner_activity_819,l10n_cl_partner_activity_818,843010,FONDO NACIONAL DE SALUD (FONASA)  ,nd,1,0,1
+l10n_cl_partner_activity_820,l10n_cl_partner_activity_818,843020,INSTITUTO DE PREVISIÓN SOCIAL (IPS) ,nd,1,0,1
+l10n_cl_partner_activity_821,l10n_cl_partner_activity_818,843090,OTROS PLANES DE SEGURIDAD SOCIAL DE AFILIACIÓN OBLIGATORIA N.C.P. ,nd,1,0,1
+l10n_cl_partner_activity_822,,,ENSEÑANZA,not,nd,1,1
+l10n_cl_partner_activity_823,l10n_cl_partner_activity_822,,"ENSEÑANZA PREESCOLAR, PRIMARIA, SECUNDARIA CIENTÍFICO HUMANISTA Y TÉCNICO PROFESIONAL ",not,nd,1,1
+l10n_cl_partner_activity_824,l10n_cl_partner_activity_823,850011,ENSEÑANZA PREESCOLAR PÚBLICA ,not,1,1,1
+l10n_cl_partner_activity_825,l10n_cl_partner_activity_823,850012,"ENSEÑANZA PRIMARIA, SECUNDARIA CIENTÍFICO HUMANISTA Y TÉCNICO PROFESIONAL PÚBLICA ",not,1,1,1
+l10n_cl_partner_activity_826,l10n_cl_partner_activity_823,850021,ENSEÑANZA PREESCOLAR PRIVADA ,not,1,1,1
+l10n_cl_partner_activity_827,l10n_cl_partner_activity_823,850022,"ENSEÑANZA PRIMARIA, SECUNDARIA CIENTÍFICO HUMANISTA Y TÉCNICO PROFESIONAL PRIVADA ",not,1,1,1
+l10n_cl_partner_activity_828,l10n_cl_partner_activity_822,,ENSEÑANZA SUPERIOR                     ,not,nd,1,1
+l10n_cl_partner_activity_829,l10n_cl_partner_activity_828,853110,ENSEÑANZA SUPERIOR EN UNIVERSIDADES PÚBLICAS ,not,1,0,1
+l10n_cl_partner_activity_830,l10n_cl_partner_activity_828,853120,ENSEÑANZA SUPERIOR EN UNIVERSIDADES PRIVADAS ,not,1,0,1
+l10n_cl_partner_activity_831,l10n_cl_partner_activity_828,853201,ENSEÑANZA SUPERIOR EN INSTITUTOS PROFESIONALES ,not,1,0,1
+l10n_cl_partner_activity_832,l10n_cl_partner_activity_828,853202,ENSEÑANZA SUPERIOR EN CENTROS DE FORMACIÓN TÉCNICA ,not,1,1,1
+l10n_cl_partner_activity_833,l10n_cl_partner_activity_822,,OTROS TIPOS DE ENSEÑANZA                   ,not,nd,1,1
+l10n_cl_partner_activity_834,l10n_cl_partner_activity_833,854100,ENSEÑANZA DEPORTIVA Y RECREATIVA ,yes,1,1,1
+l10n_cl_partner_activity_835,l10n_cl_partner_activity_833,854200,ENSEÑANZA CULTURAL ,not,2,1,1
+l10n_cl_partner_activity_836,l10n_cl_partner_activity_833,854901,ENSEÑANZA PREUNIVERSITARIA ,not,1,1,1
+l10n_cl_partner_activity_837,l10n_cl_partner_activity_833,854902,SERVICIOS PERSONALES DE EDUCACIÓN ,not,2,1,1
+l10n_cl_partner_activity_838,l10n_cl_partner_activity_833,854909,OTROS TIPOS DE ENSEÑANZA N.C.P. ,not,1,1,1
+l10n_cl_partner_activity_839,l10n_cl_partner_activity_822,,ACTIVIDADES DE APOYO A LA ENSEÑANZA                 ,not,nd,1,1
+l10n_cl_partner_activity_840,l10n_cl_partner_activity_839,855000,ACTIVIDADES DE APOYO A LA ENSEÑANZA ,nd,nd,1,1
+l10n_cl_partner_activity_841,,,ACTIVIDADES DE ATENCIÓN DE LA SALUD HUMANA Y DE ASISTENCIA SOCIAL,not,nd,1,1
+l10n_cl_partner_activity_842,l10n_cl_partner_activity_841,,ACTIVIDADES DE HOSPITALES PÚBLICOS Y PRIVADOS                 ,not,nd,1,1
+l10n_cl_partner_activity_843,l10n_cl_partner_activity_842,861010,ACTIVIDADES DE HOSPITALES Y CLÍNICAS PÚBLICAS ,yes,1,0,1
+l10n_cl_partner_activity_844,l10n_cl_partner_activity_842,861020,ACTIVIDADES DE HOSPITALES Y CLÍNICAS PRIVADAS ,yes,1,1,1
+l10n_cl_partner_activity_845,l10n_cl_partner_activity_841,,ACTIVIDADES DE MÉDICOS Y ODONTÓLOGOS                  ,not,nd,1,1
+l10n_cl_partner_activity_846,l10n_cl_partner_activity_845,862010,ACTIVIDADES DE CENTROS DE SALUD MUNICIPALIZADOS (SERVICIOS DE SALUD PÚBLICA) ,nd,1,1,1
+l10n_cl_partner_activity_847,l10n_cl_partner_activity_845,862021,CENTROS MÉDICOS PRIVADOS (ESTABLECIMIENTOS DE ATENCIÓN AMBULATORIA) ,nd,1,1,1
+l10n_cl_partner_activity_848,l10n_cl_partner_activity_845,862022,CENTROS DE ATENCIÓN ODONTOLÓGICA PRIVADOS (ESTABLECIMIENTOS DE ATENCIÓN AMBULATORIA) ,nd,1,1,1
+l10n_cl_partner_activity_849,l10n_cl_partner_activity_845,862031,SERVICIOS DE MÉDICOS PRESTADOS DE FORMA INDEPENDIENTE ,not,2,1,1
+l10n_cl_partner_activity_850,l10n_cl_partner_activity_845,862032,SERVICIOS DE ODONTÓLOGOS PRESTADOS DE FORMA INDEPENDIENTE ,not,2,1,1
+l10n_cl_partner_activity_851,l10n_cl_partner_activity_841,,OTRAS ACTIVIDADES DE ATENCIÓN DE LA SALUD HUMANA               ,not,nd,1,1
+l10n_cl_partner_activity_852,l10n_cl_partner_activity_851,869010,ACTIVIDADES DE LABORATORIOS CLÍNICOS Y BANCOS DE SANGRE ,nd,1,1,1
+l10n_cl_partner_activity_853,l10n_cl_partner_activity_851,869091,OTROS SERVICIOS DE ATENCIÓN DE LA SALUD HUMANA PRESTADOS POR EMPRESAS ,nd,1,1,1
+l10n_cl_partner_activity_854,l10n_cl_partner_activity_851,869092,SERVICIOS PRESTADOS DE FORMA INDEPENDIENTE POR OTROS PROFESIONALES DE LA SALUD ,not,2,1,1
+l10n_cl_partner_activity_855,l10n_cl_partner_activity_841,,ACTIVIDADES DE ATENCIÓN DE ENFERMERÍA EN INSTITUCIONES                ,not,nd,1,1
+l10n_cl_partner_activity_856,l10n_cl_partner_activity_855,871000,ACTIVIDADES DE ATENCIÓN DE ENFERMERÍA EN INSTITUCIONES ,nd,1,1,1
+l10n_cl_partner_activity_857,l10n_cl_partner_activity_841,,ACTIVIDADES DE ATENCIÓN EN INSTITUCIONES PARA PERSONAS CON DISCAPACIDAD MENTAL Y TOXICÓMANOS  ,not,nd,1,1
+l10n_cl_partner_activity_858,l10n_cl_partner_activity_857,872000,ACTIVIDADES DE ATENCIÓN EN INSTITUCIONES PARA PERSONAS CON DISCAPACIDAD MENTAL Y TOXICÓMANOS ,nd,1,1,1
+l10n_cl_partner_activity_859,l10n_cl_partner_activity_841,,ACTIVIDADES DE ATENCIÓN EN INSTITUCIONES PARA PERSONAS DE EDAD Y PERSONAS CON DISCAPACIDAD          ,not,nd,1,1
+l10n_cl_partner_activity_860,l10n_cl_partner_activity_859,873000,ACTIVIDADES DE ATENCIÓN EN INSTITUCIONES PARA PERSONAS DE EDAD Y PERSONAS CON DISCAPACIDAD FÍSICA ,nd,1,1,1
+l10n_cl_partner_activity_861,l10n_cl_partner_activity_841,,OTRAS ACTIVIDADES DE ATENCIÓN EN INSTITUCIONES                 ,not,nd,1,1
+l10n_cl_partner_activity_862,l10n_cl_partner_activity_861,879000,OTRAS ACTIVIDADES DE ATENCIÓN EN INSTITUCIONES ,nd,1,1,1
+l10n_cl_partner_activity_863,l10n_cl_partner_activity_841,,ACTIVIDADES DE ASISTENCIA SOCIAL SIN ALOJAMIENTO PARA PERSONAS DE EDAD Y PERSONAS CON DISCAPACIDAD ,not,nd,1,1
+l10n_cl_partner_activity_864,l10n_cl_partner_activity_863,881000,ACTIVIDADES DE ASISTENCIA SOCIAL SIN ALOJAMIENTO PARA PERSONAS DE EDAD Y PERSONAS CON DISCAPACIDAD ,nd,1,1,1
+l10n_cl_partner_activity_865,l10n_cl_partner_activity_841,,OTRAS ACTIVIDADES DE ASISTENCIA SOCIAL SIN ALOJAMIENTO                ,not,nd,1,1
+l10n_cl_partner_activity_866,l10n_cl_partner_activity_865,889000,OTRAS ACTIVIDADES DE ASISTENCIA SOCIAL SIN ALOJAMIENTO ,nd,1,1,1
+l10n_cl_partner_activity_867,l10n_cl_partner_activity_865,,"ACTIVIDADES ARTÍSTICAS, DE ENTRETENIMIENTO Y RECREATIVAS",not,nd,1,1
+l10n_cl_partner_activity_868,l10n_cl_partner_activity_867,,"ACTIVIDADES CREATIVAS, ARTÍSTICAS Y DE ENTRETENIMIENTO                 ",not,nd,1,1
+l10n_cl_partner_activity_869,l10n_cl_partner_activity_868,900001,"SERVICIOS DE PRODUCCIÓN DE OBRAS DE TEATRO, CONCIERTOS, ESPECTÁCULOS DE DANZA, OTRAS PROD. ESCÉNICAS ",nd,1,1,1
+l10n_cl_partner_activity_870,l10n_cl_partner_activity_868,900002,"ACTIVIDADES ARTÍSTICAS REALIZADAS POR BANDAS DE MÚSICA, COMPAÑÍAS DE TEATRO, CIRCENSES Y SIMILARES ",yes,1,1,1
+l10n_cl_partner_activity_871,l10n_cl_partner_activity_868,900003,"ACTIVIDADES DE ARTISTAS REALIZADAS DE FORMA INDEPENDIENTE: ACTORES, MÚSICOS, ESCRITORES, ENTRE OTROS ",not,2,1,1
+l10n_cl_partner_activity_872,l10n_cl_partner_activity_868,900004,SERVICIOS PRESTADOS POR PERIODISTAS INDEPENDIENTES ,not,2,1,1
+l10n_cl_partner_activity_873,l10n_cl_partner_activity_868,900009,"OTRAS ACTIVIDADES CREATIVAS, ARTÍSTICAS Y DE ENTRETENIMIENTO N.C.P. ",nd,nd,1,1
+l10n_cl_partner_activity_874,l10n_cl_partner_activity_867,,"ACTIVIDADES DE BIBLIOTECAS, ARCHIVOS Y MUSEOS Y OTRAS ACTIVIDADES CULTURALES             ",not,nd,1,1
+l10n_cl_partner_activity_875,l10n_cl_partner_activity_874,910100,ACTIVIDADES DE BIBLIOTECAS Y ARCHIVOS ,nd,1,1,1
+l10n_cl_partner_activity_876,l10n_cl_partner_activity_874,910200,"ACTIVIDADES DE MUSEOS, GESTIÓN DE LUGARES Y EDIFICIOS HISTÓRICOS ",nd,1,1,1
+l10n_cl_partner_activity_877,l10n_cl_partner_activity_874,910300,"ACTIVIDADES DE JARDINES BOTÁNICOS, ZOOLÓGICOS Y RESERVAS NATURALES ",nd,1,1,1
+l10n_cl_partner_activity_878,l10n_cl_partner_activity_867,,ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS                ,not,nd,1,1
+l10n_cl_partner_activity_879,l10n_cl_partner_activity_878,920010,ACTIVIDADES DE CASINOS DE JUEGOS ,yes,1,0,1
+l10n_cl_partner_activity_880,l10n_cl_partner_activity_878,920090,OTRAS ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS N.C.P. ,yes,1,0,1
+l10n_cl_partner_activity_881,l10n_cl_partner_activity_867,,ACTIVIDADES DEPORTIVAS                     ,not,nd,1,1
+l10n_cl_partner_activity_882,l10n_cl_partner_activity_881,931101,HIPÓDROMOS ,yes,1,1,1
+l10n_cl_partner_activity_883,l10n_cl_partner_activity_881,931102,GESTIÓN DE SALAS DE BILLAR; GESTIÓN DE SALAS DE BOLOS (BOWLING) ,yes,1,1,1
+l10n_cl_partner_activity_884,l10n_cl_partner_activity_881,931109,GESTIÓN DE OTRAS INSTALACIONES DEPORTIVAS N.C.P. ,nd,1,1,1
+l10n_cl_partner_activity_885,l10n_cl_partner_activity_881,931201,ACTIVIDADES DE CLUBES DE FÚTBOL AMATEUR Y PROFESIONAL ,nd,1,1,1
+l10n_cl_partner_activity_886,l10n_cl_partner_activity_881,931209,ACTIVIDADES DE OTROS CLUBES DEPORTIVOS N.C.P. ,nd,1,1,1
+l10n_cl_partner_activity_887,l10n_cl_partner_activity_881,931901,PROMOCIÓN Y ORGANIZACIÓN DE COMPETENCIAS DEPORTIVAS ,nd,1,1,1
+l10n_cl_partner_activity_888,l10n_cl_partner_activity_881,931909,OTRAS ACTIVIDADES DEPORTIVAS N.C.P. ,nd,1,1,1
+l10n_cl_partner_activity_889,l10n_cl_partner_activity_867,,OTRAS ACTIVIDADES DE ESPARCIMIENTO Y RECREATIVAS                 ,not,nd,1,1
+l10n_cl_partner_activity_890,l10n_cl_partner_activity_889,932100,ACTIVIDADES DE PARQUES DE ATRACCIONES Y PARQUES TEMÁTICOS ,yes,1,1,1
+l10n_cl_partner_activity_891,l10n_cl_partner_activity_889,932901,GESTIÓN DE SALAS DE POOL; GESTIÓN (EXPLOTACIÓN) DE JUEGOS ELECTRÓNICOS ,yes,1,1,1
+l10n_cl_partner_activity_892,l10n_cl_partner_activity_889,932909,OTRAS ACTIVIDADES DE ESPARCIMIENTO Y RECREATIVAS N.C.P. ,nd,nd,1,1
+l10n_cl_partner_activity_893,,,OTRAS ACTIVIDADES DE SERVICIOS,not,nd,1,1
+l10n_cl_partner_activity_894,l10n_cl_partner_activity_893,,"ACTIVIDADES DE ASOCIACIONES EMPRESARIALES, PROFESIONALES Y DE EMPLEADORES               ",not,nd,1,1
+l10n_cl_partner_activity_895,l10n_cl_partner_activity_894,941100,ACTIVIDADES DE ASOCIACIONES EMPRESARIALES Y DE EMPLEADORES ,nd,1,1,1
+l10n_cl_partner_activity_896,l10n_cl_partner_activity_894,941200,ACTIVIDADES DE ASOCIACIONES PROFESIONALES ,nd,1,1,1
+l10n_cl_partner_activity_897,l10n_cl_partner_activity_893,,ACTIVIDADES DE SINDICATOS                    ,not,nd,1,1
+l10n_cl_partner_activity_898,l10n_cl_partner_activity_897,942000,ACTIVIDADES DE SINDICATOS ,nd,1,1,1
+l10n_cl_partner_activity_899,l10n_cl_partner_activity_893,,ACTIVIDADES DE OTRAS ASOCIACIONES                   ,not,nd,1,1
+l10n_cl_partner_activity_900,l10n_cl_partner_activity_899,949100,ACTIVIDADES DE ORGANIZACIONES RELIGIOSAS ,nd,1,0,1
+l10n_cl_partner_activity_901,l10n_cl_partner_activity_899,949200,ACTIVIDADES DE ORGANIZACIONES POLÍTICAS ,nd,1,1,1
+l10n_cl_partner_activity_902,l10n_cl_partner_activity_899,949901,ACTIVIDADES DE CENTROS DE MADRES ,nd,1,0,1
+l10n_cl_partner_activity_903,l10n_cl_partner_activity_899,949902,ACTIVIDADES DE CLUBES SOCIALES ,nd,1,0,1
+l10n_cl_partner_activity_904,l10n_cl_partner_activity_899,949903,FUNDACIONES Y CORPORACIONES; ASOCIACIONES QUE PROMUEVEN ACTIVIDADES CULTURALES O RECREATIVAS ,nd,1,0,1
+l10n_cl_partner_activity_905,l10n_cl_partner_activity_899,949904,CONSEJO DE ADMINISTRACIÓN DE EDIFICIOS Y CONDOMINIOS ,not,1,0,1
+l10n_cl_partner_activity_906,l10n_cl_partner_activity_899,949909,ACTIVIDADES DE OTRAS ASOCIACIONES N.C.P. ,nd,1,1,1
+l10n_cl_partner_activity_907,l10n_cl_partner_activity_893,,REPARACIÓN DE COMPUTADORES Y EQUIPO DE COMUNICACIONES                ,not,nd,1,1
+l10n_cl_partner_activity_908,l10n_cl_partner_activity_907,951100,REPARACIÓN DE COMPUTADORES Y EQUIPO PERIFÉRICO ,yes,1,1,1
+l10n_cl_partner_activity_909,l10n_cl_partner_activity_907,951200,REPARACIÓN DE EQUIPO DE COMUNICACIONES (INCLUYE LA REPARACIÓN TELÉFONOS CELULARES) ,yes,1,1,1
+l10n_cl_partner_activity_910,l10n_cl_partner_activity_893,,REPARACIÓN DE EFECTOS PERSONALES Y ENSERES DOMÉSTICOS                ,not,nd,1,1
+l10n_cl_partner_activity_911,l10n_cl_partner_activity_910,952100,REPARACIÓN DE APARATOS ELECTRÓNICOS DE CONSUMO (INCLUYE APARATOS DE TELEVISIÓN Y RADIO) ,yes,1,1,1
+l10n_cl_partner_activity_912,l10n_cl_partner_activity_910,952200,"REPARACIÓN DE APARATOS DE USO DOMÉSTICO, EQUIPO DOMÉSTICO Y DE JARDINERÍA ",nd,1,1,1
+l10n_cl_partner_activity_913,l10n_cl_partner_activity_910,952300,REPARACIÓN DE CALZADO Y DE ARTÍCULOS DE CUERO ,nd,1,1,1
+l10n_cl_partner_activity_914,l10n_cl_partner_activity_910,952400,REPARACIÓN DE MUEBLES Y ACCESORIOS DOMÉSTICOS ,nd,1,1,1
+l10n_cl_partner_activity_915,l10n_cl_partner_activity_910,952900,REPARACIÓN DE OTROS EFECTOS PERSONALES Y ENSERES DOMÉSTICOS ,nd,1,1,1
+l10n_cl_partner_activity_916,l10n_cl_partner_activity_893,,OTRAS ACTIVIDADES DE SERVICIOS PERSONALES                  ,not,nd,1,1
+l10n_cl_partner_activity_917,l10n_cl_partner_activity_916,960100,"LAVADO Y LIMPIEZA, INCLUIDA LA LIMPIEZA EN SECO, DE PRODUCTOS TEXTILES Y DE PIEL ",yes,1,1,1
+l10n_cl_partner_activity_918,l10n_cl_partner_activity_916,960200,PELUQUERÍA Y OTROS TRATAMIENTOS DE BELLEZA ,nd,nd,1,1
+l10n_cl_partner_activity_919,l10n_cl_partner_activity_916,960310,SERVICIOS FUNERARIOS ,yes,1,1,1
+l10n_cl_partner_activity_920,l10n_cl_partner_activity_916,960320,SERVICIOS DE CEMENTERIOS ,yes,1,1,1
+l10n_cl_partner_activity_921,l10n_cl_partner_activity_916,960901,"SERVICIOS DE ADIESTRAMIENTO, GUARDERÍA, PELUQUERÍA, PASEO DE MASCOTAS (EXCEPTO ACT. VETERINARIAS) ",yes,1,1,1
+l10n_cl_partner_activity_922,l10n_cl_partner_activity_916,960902,"ACTIVIDADES DE SALONES DE MASAJES, BAÑOS TURCOS, SAUNAS, SERVICIO DE BAÑOS PÚBLICOS ",yes,1,1,1
+l10n_cl_partner_activity_923,l10n_cl_partner_activity_916,960909,OTRAS ACTIVIDADES DE SERVICIOS PERSONALES N.C.P. ,not,2,1,1
+l10n_cl_partner_activity_924,,,ACTIVIDADES DE LOS HOGARES COMO EMPLEADORES; ACTIVIDADES NO DIFERENCIADAS DE LOS HOGARES ,not,nd,1,1
+l10n_cl_partner_activity_925,l10n_cl_partner_activity_924,,ACTIVIDADES DE LOS HOGARES COMO EMPLEADORES DE PERSONAL DOMÉSTICO              ,not,nd,1,1
+l10n_cl_partner_activity_926,l10n_cl_partner_activity_925,970000,ACTIVIDADES DE LOS HOGARES COMO EMPLEADORES DE PERSONAL DOMÉSTICO ,not,nd,0,1
+l10n_cl_partner_activity_927,,,ACTIVIDADES DE ORGANIZACIONES Y ÓRGANOS EXTRATERRITORIALES,not,nd,1,1
+l10n_cl_partner_activity_928,l10n_cl_partner_activity_927,,ACTIVIDADES DE ORGANIZACIONES Y ÓRGANOS EXTRATERRITORIALES                 ,not,nd,1,1
+l10n_cl_partner_activity_929,l10n_cl_partner_activity_928,990000,ACTIVIDADES DE ORGANIZACIONES Y ÓRGANOS EXTRATERRITORIALES ,nd,1,0,1

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <!--Email template -->
+        <record id="email_template_edi_invoice_openfactura" model="mail.template">
+            <field name="name">Factura electrónicaSII</field>
+            <field name="email_from">${(object.user_id.email and '%s &lt;%s&gt;' % (object.user_id.name, object.user_id.email) or '')|safe}</field>
+            <field name="subject">${object.company_id.name} Invoice (Ref ${object.number or 'n/a'})</field>
+            <field name="partner_to">${object.partner_id.id}</field>
+            <field name="model_id" ref="account.model_account_invoice"/>
+            <field name="auto_delete" eval="True"/>
+            <!-- field name="report_template" ref="account_invoices"/>
+            <field name="report_name">Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}</field -->
+            <field name="lang">${object.partner_id.lang}</field>
+            <field name="body_html"><![CDATA[
+                <p>Estimado ${object.partner_id.name}
+                % set access_action = object.get_access_action()
+                % set access_url = access_action['type'] == 'ir.actions.act_url' and access_action['url'] or '/report/pdf/account.report_invoice/' + str(object.id)
+                % set is_online = access_action and access_action['type'] == 'ir.actions.act_url'
+
+                % if object.partner_id.parent_id:
+                    (<i>${object.partner_id.parent_id.name}</i>)
+                % endif
+                ,</p>
+                <p>
+                    Aquí está su ${ object.journal_id.l10n_cl_document_type_id.name }  <strong>${object.openfactura_folio or object.number} </strong>
+                    % if object.origin:
+                        (con referencia: ${object.origin} )
+                    % endif
+                    por el importe de <strong>${object.currency_id.symbol} ${object.amount_total} (${object.amount_text})</strong>
+                    de ${object.company_id.name}.
+                </p>
+
+                % if is_online:
+                <br/><br/>
+                <center>
+                    <a href="${access_url}" style="background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;" class="o_default_snippet_text">View Invoice</a>
+                </center>
+                % endif
+                <br/><br/>
+
+                % if object.state=='paid':
+                    <p>Esta factura ya está pagada..</p>
+                % else:
+                    <p>Por favor, envíenos el pago lo antes posible a su conveniencia.</p>
+                % endif
+
+                <p>Gracias,</p>
+                % if object.user_id and object.user_id.signature:
+                    ${object.user_id.signature | safe}
+                % endif
+                ]]>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_l10n_cl_res_region,l10n_cl_res_region,model_l10n_cl_res_region,,1,0,0,0
+access_l10n_cl_partner_activity,l10n_cl_partner_activity,model_l10n_cl_partner_activity,,1,0,0,0
+access_l10n_cl_sii_data,l10n_cl_sii_data,model_l10n_cl_sii_data,,1,0,0,0
+

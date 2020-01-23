@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <-- explicit list view definition -->
+    <--
+    <record model="ir.ui.view" id="chile_admin.list">
+      <field name="name">chile_admin list</field>
+      <field name="model">chile_admin.chile_admin</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field nombre_alumno="name"/>
+          <field apwllido_alumno="value"/>
+          <field edad_alumno="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <-- actions opening views on models -->
+    <--
+    <record model="ir.actions.act_window" id="chile_admin.action_window">
+      <field name="name">chile_admin window</field>
+      <field name="res_model">chile_admin.chile_admin</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <-- server action to the one above -->
+    <--
+    <record model="ir.actions.server" id="chile_admin.action_server">
+      <field name="name">chile_admin server</field>
+      <field name="model_id" ref="model_chile_admin_chile_admin"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <-- Top menu item -->
+    <--
+    <menuitem name="chile_admin" id="chile_admin.menu_root"/>
+    -->
+    <-- menu categories -->
+    <--
+    <menuitem name="Menu 1" id="chile_admin.menu_1" parent="chile_admin.menu_root"/>
+    <menuitem name="Menu 2" id="chile_admin.menu_2" parent="chile_admin.menu_root"/>
+    -->
+    <-- actions -->
+    <--
+    <menuitem name="List" id="chile_admin.menu_1_list" parent="chile_admin.menu_1"
+              action="chile_admin.action_window"/>
+    <menuitem name="Server to list" id="chile_admin" parent="chile_admin.menu_2"
+              action="chile_admin.action_server"/>
+    -->
+  </data>
+</odoo>

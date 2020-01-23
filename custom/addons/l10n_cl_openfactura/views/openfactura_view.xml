@@ -1,0 +1,66 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_openfactura_invoice_tree">
+            <field name="name">openfactura.invoice.tree</field>
+            <field name="model">openfactura.invoice</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_openfactura_invoice_form" model="ir.ui.view">
+            <field name="name">openfactura.invoice.form</field>
+            <field name="model">openfactura.invoice</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="action_validate" type="object" string="Validar" class="oe_highlight" states="draft"/>
+                        <field name="state"  widget="statusbar"/>
+                    </header>
+                    <sheet>
+                        <div><h3><field name="name"/></h3></div>
+                        <group style="width: 50%;">
+                            <field name="type_date" attrs="{'readonly': [('state', 'not in', ['draft'])]}"/>
+                            <field name="date_invoice"
+                                   attrs="{'readonly': [('state', 'not in', ['draft'])], 'required': [('type_date', 'in', ['by_day'])], 'invisible': [('type_date', 'in', ['by_month'])]}"/>
+                            <span attrs="{'invisible': [('type_date', 'in', ['by_date'])]}"><b>Año/Mes</b></span>
+                            <div attrs="{'invisible': [('type_date', 'in', ['by_date'])]}">
+                                <field name="year" class="oe_inline" placeholder="Año" attrs="{'readonly': [('state', 'not in', ['draft'])], 'required': [('type_date', 'in', ['by_month'])]}"/> /
+                                <field name="month" class="oe_inline" placeholder="Mes" attrs="{'readonly': [('state', 'not in', ['draft'])], 'required': [('type_date', 'in', ['by_month'])]}"/>
+                            </div>
+                            <field name="type_invoice" invisible="True"/>
+                        </group>
+                        <notebook>
+                            <page string="Detalle">
+                                <field name="openfactura_line_ids">
+                                    <tree>
+                                        <field name="document_type_id"/>
+                                        <field name="amount" sum="Cantidad"/>
+                                        <field name="amount_total_ex" sum="Total exentas"/>
+                                        <field name="amount_total_net" sum="Total neto"/>
+                                        <field name="amount_total_iva" sum="Total IVA"/>
+                                        <field name="amount_total" sum="Total"/>
+                                        <field name="state"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!--Actions-->
+        <act_window id="action_openfactura_invoice_customer" name="SII" res_model="openfactura.invoice" view_mode="tree,form"
+                    domain="[('type_invoice', 'in', ['out_invoice'])]" context="{'default_type_invoice': 'out_invoice'}"/>
+        <act_window id="action_openfactura_invoice_supplier" name="SII" res_model="openfactura.invoice" view_mode="tree,form"
+                    domain="[('type_invoice', 'in', ['in_invoice'])]" context="{'default_type_invoice': 'in_invoice'}"/>
+
+        <!--Menus-->
+        <menuitem id="menu_openfactura_invoice_customer" name="SII" parent="account.menu_finance_receivables_documents" action="action_openfactura_invoice_customer"/>
+        <menuitem id="menu_openfactura_invoice_supplier" name="SII" parent="account.menu_finance_payables_documents" action="action_openfactura_invoice_supplier"/>
+  </data>
+</odoo>

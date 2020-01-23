@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    	<!-- Liquidacion factura -->
+        <record id="action_invoice_tree5" model="ir.actions.act_window">
+            <field name="name">Liquidación Factura</field>
+            <field name="res_model">account.invoice</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+            <field name="view_id" eval="False"/>
+            <field name="domain">[('type','=','out_paying')]</field>
+            <field name="context">{'default_type':'out_paying', 'type':'out_paying', 'journal_type': 'sale_paying'}</field>
+            <field name="search_view_id" ref="account.view_account_invoice_filter"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a paying invoice.
+              </p><p>
+                Odoo's electronic invoicing allows to ease and fasten the
+                collection of customer payments. Your customer receives the
+                invoice by email and he can pay online and/or import it
+                in his own system.
+              </p><p>
+                The discussions with your customer are automatically displayed at
+                the bottom of each invoice.
+              </p>
+            </field>
+        </record>
+        
+        <record id="action_invoice_tree5_view1" model="ir.actions.act_window.view">
+            <field eval="1" name="sequence"/>
+            <field name="view_mode">tree</field>
+            <field name="act_window_id" ref="action_invoice_tree5"/>
+        </record>
+        
+        <record id="action_invoice_tree5_view2" model="ir.actions.act_window.view">
+            <field eval="2" name="sequence"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="account.invoice_form"/>
+            <field name="act_window_id" ref="action_invoice_tree5"/>
+        </record>
+
+        <menuitem name="Liquidación Factura" id="menu_invoice_paying" parent="account.menu_finance_receivables" action="action_invoice_tree5" />
+        
+        <!-- Liquidacion factura  Proveedor -->
+        <record id="action_invoice_tree6" model="ir.actions.act_window">
+            <field name="name">Liquidación Factura Proveedor</field>
+            <field name="res_model">account.invoice</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+            <field eval="False" name="view_id"/>
+            <field name="domain">[('type','=','in_paying')]</field>
+            <field name="context">{'default_type': 'in_paying', 'type': 'in_paying', 'journal_type': 'purchase_paying'}</field>
+            <field name="search_view_id" ref="account.view_account_invoice_filter"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to record a new supplier invoice.
+              </p><p>
+                You can control the invoice from your supplier according to
+                what you purchased or received. OpenERP can also generate
+                draft invoices automatically from purchase orders or receipts.
+              </p>
+            </field>
+        </record>
+        
+        <record id="action_invoice_tree6_view1" model="ir.actions.act_window.view">
+            <field eval="1" name="sequence"/>
+            <field name="view_mode">tree</field>
+            <field name="act_window_id" ref="action_invoice_tree6"/>
+        </record>
+        
+        <record id="action_invoice_tree6_view2" model="ir.actions.act_window.view">
+            <field eval="2" name="sequence"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="account.invoice_form"/>
+            <field name="act_window_id" ref="action_invoice_tree6"/>
+        </record>
+        
+        <menuitem action="action_invoice_tree6" id="menu_action_invoice_tree6" parent="account.menu_finance_payables"/>
+
+    </data>
+</odoo>

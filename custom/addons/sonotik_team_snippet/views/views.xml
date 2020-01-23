@@ -1,0 +1,21 @@
+<odoo>
+ <data>
+ 
+ 
+<template id="assets_frontend" name="Frontend Assets" inherit_id="website.assets_frontend">
+	<xpath expr="//link[last()]" position="after">
+		<link rel="stylesheet" href="/sonotik_team_snippet/static/src/less/style.less" />
+	</xpath>
+</template>
+
+
+	
+	<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+  <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="sonotik_team_snippet.snippet_sonotik"
+       t-thumbnail="/sonotik_team_snippet/static/description/sonotik.png"/>
+  </xpath>
+</template>
+	
+ </data>
+</odoo>

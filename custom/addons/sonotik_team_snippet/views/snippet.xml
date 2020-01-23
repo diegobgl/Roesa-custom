@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+
+   <template id="snippet_sonotik" name="sonotik team">
+  <section>
+    <div class="section6">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="person">
+                        <div class="photo">
+                            <img src="/sonotik_team_snippet/static/src/img/client_1.jpg"/>
+                            <div class="content">
+                                <ul class="social list-inline text-center">
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="team">
+                                <h4>Mohammed</h4>
+                                <p>PROGRAMMER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="person">
+                        <div class="photo">
+                            <img src="/sonotik_team_snippet/static/src/img/client_2.jpg"/>
+                            <div class="content">
+                                <ul class="social list-inline text-center">
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="team">
+                                <h4>Faris</h4>
+                                <p>PROGRAMMER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="person">
+                        <div class="photo">
+                            <img src="/sonotik_team_snippet/static/src/img/client_3.jpg"/>
+                            <div class="content">
+                                <ul class="social list-inline text-center">
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="team">
+                                <h4>Soleman</h4>
+                                <p>PROGRAMMER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+  </section>
+  
+</template>
+</odoo>

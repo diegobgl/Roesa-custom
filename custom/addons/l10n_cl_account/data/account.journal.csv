@@ -1,0 +1,13 @@
+id,name,type,code,sequence_number_next,show_on_dashboard,l10n_cl_document_type_id/id,l10n_cl_e_document,l10n_cl_note_credit_id/id,l10n_cl_note_debit_id/id
+l10n_cl_debit_journal_1,Nota de débito de F. electrónica,sale,ND01,1,1,l10n_cl_base.sii_data_017,1,,
+l10n_cl_debit_journal_2,Nota de débito de F. exenta electrónica,sale,ND02,1,1,l10n_cl_base.sii_data_017,1,,
+l10n_cl_debit_journal_3,Nota de débito de B. electrónica,sale,ND03,1,1,l10n_cl_base.sii_data_017,1,,
+l10n_cl_debit_journal_4,Nota de débito de B. exenta electrónica ,sale,ND04,1,1,l10n_cl_base.sii_data_017,1,,
+l10n_cl_credit_journal_1,Nota de crédito de F. electrónica,sale,NC01,1,1,l10n_cl_base.sii_data_019,1,,
+l10n_cl_credit_journal_2,Nota de crédito de F. exenta electrónica ,sale,NC02,1,1,l10n_cl_base.sii_data_019,1,,
+l10n_cl_credit_journal_3,Nota de crédito de B. electrónica,sale,NC03,1,1,l10n_cl_base.sii_data_019,1,,
+l10n_cl_credit_journal_4,Nota de crédito de B. exenta electrónica,sale,NC04,1,1,l10n_cl_base.sii_data_019,1,,
+l10n_cl_invoice_1,Factura electrónica,sale,FAC01,1,1,l10n_cl_base.sii_data_010,1,l10n_cl_credit_journal_1,l10n_cl_debit_journal_1
+l10n_cl_invoice_2,Factura exenta electrónica,sale,FNA01,1,1,l10n_cl_base.sii_data_011,1,l10n_cl_credit_journal_2,l10n_cl_debit_journal_2
+l10n_cl_invoice_3,Boleta electrónica,sale,BEL01,1,1,l10n_cl_base.sii_data_032,1,l10n_cl_credit_journal_3,l10n_cl_debit_journal_3
+l10n_cl_invoice_4,Boleta exenta electrónica,sale,BXE01,1,1,l10n_cl_base.sii_data_033,1,l10n_cl_credit_journal_3,l10n_cl_debit_journal_4
